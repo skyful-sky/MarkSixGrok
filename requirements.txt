@@ -1,0 +1,5 @@
+# Runtime uses the standard library; PyYAML loads the locked preregistration.
+PyYAML==6.0.3
+# Test-only dependencies (NumPy batches the adaptive null simulation).
+pytest==8.4.2
+numpy==2.3.4

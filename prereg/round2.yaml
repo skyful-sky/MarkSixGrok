@@ -1,0 +1,99 @@
+protocol_id: prereg-r2
+status: locally_locked_publication_unverified
+source_documents:
+  - debate-summary.md
+  - round2_test_plan.md
+  - debate-r3-codex.md
+code_revision: "The commit referenced by the annotated prereg-r2 tag (no self-referential hash)."
+environment:
+  python: 3.13.5
+  dependencies: requirements.txt
+  seed: 20261028
+data:
+  path: marksix_data.csv
+  encoding: utf-8-sig
+  sha256: 653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e
+  first_draw: 26/047
+  last_draw: 26/115
+  last_date: '2026-10-27'
+  rows: 69
+  eligible_numbers: main_six_only
+  special_number_used: false
+  snapshot_policy: "Keep this snapshot unchanged; append new results to a separate forward CSV."
+window:
+  first_draw: 26/116
+  draws: 60
+  last_draw: "The 60th consecutive draw starting at 26/116, including year rollover."
+  extend_or_skip: false
+budget:
+  tickets_per_draw: 8
+  full_ticket_hkd: 10
+  total_per_draw_hkd: 80
+  success: "At least one formal ticket has >=3 main numbers; count at most once per draw."
+alpha:
+  family: '1/20'
+  H1: '1/60'
+  H3: '1/60'
+  H2_reserved: '1/60'
+  new_versions: "Require new preregistration and a new error-budget plan."
+H1:
+  direction: hot_first
+  half_life_draws: 20
+  score: 'sum(2**(-age/20)) over prior main-number appearances since 26/047'
+  previous_draw_age: 1
+  update: after_observing_main_six
+  ties: average_rank
+  statistic_A: '25 - mean(main_six_ranks)'
+  lambda: 0.1
+  conditional_denominator: 'exp(lambda*25)*e6(exp(-lambda*r_i/6))/C(49,6)'
+  primary: 'E_T = product(exp(lambda*A_t)/conditional_denominator_t)'
+  pass_at_draw: 60
+  pass_threshold: 60
+  sum_A: descriptive_only_never_a_pass_rule
+  shadow_tickets: "Sort score descending, number ascending for tied cutting order; positions 1-48 in blocks of six. Average ranks remain tied."
+  formal_betting: false
+  dissent: "Antigravity: E_T is conservative; approximate average-A thresholds 2.18 versus 1.50 for a fixed-sample sum-A test, and approximate power 40% versus 76% at effect delta=2.0. E_T remains the sole primary statistic."
+  failure_report: "方法保守，未通過本身不足以排除中等效應；仍停用，不得聲稱已有訊號。"
+H3:
+  tickets:
+    - [1, 2, 3, 4, 5, 6]
+    - [7, 8, 9, 10, 11, 12]
+    - [13, 14, 15, 16, 17, 18]
+    - [19, 20, 21, 22, 23, 24]
+    - [25, 26, 27, 28, 29, 30]
+    - [31, 32, 33, 34, 35, 36]
+    - [37, 38, 39, 40, 41, 42]
+    - [43, 44, 45, 46, 47, 48]
+  excluded_number: 49
+  null_probability: '12344/83237'
+  pass_at_draw: 60
+  minimum_successes: 16
+  tail_at_16: 0.01225785
+  tail_at_15: 0.02657537
+futility:
+  checkpoints:
+    - {draws: 20, maximum_cumulative_H3_successes: 2}
+    - {draws: 40, maximum_cumulative_H3_successes: 5}
+  conjunction: 'cumulative mean main-number rank >=25 through the checkpoint'
+  effect: stop_entire_round_both_hypotheses_not_passed
+  early_success_allowed: false
+reporting:
+  every_draw: [UTC_timestamp, target_draw, scores, ranks, H1_shadow, H3_tickets, results, A, log_E, cumulative_H3_successes, late_submission]
+  every_20_draws: latest_20_H3_and_shadow_success_rates
+  missing_submission: "Reconstruct deterministically and count the draw; flag late, never omit."
+  corrections: "Separate commit with source and reason; never rewrite history."
+  failed_at_60: "Stop that version; no extension or retuning."
+  H2: "Only after H1 or H3 passes; separately preregister on new data. H1 passing does not establish ticket success."
+validity:
+  public_before_first_sales_cutoff_required: true
+  publication_verified: false
+  official_first_draw_time: null
+  official_sales_cutoff: null
+  public_tag_url: null
+  public_tag_timestamp: null
+  pending: "Manager must verify official cutoff and timely public tag; local commit/tag alone establishes no valid prospective start."
+  invalidation_events: [late_or_missing_public_preregistration, machine_change, ball_set_change, cancelled_draw, postponed_draw]
+  action: "Void/abort this round with no pass; retain old tag, record reason in a new commit, create prereg-r2b with a fresh snapshot hash and first draw. Never silently roll forward or overwrite tag."
+  result_authority: HKJC_official_main_numbers
+  update_owner: Manager
+evidence: "No confirmed predictive evidence; historical 8/20, 2/20 and permutation p~0.00697 are exploratory only."
