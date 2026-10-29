@@ -70,7 +70,9 @@ def test_raw_hashes_urls_and_dataset_provenance():
             assert source["error"]
             continue
         path = REPO / source["raw_path"]
-        assert path.is_relative_to(REPO / "docs/review-evidence/discovery-source-snapshots")
+        assert any(path.is_relative_to(REPO / root) for root in [
+            "docs/review-evidence/discovery-source-snapshots",
+            "docs/review-evidence/cal-ext-gap1-rand-v1/source-snapshots"])
         body = path.read_bytes()
         assert hashlib.sha256(body).hexdigest() == source["sha256"]
         original = gzip.decompress(body)
@@ -133,7 +135,7 @@ def test_history_returns_neither_target_nor_future_rows(key):
             ACCESS.history_before(key, target)
 
 
-@pytest.mark.parametrize("bad_key", ["../external/uk.csv", "uk.csv", "ssq", "/tmp/uk.csv"])
+@pytest.mark.parametrize("bad_key", ["../external/uk.csv", "uk.csv", "unknown", "/tmp/uk.csv"])
 def test_arbitrary_or_sealed_paths_rejected_before_open(monkeypatch, bad_key):
     def forbidden(*args, **kwargs):
         pytest.fail("Invalid dataset key must be rejected before opening any file")

@@ -14,7 +14,7 @@
   "exposure_policy": "Discovery occurs later than sealed1..700. Later-data model selection makes older-window scoring retrospective, not past-time walk-forward or renewed blindness. Existing exposure not repaired.",
   "access_module": "data/discovery/access.py",
   "raw_snapshots_analysis_allowed": false,
-  "retrievals_sha256": "49100559302ce10b3620ee40c7406c19e5a42ecda43b34b468f922d5b182b384",
+  "retrievals_sha256": "e21062c34e3cf9b4f6713d45b86fefcfa97f05eeff3320a5b1181c799053c449",
   "datasets": [
     {
       "key": "uk",
@@ -146,6 +146,47 @@
       "official_full_series_verified": false,
       "no_prior_exposure_verified": false,
       "confirmatory_holdout_eligible": false
+    },
+    {
+      "key": "ssq",
+      "path": "ssq.csv",
+      "sha256": "700bed5a5ae5713de7590b1e761c505d014fc1f5274d7cb30cfcdcb125472405",
+      "issue_start": 2008030,
+      "issue_end": 2008121,
+      "ordinal_start": 701,
+      "ordinal_end": 792,
+      "date_start": "2008-03-16",
+      "date_end": "2008-10-14",
+      "rows": 92,
+      "max_requested": 1000,
+      "main_pool_expected": 33,
+      "main_draw_size": 6,
+      "source_class": "listed_nonofficial_backup",
+      "source_urls": [
+        "https://datachart.500.com/ssq/history/newinc/history.php?start=08030&end=08154"
+      ],
+      "issue_semantics": "original year-prefixed issue plus explicit global ordinal; fixed range within2008 only",
+      "missing_issues": [],
+      "sealed_reference": {
+        "issue_start": 1,
+        "issue_end": 700,
+        "last_date": "2008-03-13",
+        "sha256": "394c0f6d0207e4ccb1c9ae2abb078fb11dd67ec1c8c721ddda78d87604641404"
+      },
+      "regime_boundary": {
+        "kind": "conservative_prize_promotion_cutoff",
+        "excluded_from_issue": 2008122,
+        "excluded_from_date": "2008-10-16",
+        "source_url": "https://zhs.mof.gov.cn/zhengcefabu/201811/t20181121_3072701.htm",
+        "later_permanent_rule_change": "2009-01-01",
+        "reason": "Earliest documented promotion stops acquisition; no crossing to complete warmup; not a claim of red matrix change."
+      },
+      "complete_matrix_history_verified": false,
+      "physical_regime_continuity_verified": false,
+      "official_full_series_verified": false,
+      "no_prior_exposure_verified": false,
+      "confirmatory_holdout_eligible": false
     }
-  ]
+  ],
+  "ssq_extension_note": "Manager-authorized CAL-EXT-GAP1-RAND-v1 acquisition; old three CSVs unchanged; no old sealed result file read."
 }

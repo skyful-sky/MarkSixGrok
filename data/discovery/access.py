@@ -17,7 +17,13 @@ BOUNDS = {
     "uk": (701, 1700, 49, "2002-09-11", "2012-04-07"),
     "japan": (701, 1146, 43, "2012-10-11", "2017-02-06"),
     "korea": (701, 835, 45, "2016-05-07", "2018-12-01"),
+    "ssq": (701, 792, 33, "2008-03-16", "2008-10-14"),
 }
+
+
+def ordinal(key, row):
+    """SSQ keeps its original year-prefixed issue alongside global ordinal."""
+    return int(row["ordinal"] if key == "ssq" else row["issue"])
 
 
 def local_file(name):
@@ -38,8 +44,8 @@ def load_discovery(key):
     if len(matches) != 1:
         raise ValueError("Missing/duplicate dataset registration")
     record = matches[0]
-    if (record["path"] != f"{key}.csv" or record["issue_start"] != first
-            or record["issue_end"] != last or record["main_pool_expected"] != pool):
+    if (record["path"] != f"{key}.csv" or record.get("ordinal_start", record["issue_start"]) != first
+            or record.get("ordinal_end", record["issue_end"]) != last or record["main_pool_expected"] != pool):
         raise ValueError("Discovery manifest changed its allowed scope")
     body = local_file(f"{key}.csv").read_bytes()
     if hashlib.sha256(body).hexdigest() != record["sha256"]:
@@ -49,7 +55,8 @@ def load_discovery(key):
         raise ValueError("Missing/replaced discovery issue slot")
     previous_date = None
     for expected_issue, row in enumerate(rows, first):
-        if (int(row["issue"]) != expected_issue or row["split"] != "discovery"
+        source_issue = 2008030 + expected_issue - 701 if key == "ssq" else expected_issue
+        if (ordinal(key, row) != expected_issue or int(row["issue"]) != source_issue or row["split"] != "discovery"
                 or int(row["main_pool_expected"]) != pool):
             raise ValueError("Sealed/future/mismatched issue in discovery input")
         if row["date"] != "NA":
@@ -67,8 +74,9 @@ def load_discovery(key):
             raise ValueError("Unknown observation status/date")
         numbers = [int(row[f"n{i}"]) for i in range(1, 7)]
         extra = int(row["extra_ball"])
+        extra_valid = 1 <= extra <= 16 if key == "ssq" else 1 <= extra <= pool and extra not in numbers
         if (numbers != sorted(set(numbers)) or not all(1 <= n <= pool for n in numbers)
-                or not 1 <= extra <= pool or extra in numbers):
+                or not extra_valid):
             raise ValueError("Invalid main-six/extra fields")
     return rows
 
@@ -84,4 +92,5 @@ is a potential model input. This is not a blind result-reveal or scoring API.
     first, last, *_ = BOUNDS[key]
     if type(target_issue) is not int or not first <= target_issue <= last + 1:
         raise ValueError("Target outside discovery history interface")
-    return [row for row in load_discovery(key) if int(row["issue"]) < target_issue]
+    # For SSQ, target_issue is the global ordinal, not the year-prefixed ID.
+    return [row for row in load_discovery(key) if ordinal(key, row) < target_issue]

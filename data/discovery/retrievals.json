@@ -324,5 +324,33 @@
     "url": "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto61141.html",
     "retrieved_at_utc": "2026-10-29T15:16:50.157304+00:00",
     "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "kind": "ssq",
+    "url": "https://datachart.500.com/ssq/history/newinc/history.php?start=08030&end=08154",
+    "retrieved_at_utc": "2026-10-29T15:34:52.789570+00:00",
+    "http_status": 200,
+    "final_url": "https://datachart.500.com/ssq/history/newinc/history.php?start=08030&end=08154",
+    "raw_path": "docs/review-evidence/cal-ext-gap1-rand-v1/source-snapshots/ssq-107f4f4992d5e1c1.gz",
+    "sha256": "60a61be51efbbab8156d443ddcab957215f3dda320ce14c0ce3df6f5b7f3ab75",
+    "decompressed_sha256": "0e5bef78873cb3c04862733df9f2ab920fc70e66efd4127245cb082d059d034d",
+    "decompressed_bytes": 52276
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://zhs.mof.gov.cn/zhengcefabu/201811/t20181121_3072701.htm",
+    "retrieved_at_utc": "2026-10-29T15:34:52.790381+00:00",
+    "http_status": 200,
+    "final_url": "https://zhs.mof.gov.cn/zhengcefabu/201811/t20181121_3072701.htm",
+    "raw_path": "docs/review-evidence/cal-ext-gap1-rand-v1/source-snapshots/rule_evidence-1fbe9f132cf9a29e.gz",
+    "sha256": "89c6adf7cde01a39efe2e372219c5cc515deea541208b4e2bc12e02c55d5685c",
+    "decompressed_sha256": "cdf7105c3b0f697a24144c23bc586f030d91c58e967646ae433a8b554abb67dc",
+    "decompressed_bytes": 17201
+  },
+  {
+    "kind": "official_probe",
+    "url": "https://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=ssq&issueStart=2008030&issueEnd=2008154&pageNo=1&pageSize=1000&systemType=PC",
+    "retrieved_at_utc": "2026-10-29T15:34:52.790810+00:00",
+    "error": "HTTP Error 403: Forbidden"
   }
 ]
