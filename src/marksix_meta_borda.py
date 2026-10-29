@@ -17,6 +17,7 @@ import numpy as np
 import yaml
 
 import marksix_r2 as r2
+from marksix_r2 import canonical_json
 import marksix_shadows as legacy
 import marksix_shadow_batch2 as batch2
 

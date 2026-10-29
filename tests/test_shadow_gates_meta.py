@@ -153,3 +153,24 @@ def test_locks_match_code_and_meta_dependencies():
     lock, digest = meta.verify_lock()
     assert lock["specification"]["historical_screening"] is False
     assert len(digest) == 64
+
+
+def test_meta_cli_serializes_prediction_and_checksum_before_rejecting_overwrite(tmp_path, monkeypatch, capsys):
+    history = fixtures(24)
+    protocol_hash = 'a' * 64
+    monkeypatch.setattr(meta, 'ROOT', tmp_path)
+    monkeypatch.setattr(meta, 'verify_lock', lambda: ({'file_sha256': {'prereg/round3.yaml': protocol_hash}}, 'b' * 64))
+    monkeypatch.setattr(meta.r2, 'load_training', lambda: history)
+    monkeypatch.setattr(meta, 'predict', lambda *args: {'model': 'UNIT-TEST-META', 'target': '26/116', 'tickets': [[1,2,3,4,5,6]]})
+    monkeypatch.setattr(meta.subprocess, 'check_output', lambda *args, **kwargs: 'unit-test-commit\n')
+    monkeypatch.setattr(sys, 'argv', ['marksix_meta_borda.py'])
+    meta.main()
+    files = list((tmp_path / 'forward/meta-borda').glob('26-116.prediction.*.json'))
+    assert len(files) == 1
+    payload = json.loads(files[0].read_bytes())
+    audit = payload.pop('audit')
+    assert hashlib.sha256(meta.canonical_json(payload).encode()).hexdigest() == audit['deterministic_payload_sha256']
+    assert hashlib.sha256(files[0].read_bytes()).hexdigest() == Path(str(files[0])+'.sha256').read_text().split()[0]
+    with pytest.raises(SystemExit) as error:
+        meta.main()
+    assert error.value.code == 2

@@ -1,13 +1,21 @@
 {
   "file_sha256": {
     "prereg/round3.yaml": "f5b8bd0a6e3f9e2a04fe790ea5151593dd1fc38d2e2360885c0f664bcbc4144c",
-    "src/marksix_meta_borda.py": "ccc0838c848212a161d7fe3d683a611243f90994297c2ce229984659248643b8",
+    "src/marksix_meta_borda.py": "ef19f0be67cfc7ec407ec9002ae46ad164af64a2ea896ec2817f023535e63397",
     "src/marksix_r2.py": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c",
     "src/marksix_shadow_batch2.py": "d82d7048eb3a249de29449826a98f1d3f5bd713baa46ba9472442c0919b4f804",
     "src/marksix_shadow_batch3.py": "256e11dfb4c3eee5c38a0ff270141a666b8979591675ce15c8bc97f0e59e70c6",
     "src/marksix_shadows.py": "7e0b549c7236cb3e073ef5b8983db6cdde171be1e609859bd0d84204f932d562"
   },
   "historical_screening": false,
+  "implementation_correction": {
+    "historical_model_attempt_cost": 0,
+    "new_implementation_sha256": "ef19f0be67cfc7ec407ec9002ae46ad164af64a2ea896ec2817f023535e63397",
+    "prior_implementation_sha256": "ccc0838c848212a161d7fe3d683a611243f90994297c2ce229984659248643b8",
+    "prior_lock_sha256": "4c0280fca5ace045f0a9502df8f058dde1d73f1e99ee7ee5340de5f7ae19a439",
+    "reason": "Import canonical_json before first successful artifact serialization; NameError occurred before any prediction artifact was written. No formula/parameter/seed/protocol changes.",
+    "recorded_at_utc": "2026-10-29T02:25:12.141245+00:00"
+  },
   "locked_at_utc": "2026-10-29T02:21:21.089614+00:00",
   "same_window_attempt_cost": 0,
   "specification": {

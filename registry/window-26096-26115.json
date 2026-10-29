@@ -4,8 +4,8 @@
   },
   "cap_policy": "No new same-window version if used would exceed20",
   "conditional_gate_candidates": {
-    "SH-COMPREV-v1": "pending;not counted before successful gate and candidate enrollment",
-    "SH-DISPREG-v1": "pending;not counted before successful gate and candidate enrollment"
+    "SH-COMPREV-v1": "withdrawn_gate_failed;not counted;no candidate backtest",
+    "SH-DISPREG-v1": "withdrawn_gate_failed;not counted;no candidate backtest"
   },
   "counted_model_ids": [
     "explore-24",
@@ -32,6 +32,7 @@
     "GATE-SH-COMPREV-v1",
     "FORWARD-SH-META-BORDA-v1"
   ],
+  "gate_result_sha256": "47da1c0bacbb8a68e4157b027409dd6cffb8595eae43d7cd545119ae5086407c",
   "limit": 20,
   "new_candidates": [
     "SH-ORDSTAT-v1",
