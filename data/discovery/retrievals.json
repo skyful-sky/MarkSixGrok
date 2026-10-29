@@ -1,0 +1,328 @@
+[
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2002",
+    "retrieved_at_utc": "2026-10-29T15:16:45.627656+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2002",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-05c6e5006604a904.gz",
+    "decompressed_bytes": 107716,
+    "decompressed_sha256": "5885f4dad6f617af82a63bb3fa173ae70ccb8f060faeeef9aa715a16681ee47d",
+    "sha256": "9e52c6bf67752435b4a7fd2aa85de9e4389f6c6347e18f5e75a64c373d36f471"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2003",
+    "retrieved_at_utc": "2026-10-29T15:16:45.629020+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2003",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-23ac871174bdcec9.gz",
+    "decompressed_bytes": 108979,
+    "decompressed_sha256": "ec2d07315787c7b352d205d62652ab02c5c47ff31eea6d45cfcfcf7ce6f6d070",
+    "sha256": "d81928fd1fbd673bf51c9621e110ce30f66ea71c61bd0edfc7452f00e7da1b28"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2004",
+    "retrieved_at_utc": "2026-10-29T15:16:45.629690+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2004",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-2d7370a4c412dcd8.gz",
+    "decompressed_bytes": 108284,
+    "decompressed_sha256": "78ef775f8d71bd24d316d6c60538389bf0b6582f86ba44197e57ce67b5266ec6",
+    "sha256": "95533d6c6cb4135e4e3449fa2c904b7b24d8f9c68616b3c57898e9d3ebae8dfc"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2005",
+    "retrieved_at_utc": "2026-10-29T15:16:45.636146+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2005",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-32e18b656f6ab1c9.gz",
+    "decompressed_bytes": 108987,
+    "decompressed_sha256": "26bd8f7acd728b530ec9c24ba30083fb60f745eb3ca45b13f71302faaf22306a",
+    "sha256": "399a8fa40f5ed81590a62d7019719e9ef2f5eb8d5adb1134b368834495f1b69b"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2006",
+    "retrieved_at_utc": "2026-10-29T15:16:46.162910+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2006",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-04f5d299e1ce4b81.gz",
+    "decompressed_bytes": 108329,
+    "decompressed_sha256": "d4f95a353602c17395ab867bf2abdf6a2331ec1f2b46801adeecfdf00fddba6b",
+    "sha256": "c81d94830d40d0fd4338132927556d03fc34c409346503235b9cc9313a360907"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2007",
+    "retrieved_at_utc": "2026-10-29T15:16:46.163725+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2007",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-909cdd5c5201bc91.gz",
+    "decompressed_bytes": 107910,
+    "decompressed_sha256": "a1ac0b9ccd57e4bfc3fa12518ad7af5d1edf7292b1ba222780b6e8dcafe9aff0",
+    "sha256": "c64ef6f1839afea20307e8e91821fbb5402f0d093fd57864350914c971d0f8e1"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2008",
+    "retrieved_at_utc": "2026-10-29T15:16:46.184488+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2008",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-19443ef8f92b7e65.gz",
+    "decompressed_bytes": 108911,
+    "decompressed_sha256": "49e7d1d10caf7ea46d1620cb2f7a9386011bb948accea90e1d19a63f7d7eb49c",
+    "sha256": "5c27782ce989b3e9244854a21befbb1656a3bc43047a825617129b72f5280d3b"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2009",
+    "retrieved_at_utc": "2026-10-29T15:16:46.184966+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2009",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-edc738200be2ba47.gz",
+    "decompressed_bytes": 108522,
+    "decompressed_sha256": "60365a91b2555a5454ea9827f6464d9dd91fca3fa76e5d027742afec6e002168",
+    "sha256": "1960e9c0a775023aece36af330adea33bf3bdafbf54ecd5ae1014f7a7903f2ae"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2010",
+    "retrieved_at_utc": "2026-10-29T15:16:46.682817+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2010",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-92d29747559d32c6.gz",
+    "decompressed_bytes": 108536,
+    "decompressed_sha256": "8bc53c24dd00f59c2e45e3b4ebec87148e2bf4b50c02445596ee99392a5faca1",
+    "sha256": "4dccb06c6aff4c06987adbc4f4469755bb9f4e48d8c1eae529bb0a8a6930c163"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2011",
+    "retrieved_at_utc": "2026-10-29T15:16:46.691126+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2011",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-53caeb46558c04cb.gz",
+    "decompressed_bytes": 109605,
+    "decompressed_sha256": "196d894950b90020d0648b563bb3ceb92c09cbfc02eb31879b925a4b794e281b",
+    "sha256": "84bf9f38d6f99e56bba0e0599bb34077f83328ac241ea31797858b0046049793"
+  },
+  {
+    "kind": "uk",
+    "url": "https://www.results.co.uk/lotto-results-2012",
+    "retrieved_at_utc": "2026-10-29T15:16:46.693975+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-results-2012",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk-0642213f30e2d328.gz",
+    "decompressed_bytes": 108538,
+    "decompressed_sha256": "db5bb6b83d5cbf2c106074057f43c07f1a80a516ce6442b9c1c69bd9149c5887",
+    "sha256": "f95c59bd3d769c99030cb610f6361adf5e544fcca25bf11ad7716a773bb38b86"
+  },
+  {
+    "kind": "uk_boundary",
+    "url": "https://www.results.co.uk/lotto-result-2002-09-11",
+    "retrieved_at_utc": "2026-10-29T15:16:46.745562+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-result-2002-09-11",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk_boundary-476767050b7d21f3.gz",
+    "decompressed_bytes": 20132,
+    "decompressed_sha256": "1704cb165eb615acd374dea7b1337da1994a7844869e47f1b0eba8768516d540",
+    "sha256": "bb942ec9a2497b5e5f1f2dd844d25e5a6db4f5fcc9039388d37d464180729ccf"
+  },
+  {
+    "kind": "uk_boundary",
+    "url": "https://www.results.co.uk/lotto-result-2012-04-07",
+    "retrieved_at_utc": "2026-10-29T15:16:47.179714+00:00",
+    "http_status": 200,
+    "final_url": "https://www.results.co.uk/lotto-result-2012-04-07",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/uk_boundary-b0a2cba4f14a03dc.gz",
+    "decompressed_bytes": 20001,
+    "decompressed_sha256": "c5b339740bc51bd5f4592d0a9f13b449ec2039571c3ff2d9dc22faa910d33d00",
+    "sha256": "6daba789dd77e831a5fb9f17143300eaa2a36dae0bb5fb70af464b5acd2d9bbc"
+  },
+  {
+    "kind": "korea",
+    "url": "https://lottohaebom.com/history/2016",
+    "retrieved_at_utc": "2026-10-29T15:16:47.184073+00:00",
+    "http_status": 200,
+    "final_url": "https://lottohaebom.com/history/2016",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/korea-7f108d7129ccfd8f.gz",
+    "decompressed_bytes": 48967,
+    "decompressed_sha256": "3899406635cbe5a3eaac735e7fbe463e6be05e6c66ef9e3139b0d1d81875072f",
+    "sha256": "7470652180eeff9a303907ae6c5f83f8f1460acaf5c5a538c357e312ab87efd5"
+  },
+  {
+    "kind": "korea",
+    "url": "https://lottohaebom.com/history/2017",
+    "retrieved_at_utc": "2026-10-29T15:16:47.191262+00:00",
+    "http_status": 200,
+    "final_url": "https://lottohaebom.com/history/2017",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/korea-6cbf988f73b826d2.gz",
+    "decompressed_bytes": 48426,
+    "decompressed_sha256": "429d6603b27effe1a00907d04a995f33749f6352608bf1059d414b359971e843",
+    "sha256": "5e1a995c641abf7519b3f9f19ff8562406e85414ec517aa94dfbfff38333aa7c"
+  },
+  {
+    "kind": "korea",
+    "url": "https://lottohaebom.com/history/2018",
+    "retrieved_at_utc": "2026-10-29T15:16:47.210182+00:00",
+    "http_status": 200,
+    "final_url": "https://lottohaebom.com/history/2018",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/korea-1674aa2ff2864ccd.gz",
+    "decompressed_bytes": 48449,
+    "decompressed_sha256": "1678a188a487681dd2713b1ed5ca7fbe41aec5a51d555a705bacb966eaf66c19",
+    "sha256": "e899984b4f52e2405799ce144236f1bd83d611b90b0e83d1461518ed598405e3"
+  },
+  {
+    "kind": "japan",
+    "url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=701",
+    "retrieved_at_utc": "2026-10-29T15:16:47.494168+00:00",
+    "http_status": 200,
+    "final_url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=701",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/japan-a27bbb9e9fd3390a.gz",
+    "decompressed_bytes": 68662,
+    "decompressed_sha256": "76b453cb65322bad88ea7acf01f1753c2c6e94eee861ae7abd13304af9fd72b8",
+    "sha256": "1002a1679b1777e30f4e018f3f3df972f4886912de1504d1f4d7d5afa8e25e6c"
+  },
+  {
+    "kind": "japan",
+    "url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=801",
+    "retrieved_at_utc": "2026-10-29T15:16:47.535525+00:00",
+    "http_status": 200,
+    "final_url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=801",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/japan-e21231e2cdc84515.gz",
+    "decompressed_bytes": 68635,
+    "decompressed_sha256": "02ca95d72bab0f7501a600ab55abc88e4f7e74dd3b064d83cdf89441467c3015",
+    "sha256": "7d9df8a9db985b8e7bc723c7bf64fdae158015ff3c80f2a77683ce3984dcedd9"
+  },
+  {
+    "kind": "japan",
+    "url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=901",
+    "retrieved_at_utc": "2026-10-29T15:16:47.561456+00:00",
+    "http_status": 200,
+    "final_url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=901",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/japan-c9997aef578766a1.gz",
+    "decompressed_bytes": 68660,
+    "decompressed_sha256": "fc78e033576dafb30ac47603c6c7892e425dddca5a461ce8c943a6643ba6265e",
+    "sha256": "b87333464d4cf3015d7136b21469e6f74ccdf7ee91696a8eb48bba463ad1edb2"
+  },
+  {
+    "kind": "japan",
+    "url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1001",
+    "retrieved_at_utc": "2026-10-29T15:16:47.649794+00:00",
+    "http_status": 200,
+    "final_url": "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1001",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/japan-0c0070b64c75beaa.gz",
+    "decompressed_bytes": 68739,
+    "decompressed_sha256": "8fd01146a76bf1863897639a6e0196578ace8d424d05b6c5b422d0a720fefa29",
+    "sha256": "785b0351813e8bead3f1b393c2877ed2f58006e7fc77d862edf7d2b92324d0eb"
+  },
+  {
+    "kind": "japan",
+    "url": "https://loto6.jp/databases/resultlist/data?count=46&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1101",
+    "retrieved_at_utc": "2026-10-29T15:16:47.989985+00:00",
+    "http_status": 200,
+    "final_url": "https://loto6.jp/databases/resultlist/data?count=46&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1101",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/japan-e9ac1ecc7d5d034e.gz",
+    "decompressed_bytes": 31622,
+    "decompressed_sha256": "379997cad0e24b268c2fd8260b010ff728c781bd44f6f95b2006623b21eee54e",
+    "sha256": "d5b49009e2d3cbc62b52bafe5109f0a1f2b048625e966378ad4aa81019e1bc6f"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.japannetbank.co.jp/news/general2016/161226.html",
+    "retrieved_at_utc": "2026-10-29T15:16:48.004384+00:00",
+    "http_status": 200,
+    "final_url": "https://www.japannetbank.co.jp/news/general2016/161226.html",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-324620eb67fa4c8b.gz",
+    "decompressed_bytes": 5520,
+    "decompressed_sha256": "960005d39fefca3670411e0c0e12749650b15e5e47d43eab483d40a441ea92c3",
+    "sha256": "43b51ec3c915e89081e08384e23114b3cd7b9342075df7a380bc64f6eef6b0ae"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://login.japannetbank.co.jp/news/general2016/161226.html",
+    "retrieved_at_utc": "2026-10-29T15:16:48.052066+00:00",
+    "http_status": 200,
+    "final_url": "https://login.japannetbank.co.jp/news/general2016/161226.html",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-27a48948c4ed418b.gz",
+    "decompressed_bytes": 5520,
+    "decompressed_sha256": "960005d39fefca3670411e0c0e12749650b15e5e47d43eab483d40a441ea92c3",
+    "sha256": "43b51ec3c915e89081e08384e23114b3cd7b9342075df7a380bc64f6eef6b0ae"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.takarakuji-official.jp/news/recent/?newsId=201106",
+    "retrieved_at_utc": "2026-10-29T15:16:48.104989+00:00",
+    "http_status": 200,
+    "final_url": "https://www.takarakuji-official.jp/news/recent/?newsId=201106",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-d8db6fe670222caa.gz",
+    "decompressed_bytes": 56557,
+    "decompressed_sha256": "c4c099a666b33e9a1c0949ea7c71b998908bad89e0c5a198238cfe1a8d00fcf9",
+    "sha256": "7df78ede368aa5634dd3f1726eedd5ac0c507008bf0e3d906c073384caa048b2"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.takarakuji-official.jp/about/history/011.html",
+    "retrieved_at_utc": "2026-10-29T15:16:48.325539+00:00",
+    "http_status": 200,
+    "final_url": "https://www.takarakuji-official.jp/about/history/011.html",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-17ac7633d07ff532.gz",
+    "decompressed_bytes": 41877,
+    "decompressed_sha256": "aa69d657d4ca18264d12cd944cf0a5f2c178917b08e4a3e86e08b06140c34ada",
+    "sha256": "d7b18d95b3cd89eef2dc252fe3eb8875830060ef3988893a26788499c7d7a75a"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://kind.krx.co.kr/external/2021/03/22/000586/20210322002691/11011.htm",
+    "retrieved_at_utc": "2026-10-29T15:16:48.327471+00:00",
+    "http_status": 200,
+    "final_url": "https://kind.krx.co.kr/external/2021/03/22/000586/20210322002691/11011.htm",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-8ac3092483af1ada.gz",
+    "decompressed_bytes": 1521464,
+    "decompressed_sha256": "4779037a27323e1adfbcb572c2ed08dea322d62b67cd2269aa59943905bb134b",
+    "sha256": "cadebbb31968a75918b8a18e6cc59309331f96651c4d411b3df2dcff718fd69d"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://kind.krx.co.kr/external/2021/11/15/000092/20211115000131/11013.htm",
+    "retrieved_at_utc": "2026-10-29T15:16:48.339608+00:00",
+    "http_status": 200,
+    "final_url": "https://kind.krx.co.kr/external/2021/11/15/000092/20211115000131/11013.htm",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-36874fe63f2c3453.gz",
+    "decompressed_bytes": 1055985,
+    "decompressed_sha256": "1970adcf08f637d5d4b89e1c4dddcd018dc970e7fdfbdb734faf9651bb3736a0",
+    "sha256": "6b59cfa991902ebb486284ce589073732f54e8b8fb3d769ff816707ba31e9df2"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://playvod.imbc.com/Templete/VodView?bid=1003945100001100000",
+    "retrieved_at_utc": "2026-10-29T15:16:49.355667+00:00",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.gamblingcommission.gov.uk/about-us/guide/gambling-behaviour-2015-to-2023-quarterly-telephone-survey-trends",
+    "retrieved_at_utc": "2026-10-29T15:16:49.372252+00:00",
+    "http_status": 200,
+    "final_url": "https://www.gamblingcommission.gov.uk/about-us/guide/gambling-behaviour-2015-to-2023-quarterly-telephone-survey-trends",
+    "raw_path": "docs/review-evidence/discovery-source-snapshots/rule_evidence-f6d32badc461d038.gz",
+    "decompressed_bytes": 45379,
+    "decompressed_sha256": "c5bb9d7a1ce88bfcf5a023c001f2d94c8095a4da295610da9c8af54f5f2fa566",
+    "sha256": "14fa3e5fef520eb148e032e38a8a7ddeee2c7e279004e99ea16ee24afdfb46c1"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.dhlottery.co.kr/lt645/intro",
+    "retrieved_at_utc": "2026-10-29T15:16:49.392392+00:00",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+  },
+  {
+    "kind": "rule_evidence",
+    "url": "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto61141.html",
+    "retrieved_at_utc": "2026-10-29T15:16:50.157304+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
