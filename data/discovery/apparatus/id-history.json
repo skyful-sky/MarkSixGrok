@@ -1,0 +1,308 @@
+{
+  "physical_id_continuity_verified": false,
+  "uk_observed_label_spans": [
+    {
+      "field": "mersey_machine",
+      "label": "Amethyst",
+      "first_observed_issue": 818,
+      "first_date": "2003-10-25",
+      "last_observed_issue": 1399,
+      "last_date": "2009-05-20",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Arthur",
+      "first_observed_issue": 708,
+      "first_date": "2002-10-05",
+      "last_observed_issue": 816,
+      "last_date": "2003-10-18",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Galahad",
+      "first_observed_issue": 704,
+      "first_date": "2002-09-21",
+      "last_observed_issue": 810,
+      "last_date": "2003-09-27",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Garnet",
+      "first_observed_issue": 916,
+      "first_date": "2004-10-02",
+      "last_observed_issue": 952,
+      "last_date": "2005-02-05",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Guinevere",
+      "first_observed_issue": 707,
+      "first_date": "2002-10-02",
+      "last_observed_issue": 754,
+      "last_date": "2003-03-15",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Lancelot",
+      "first_observed_issue": 702,
+      "first_date": "2002-09-14",
+      "last_observed_issue": 817,
+      "last_date": "2003-10-22",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Merlin",
+      "first_observed_issue": 701,
+      "first_date": "2002-09-11",
+      "last_observed_issue": 713,
+      "last_date": "2002-10-23",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Moonstone",
+      "first_observed_issue": 819,
+      "first_date": "2003-10-29",
+      "last_observed_issue": 1095,
+      "last_date": "2006-06-21",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Opal",
+      "first_observed_issue": 824,
+      "first_date": "2003-11-15",
+      "last_observed_issue": 1099,
+      "last_date": "2006-07-05",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Pearl",
+      "first_observed_issue": 876,
+      "first_date": "2004-05-15",
+      "last_observed_issue": 951,
+      "last_date": "2005-02-02",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Sapphire",
+      "first_observed_issue": 1146,
+      "first_date": "2006-12-16",
+      "last_observed_issue": 1397,
+      "last_date": "2009-05-13",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Topaz",
+      "first_observed_issue": 834,
+      "first_date": "2003-12-20",
+      "last_observed_issue": 1400,
+      "last_date": "2009-05-23",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_machine",
+      "label": "Vyvyan",
+      "first_observed_issue": 703,
+      "first_date": "2002-09-18",
+      "last_observed_issue": 705,
+      "last_date": "2002-09-25",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "1",
+      "first_observed_issue": 726,
+      "first_date": "2002-12-07",
+      "last_observed_issue": 1397,
+      "last_date": "2009-05-13",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "11",
+      "first_observed_issue": 705,
+      "first_date": "2002-09-25",
+      "last_observed_issue": 720,
+      "last_date": "2002-11-16",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "12",
+      "first_observed_issue": 706,
+      "first_date": "2002-09-28",
+      "last_observed_issue": 716,
+      "last_date": "2002-11-02",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "14",
+      "first_observed_issue": 708,
+      "first_date": "2002-10-05",
+      "last_observed_issue": 715,
+      "last_date": "2002-10-30",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "2",
+      "first_observed_issue": 729,
+      "first_date": "2002-12-18",
+      "last_observed_issue": 1399,
+      "last_date": "2009-05-20",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "3",
+      "first_observed_issue": 701,
+      "first_date": "2002-09-11",
+      "last_observed_issue": 1400,
+      "last_date": "2009-05-23",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "4",
+      "first_observed_issue": 709,
+      "first_date": "2002-10-09",
+      "last_observed_issue": 1398,
+      "last_date": "2009-05-16",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "5",
+      "first_observed_issue": 702,
+      "first_date": "2002-09-14",
+      "last_observed_issue": 1370,
+      "last_date": "2009-02-07",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "6",
+      "first_observed_issue": 703,
+      "first_date": "2002-09-18",
+      "last_observed_issue": 1375,
+      "last_date": "2009-02-25",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "7",
+      "first_observed_issue": 704,
+      "first_date": "2002-09-21",
+      "last_observed_issue": 1368,
+      "last_date": "2009-01-31",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    },
+    {
+      "field": "mersey_ball_set",
+      "label": "8",
+      "first_observed_issue": 728,
+      "first_date": "2002-12-14",
+      "last_observed_issue": 1369,
+      "last_date": "2009-02-04",
+      "meaning": "Observed within701..1400 only; not manufacture, introduction, replacement or retirement dates",
+      "source_key": "mersey_csv"
+    }
+  ],
+  "uk_physical_replacements_or_renaming": "NA: no complete in-window official serial/replacement/renaming ledger obtained",
+  "japan_reported_changes": [
+    {
+      "issue": 138,
+      "date": "2003-06-05",
+      "date_matches_loto6_jp": true,
+      "description": "Tokyo generation1 -> generation2",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    },
+    {
+      "issue": 649,
+      "date": "2012-04-12",
+      "date_matches_loto6_jp": true,
+      "description": "Tokyo generation2 -> generation3",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    },
+    {
+      "issue": 1367,
+      "date": "2019-04-01",
+      "date_matches_loto6_jp": true,
+      "description": "Tokyo generation3 -> generation4",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    },
+    {
+      "issue": 336,
+      "date": "2007-03-29",
+      "date_matches_loto6_jp": true,
+      "description": "Osaka draws/Osaka first-generation balls begin",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    },
+    {
+      "issue": 944,
+      "date": "2015-02-23",
+      "date_matches_loto6_jp": true,
+      "description": "Osaka second-generation first reported use",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    },
+    {
+      "issue": 1768,
+      "date": "2023-02-20",
+      "date_matches_loto6_jp": true,
+      "description": "Osaka third-generation first reported use",
+      "verification": "secondary_report_only_not_officially_verified",
+      "source_url": "https://www.loto6.info/?page_id=576",
+      "source_key": "jp_def"
+    }
+  ],
+  "japan_notes": [
+    "A..J and source_setball_id1..10 recur across generations and venues; not serial numbers.",
+    "Tokyo and Osaka same-letter sets are reported distinct physical sets by jp_def; unverified official inventory.",
+    "Replacement of backup same-letter sets is not tracked in the obtained data.",
+    "stage_id is retained as source category, not a machine serial."
+  ]
+}

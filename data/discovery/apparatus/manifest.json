@@ -1,0 +1,158 @@
+{
+  "schema": "apparatus-acquisition-v1",
+  "created_at_utc": "2026-10-29T23:49:13.309355+00:00",
+  "baseline_commit": "6aa42ec448e03f55d8b01f8c675e69e470980fbd",
+  "purpose": "Only source acquisition and integrity reconciliation; no modeling, score, prediction, candidate or ID",
+  "attempts_used": 14,
+  "new_attempts": 0,
+  "models_executed": 0,
+  "predictions_generated": 0,
+  "existing_model_data_and_access_module_modified": false,
+  "old_sealed_results_read": false,
+  "raw_bundles_forensic_only": true,
+  "all_period_japanese_scope": "Labels/date/source IDs only for1..700; draw order only701..2150; no results merge into existing datasets",
+  "missing_policy": "NA, keep original issue slots; never impute, shift IDs or repair source typos; valid-source disagreements -> adopted NA; no majority vote",
+  "normalization": "NFKC plus uppercase A..J only, preserving raw label columns; nonletters including 円 -> NA",
+  "source_independence_verified": false,
+  "uk_2026_policy": "Discard every year>=2026 row before storing Mersey projection; targetissue701..1400 unique; official latest XML retained as audit only, never as target history",
+  "uk_2026_rows_discarded": 127,
+  "datasets": [
+    {
+      "path": "uk-lotto-701-1400-apparatus.csv",
+      "sha256": "b1e145445eeee4d2465f4d9bda7b59c408d3460285d7ae7f3c2c1e6b7260368f",
+      "rows": 700,
+      "issue_start": 701,
+      "issue_end": 1400,
+      "date_start": "2002-09-11",
+      "date_end": "2009-05-23",
+      "status_counts": {
+        "crosschecked_nonofficial": 699,
+        "crosschecked_nonofficial;conflict": 1
+      },
+      "missing_or_conflicted_adopted_field": "ball_set",
+      "missing_or_conflicted_issues": [
+        1322
+      ],
+      "source_keys_field": "source_keys; exact URL/time/entity SHA in retrievals.json",
+      "official_full_series_verified": false,
+      "pre_sales_close_availability_verified": false,
+      "eligible_as_existing_discovery_model_input": false,
+      "machine_missing_issues": [],
+      "secondary_crosscheck_issues": 700
+    },
+    {
+      "path": "japan-loto6-all-setballs.csv",
+      "sha256": "b441989d4b5a43affe71bd2edf9e49cbd27c84d7c547ad8bce2e7f951a8a5573",
+      "rows": 2150,
+      "issue_start": 1,
+      "issue_end": 2150,
+      "date_start": "2000-10-05",
+      "date_end": "2026-10-29",
+      "status_counts": {
+        "crosschecked_nonofficial": 2125,
+        "conflict": 24,
+        "source_issue_conflict": 1
+      },
+      "missing_or_conflicted_adopted_field": "ball_set",
+      "missing_or_conflicted_issues": [
+        47,
+        428,
+        1475,
+        1522,
+        1555,
+        1579,
+        1758,
+        1764,
+        1776,
+        1790,
+        1791,
+        1847,
+        1861,
+        1876,
+        1881,
+        1956,
+        1979,
+        2018,
+        2033,
+        2045,
+        2050,
+        2085,
+        2102,
+        2139,
+        2149
+      ],
+      "source_keys_field": "source_keys; exact URL/time/entity SHA in retrievals.json",
+      "official_full_series_verified": false,
+      "pre_sales_close_availability_verified": false,
+      "eligible_as_existing_discovery_model_input": false,
+      "source_label_valid_rows": {
+        "tatuo": 2149,
+        "loto6_jp": 2150,
+        "umiduki": 2144,
+        "psshc": 1250,
+        "hpfree": 1000
+      },
+      "primary_plus_two_full_range_source_tables": [
+        "tatuo_set",
+        "loto6.jp JSON pages1..2150",
+        "umiduki_2150"
+      ]
+    },
+    {
+      "path": "japan-loto6-701-onwards-draw-order.csv",
+      "sha256": "c02ca3856c094eccd2feb2d8f239be9e92450defb809a7c3208e5d3b7453a156",
+      "rows": 1450,
+      "issue_start": 701,
+      "issue_end": 2150,
+      "date_start": "2012-10-11",
+      "date_end": "2026-10-29",
+      "status_counts": {
+        "single_nonofficial_source": 520,
+        "crosschecked_nonofficial": 927,
+        "conflict": 2,
+        "source_issue_conflict": 1
+      },
+      "missing_or_conflicted_adopted_field": "draw_1",
+      "missing_or_conflicted_issues": [
+        1519,
+        1758,
+        2007
+      ],
+      "source_keys_field": "source_keys; exact URL/time/entity SHA in retrievals.json",
+      "official_full_series_verified": false,
+      "pre_sales_close_availability_verified": false,
+      "eligible_as_existing_discovery_model_input": false,
+      "deliberately_withheld_order_issues": "1..700: sealed-result isolation; not downloaded into normalized order table; no sealed CSV read"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "retrievals.json",
+      "sha256": "2dafc4a3a147d96c35cca11946a485ac255e975ac8d7a9e789407ac5f843c397"
+    },
+    {
+      "path": "id-history.json",
+      "sha256": "1c018131bb5741b60e2aaa9a372c529f1d8d7fa8d8a7d8b0757895bcb136e383"
+    },
+    {
+      "path": "raw/uk-secondary.jsonl.gz",
+      "sha256": "fa7dba92b2c0611553e97cfee7ef7b5d40353a23ad46e2247f837fe8f1eed27a"
+    },
+    {
+      "path": "raw/source-audit.jsonl.gz",
+      "sha256": "99cf592ca2f60740db8ddb59739b2e15be2081dd4d3c418229b32d27817f0ca4"
+    }
+  ],
+  "hk_pre_sales_close_conclusion": "未見官方公開逐期實際球組ID或機台序號；機器代際的一般預告不等於逐期ID已事前公開",
+  "hk_source_keys": [
+    "hk_rules",
+    "hk_general_pdf",
+    "hk_lottery_pdf",
+    "hk_process",
+    "hk_generation",
+    "hk_guide",
+    "hk_next"
+  ],
+  "audit_document": "docs/apparatus-source-audit.md",
+  "normalizer": "docs/review-evidence/prepare_apparatus.py"
+}
