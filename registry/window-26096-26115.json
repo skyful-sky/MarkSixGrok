@@ -20,7 +20,8 @@
     "SH-CENTROID-v1",
     "SH-TAIL-v1",
     "SH-ORDSTAT-v1",
-    "SH-BLOCKX-v1"
+    "SH-BLOCKX-v1",
+    "SH-TRIPLECOVER-v1"
   ],
   "excluded_nonmodels": [
     "r2-H1",
@@ -35,14 +36,15 @@
   "gate_result_sha256": "47da1c0bacbb8a68e4157b027409dd6cffb8595eae43d7cd545119ae5086407c",
   "limit": 20,
   "new_candidates": [
-    "SH-ORDSTAT-v1",
-    "SH-BLOCKX-v1"
+    "SH-TRIPLECOVER-v1"
   ],
-  "previous_unique_models": 11,
+  "previous_unique_models": 13,
   "recorded_at_utc": "2026-10-29T02:00:36.768484+00:00",
-  "registry_rows": 22,
-  "remaining": 7,
+  "registry_rows": 23,
+  "remaining": 6,
   "scope": "known registered model versions on26/096-115, including legacy models; alias-deduplicated",
-  "updated_at_utc": "2026-10-29T02:21:21.089614+00:00",
-  "used": 13
+  "triplecover_lock_sha256": "6e09e5fe4ef3ceb9919dfe55bf08bb980b0bca2d6147fb1c454a3c75f4eda5f5",
+  "triplecover_status": "registered_pending_backtest",
+  "updated_at_utc": "2026-10-29T02:40:59.217004+00:00",
+  "used": 14
 }
