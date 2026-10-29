@@ -1,0 +1,118 @@
+{
+  "attempts_remaining": 6,
+  "attempts_used": 14,
+  "calibration_z": [
+    {
+      "MC_minus_analytic_in_SE": -0.12406689856200853,
+      "configuration": "A",
+      "visibility": 0.0,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.6660269208479365,
+      "configuration": "B",
+      "visibility": 0.0,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.908087753594621,
+      "configuration": "A",
+      "visibility": 0.5,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 2.051373160593629,
+      "configuration": "B",
+      "visibility": 0.5,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.5521723562992281,
+      "configuration": "A",
+      "visibility": 1.0,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.18012189645952154,
+      "configuration": "B",
+      "visibility": 1.0,
+      "w": 1
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.2496442685981466,
+      "configuration": "A",
+      "visibility": 0.0,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.22147551555640638,
+      "configuration": "B",
+      "visibility": 0.0,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": -1.1336307970578836,
+      "configuration": "A",
+      "visibility": 0.5,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.00579658724657736,
+      "configuration": "B",
+      "visibility": 0.5,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": -0.1636870149774932,
+      "configuration": "A",
+      "visibility": 1.0,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.21943176881719217,
+      "configuration": "B",
+      "visibility": 1.0,
+      "w": 2
+    },
+    {
+      "MC_minus_analytic_in_SE": 1.5932248933882263,
+      "configuration": "A",
+      "visibility": 0.0,
+      "w": 4
+    },
+    {
+      "MC_minus_analytic_in_SE": 0.3145211585243937,
+      "configuration": "B",
+      "visibility": 0.0,
+      "w": 4
+    },
+    {
+      "MC_minus_analytic_in_SE": -0.1725848502789396,
+      "configuration": "A",
+      "visibility": 0.5,
+      "w": 4
+    },
+    {
+      "MC_minus_analytic_in_SE": -1.546747297984195,
+      "configuration": "B",
+      "visibility": 0.5,
+      "w": 4
+    },
+    {
+      "MC_minus_analytic_in_SE": 1.121884916317907,
+      "configuration": "A",
+      "visibility": 1.0,
+      "w": 4
+    },
+    {
+      "MC_minus_analytic_in_SE": -0.06334703028169295,
+      "configuration": "B",
+      "visibility": 1.0,
+      "w": 4
+    }
+  ],
+  "checks": "9 cells x100000; paired2x2 tables, B-A and paired sample-variance SE; exact rational binomial20 tail; MC rates within5 standard errors of independent analytic counts; locked specification and implementation hashes unchanged; simulation not rerun",
+  "new_attempts": 0,
+  "new_models": 0,
+  "result_sha256": "fc318ebcb4475c6657e3d7c2187e92377af1083a8c40b616414082aa19165892"
+}
