@@ -1,0 +1,96 @@
+{
+  "CSV_profile": {
+    "all_main_six_distinct": true,
+    "all_numbers_in_1_49": true,
+    "all_six_strict_ascending_rows": 69,
+    "all_special_distinct_from_main": true,
+    "columns": [
+      "期數",
+      "攪珠日期",
+      "正選號碼1",
+      "正選號碼2",
+      "正選號碼3",
+      "正選號碼4",
+      "正選號碼5",
+      "正選號碼6",
+      "特別號碼"
+    ],
+    "empty_cells": 0,
+    "first_day": "2026-05-05",
+    "first_issue": "26/047",
+    "last_day": "2026-10-27",
+    "last_issue": "26/115",
+    "rows": 69,
+    "sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+    "unique_issue_count": 69
+  },
+  "attempts_remaining": 6,
+  "attempts_used": 14,
+  "baseline_commit": "0a86bd4255bd1d623bdd68120706dc67d0ce4ee8",
+  "decision": "資料不足 for ordered/physical-condition methods;no new candidate or shadow ID",
+  "local_interface": {
+    "draw_fields": [
+      "issue",
+      "day",
+      "main",
+      "special"
+    ],
+    "ordered_ball_sequence_field": false,
+    "path": "src/marksix_r2.py",
+    "per_draw_machine_or_ballset_id_field": false,
+    "sha256": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c"
+  },
+  "official_operation_probe": {
+    "endpoint": "https://info.cld.hkjc.com/graphql/base-get/",
+    "followup_probe": "printed GraphQL and persistedQuery variant also returned HTTP400;not a complete schema introspection",
+    "interpretation": "bundle-selected fields observed;no successful historical API response;do not infer drawnNo array is physical draw order",
+    "request": {
+      "operationName": "marksixResult",
+      "query": "fragment lotteryDrawsFragment on LotteryDraw {\n    id\n    year\n    no\n    openDate\n    closeDate\n    drawDate\n    status\n    snowballCode\n    snowballName_en\n    snowballName_ch\n    lotteryPool {\n      sell\n      status\n      totalInvestment\n      jackpot\n      unitBet\n      estimatedPrize\n      derivedFirstPrizeDiv\n      lotteryPrizes {\n        type\n        winningUnit\n        dividend\n      }\n    }\n    drawResult {\n      drawnNo\n      xDrawnNo\n    }\n  }\n\n        query marksixResult($lastNDraw: Int, $startDate: String, $endDate: String, $drawType: LotteryDrawType) {\n            lotteryDraws(lastNDraw: $lastNDraw, startDate: $startDate, endDate: $endDate, drawType: $drawType) {\n              ...lotteryDrawsFragment\n            }\n        }\n    ",
+      "variables": {
+        "drawType": "All",
+        "endDate": "20261027",
+        "lastNDraw": 100,
+        "startDate": "20260505"
+      }
+    },
+    "response_body": {
+      "errors": [
+        {
+          "message": "Internal server error - BAD_REQUEST"
+        }
+      ]
+    },
+    "response_body_sha256": "563bf2e2bcf325301909ac13dda3bd583e1760369afde08790f34e3072f1964f",
+    "response_http_status": 400
+  },
+  "official_order_search": {
+    "coverage_claim": "No reliable official69-draw ordered series obtained;this is not proof no such records exist",
+    "official_pages_checked": [
+      "https://bet.hkjc.com/ch/marksix/results",
+      "https://www.hkjc.com/jctv/",
+      "https://is.hkjc.com/AOSBS/help/ch/MK6_Guide.html"
+    ],
+    "queries": [
+      "site.hkjc.com marksix \"drawn order\"",
+      "site.hkjc.com marksix \"draw order\"",
+      "site.hkjc.com \"攪出次序\"",
+      "site.hkjc.com \"攪珠次序\""
+    ],
+    "verified_ordered_records_26047_26115": 0
+  },
+  "official_sources": {
+    "official_config": {
+      "bytes": 12266,
+      "sha256": "dbbbcdc58194d122670ed2c30f208fe68a53f92e2cc7c5adecd4957b42a4b186",
+      "url": "https://bet.hkjc.com/Config/GlobalConfig.js"
+    },
+    "official_main": {
+      "bytes": 3565580,
+      "sha256": "86b512069b49df641dcbae10a7626663b02252b4024d3ca1a6f88ec5400a0619",
+      "url": "https://bet.hkjc.com/static/js/main.5709b251.js"
+    }
+  },
+  "review_completed_at_utc": "2026-10-29T04:15:58.145269+00:00",
+  "scope": "schema and source audit only;no candidate,no fitting,no historical screening,no attempts"
+}
