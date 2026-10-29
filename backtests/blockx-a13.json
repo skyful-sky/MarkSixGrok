@@ -1,0 +1,172 @@
+{
+  "attempt_cost": 0,
+  "audit_id": "A13",
+  "created_at_utc": "2026-10-29T02:22:22.603330+00:00",
+  "data_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "method": "Audit saved predictions and observed results only; no candidate model execution.",
+  "records": {
+    "different11": [
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/096"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/097"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/098"
+      },
+      {
+        "BLOCKX_M": 1,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 1,
+        "FixedBlocks_success": false,
+        "draw": "26/099"
+      },
+      {
+        "BLOCKX_M": 3,
+        "BLOCKX_success": true,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/100"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/101"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/102"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/103"
+      },
+      {
+        "BLOCKX_M": 3,
+        "BLOCKX_success": true,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/104"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/105"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/106"
+      }
+    ],
+    "identical9": [
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/107"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/108"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/109"
+      },
+      {
+        "BLOCKX_M": 3,
+        "BLOCKX_success": true,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/110"
+      },
+      {
+        "BLOCKX_M": 3,
+        "BLOCKX_success": true,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/111"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/112"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/113"
+      },
+      {
+        "BLOCKX_M": 3,
+        "BLOCKX_success": true,
+        "FixedBlocks_M": 3,
+        "FixedBlocks_success": true,
+        "draw": "26/114"
+      },
+      {
+        "BLOCKX_M": 2,
+        "BLOCKX_success": false,
+        "FixedBlocks_M": 2,
+        "FixedBlocks_success": false,
+        "draw": "26/115"
+      }
+    ]
+  },
+  "source_commit": "493feb1cabe3044cce1149dca583fbd3ec0e1881",
+  "source_result": "backtests/shadow-batch3-v1.json",
+  "source_sha256": "6531f601783d93286d7bcdbfb51936b6f521247b482d4aa7dd765e6a7a060b1b",
+  "summary": {
+    "different11": {
+      "BLOCKX_successes": 2,
+      "FixedBlocks_successes": 5,
+      "draws": 11
+    },
+    "identical9": {
+      "BLOCKX_successes": 3,
+      "FixedBlocks_successes": 3,
+      "draws": 9
+    }
+  },
+  "window": [
+    "26/096",
+    "26/115"
+  ]
+}

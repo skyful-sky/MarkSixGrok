@@ -1,0 +1,61 @@
+{
+  "conventions": {
+    "COMPREV_rank": "midranks are primary; equally-scored cells share midrank; actual seed-cut ranking separate",
+    "EWM": "normalized full expanding history; initial numerator/weight0; predict before current update; equality with median=>dispersed",
+    "M": "M_t=max main hits among8 tickets;M_bar=sum(M_t)/n;M-upper-tail MC; supplementary, no old criteria changes",
+    "candidate_MC": "only passed versions;10000 complete69-draw fair histories, same engine; whole-history refit; unconditional fixed-model exploratory p",
+    "correlation": "Pearson with separate lag-side means; constant lag vector=>r0 and gate cannot pass",
+    "failed_gate": "withdraw;no candidate historical run, no attempt count; gate record ID uses GATE- prefix",
+    "gate_data": "only first20 draws26/047-066;19 adjacent pairs; no later outcomes",
+    "main_only": true,
+    "p": "(1+count upper D r or lower paired S at least as extreme)/10001; strict gate inequalities",
+    "permutations": "10000 full20-row permutations from NumPy default_rng20261029; same row indices for D and paired odd/high series",
+    "random_ties": "COMPREV independent Python Random20261029; shuffle49 once per eligible target, no warmup draws; exact rational integer score keys",
+    "sample_start": "26/047",
+    "screen": "no new OR/rank promotion rule inferred; historical results descriptive; <9/20 disables; no forward claim",
+    "tickets": "eight disjoint six-subsets covering1-48;49 excluded for DISPREG; COMPREV top48 sorted-score positions",
+    "warmup": 20
+  },
+  "data_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "dependency_sha256": {
+    "src/marksix_r2.py": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c",
+    "src/marksix_shadow_batch2.py": "d82d7048eb3a249de29449826a98f1d3f5bd713baa46ba9472442c0919b4f804"
+  },
+  "implementation_sha256": "b625c7f16732ddfe17e4009facaa125a933744131f1f0a785f9cfedcd577bd86",
+  "locked_at_utc": "2026-10-29T02:21:21.089614+00:00",
+  "models": {
+    "SH-COMPREV-v1": {
+      "M_bar": "mean maximum main hits among eight tickets",
+      "W": 20,
+      "cells": "1-24 odd/even;25-49 odd/even; sizes12,12,13,12",
+      "gate": "r_odd<0 AND r_high<0 AND lower-tail permutation p(S=r_odd+r_high)<0.20",
+      "prediction": "e_c=6*size/49;pred_c=e_c-0.5*(previous_count-e_c);score=pred_c/size;do not clip",
+      "rank_metric": "exact-score midrank; actual cut-order also saved",
+      "rho": 0.5,
+      "ties": "seeded_permutation20261029"
+    },
+    "SH-DISPREG-v1": {
+      "D": "sample standard deviation of main six,ddof1",
+      "M_bar": "mean maximum main hits among eight tickets",
+      "W": 20,
+      "cluster": "1-6,7-12,...,43-48",
+      "description_gate": "cluster fraction>0.5 in primary or full49 =>descriptive only",
+      "dispersed": "{k,k+8,k+16,k+24,k+32,k+40},k1..8",
+      "gate": "Pearson(D[0:19],D[1:20])>0 and upper-tail permutation p<0.20",
+      "half_life": 3,
+      "rank_metric": null,
+      "regime": "normalized EWM of past D < median(all past D) =>cluster; otherwise dispersed"
+    }
+  },
+  "research_sources": [
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T015125Z-15a52017.stdout.json",
+      "sha256": "6355bedeba4b34d21ce32f9a4033bb7da9eb67cac77d0fa4e944a1e0f82bd5e1"
+    },
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T020332Z-70c4485f.stdout.json",
+      "sha256": "01c1ca5d3166d1436f93c08a1de9a950387c8cd910b9588bd93c11754efc1248"
+    }
+  ],
+  "status": "locked_before_warmup_gate_computation_and_conditional_backtests"
+}

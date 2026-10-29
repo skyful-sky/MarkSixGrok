@@ -1,0 +1,64 @@
+protocol_id: prereg-r3
+model: SH-META-BORDA-v1
+status: locked_shadow_logging_only_no_confirmation_claim
+locked_at_utc: '2026-10-29T02:21:21.089614+00:00'
+specification:
+  id: SH-META-BORDA-v1
+  components:
+  - SH-GAP1
+  - SH-GAP20-v1
+  - SH-LAG1-v1
+  - SH-LAG-RNO-v1
+  - SH-HARM48-v1
+  - SH-WDAY20-v1
+  - SH-RESFOLD-v1
+  - SH-CENTROID-v1
+  - SH-TAIL-v1
+  - SH-ORDSTAT-v1
+  weights: all exactly1/10
+  component_rank: actual fixed ticket-order positions1..49 for every component; do
+    not mix historical reporting midranks
+  score: integer sum of10 component ranks; ascending; mean=sum/10
+  ties: independent Python Random20261029 forward stream starting26/116; stable sort
+    ascending rank sum
+  component_seeds: continue each legacy seeded component stream from its original
+    first eligible draw067; advance prior permutations without scoring old outcomes
+  tickets: first48 positions cut6; exclude49th position
+  first_draw: 26/116
+  first_target_date: '2026-10-31'
+  historical_screening: false
+  same_window_attempt_cost: 0
+  formal_bet_added_hkd: 0
+  confirmation: logging-only shadow; no pass statistic, alpha or confirmation horizon
+    allocated; separate protocol needed before any inferential claim
+data_sha256: 653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e
+data_snapshot: marksix_data.csv
+snapshot_window:
+- 26/047
+- 26/115
+snapshot_rows: 69
+first_forward_draw: 26/116
+first_target_date: '2026-10-31'
+target_date_source:
+  locked_formal_record: forward/26-116.prediction.20261029T001900Z.json
+  official_announcement_url: https://www.hkjc.com/english/pressrelease/mcs01_showhtml.asp?SelType=NEWS&filename=20261027_144259_E_NEWS.htm
+  note: Date fixed from existing archived announcement; no future draw outcome used.
+formal_betting: H3 unchanged, no additional actual bets
+confirmation_statistic: null
+confirmation_horizon: null
+alpha_allocated: null
+inference: Forward shadow logging only; before any confirmatory analysis separately
+  preregister the test on unseen data.
+code_revision: The commit first adding this protocol and its code lock; no self-referential
+  hash
+future_results: Keep snapshot untouched; later results in separate forward CSV, corrections
+  by separate commit
+public_preregistration_verified: false
+research_sources:
+- path: /workspace/research-duo/logs/antigravity/agy-20261029T015125Z-15a52017.stdout.json
+  sha256: 6355bedeba4b34d21ce32f9a4033bb7da9eb67cac77d0fa4e944a1e0f82bd5e1
+- path: /workspace/research-duo/logs/antigravity/agy-20261029T020332Z-70c4485f.stdout.json
+  sha256: 01c1ca5d3166d1436f93c08a1de9a950387c8cd910b9588bd93c11754efc1248
+component_legacy_source:
+  path: /workspace/research-duo/logs/codex-20261029T012721Z-9f94bdf8.jsonl
+  sha256: 0b9dd47be31f385324857a6542e2a8dfa85a7124f3a1b9989ef3b75aa3a43a9b

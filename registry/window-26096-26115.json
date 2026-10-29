@@ -3,6 +3,10 @@
     "explore-blocks": "EXP-R1-FB8-26096-26115"
   },
   "cap_policy": "No new same-window version if used would exceed20",
+  "conditional_gate_candidates": {
+    "SH-COMPREV-v1": "pending;not counted before successful gate and candidate enrollment",
+    "SH-DISPREG-v1": "pending;not counted before successful gate and candidate enrollment"
+  },
   "counted_model_ids": [
     "explore-24",
     "EXP-R1-FB8-26096-26115",
@@ -23,7 +27,10 @@
     "r2-H3",
     "r2-H1-dissent",
     "reserved-H2",
-    "explore-permutation"
+    "explore-permutation",
+    "GATE-SH-DISPREG-v1",
+    "GATE-SH-COMPREV-v1",
+    "FORWARD-SH-META-BORDA-v1"
   ],
   "limit": 20,
   "new_candidates": [
@@ -32,8 +39,9 @@
   ],
   "previous_unique_models": 11,
   "recorded_at_utc": "2026-10-29T02:00:36.768484+00:00",
-  "registry_rows": 19,
+  "registry_rows": 22,
   "remaining": 7,
   "scope": "known registered model versions on26/096-115, including legacy models; alias-deduplicated",
+  "updated_at_utc": "2026-10-29T02:21:21.089614+00:00",
   "used": 13
 }

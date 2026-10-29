@@ -1,0 +1,40 @@
+{
+  "file_sha256": {
+    "prereg/round3.yaml": "f5b8bd0a6e3f9e2a04fe790ea5151593dd1fc38d2e2360885c0f664bcbc4144c",
+    "src/marksix_meta_borda.py": "ccc0838c848212a161d7fe3d683a611243f90994297c2ce229984659248643b8",
+    "src/marksix_r2.py": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c",
+    "src/marksix_shadow_batch2.py": "d82d7048eb3a249de29449826a98f1d3f5bd713baa46ba9472442c0919b4f804",
+    "src/marksix_shadow_batch3.py": "256e11dfb4c3eee5c38a0ff270141a666b8979591675ce15c8bc97f0e59e70c6",
+    "src/marksix_shadows.py": "7e0b549c7236cb3e073ef5b8983db6cdde171be1e609859bd0d84204f932d562"
+  },
+  "historical_screening": false,
+  "locked_at_utc": "2026-10-29T02:21:21.089614+00:00",
+  "same_window_attempt_cost": 0,
+  "specification": {
+    "component_rank": "actual fixed ticket-order positions1..49 for every component; do not mix historical reporting midranks",
+    "component_seeds": "continue each legacy seeded component stream from its original first eligible draw067; advance prior permutations without scoring old outcomes",
+    "components": [
+      "SH-GAP1",
+      "SH-GAP20-v1",
+      "SH-LAG1-v1",
+      "SH-LAG-RNO-v1",
+      "SH-HARM48-v1",
+      "SH-WDAY20-v1",
+      "SH-RESFOLD-v1",
+      "SH-CENTROID-v1",
+      "SH-TAIL-v1",
+      "SH-ORDSTAT-v1"
+    ],
+    "confirmation": "logging-only shadow; no pass statistic, alpha or confirmation horizon allocated; separate protocol needed before any inferential claim",
+    "first_draw": "26/116",
+    "first_target_date": "2026-10-31",
+    "formal_bet_added_hkd": 0,
+    "historical_screening": false,
+    "id": "SH-META-BORDA-v1",
+    "same_window_attempt_cost": 0,
+    "score": "integer sum of10 component ranks; ascending; mean=sum/10",
+    "tickets": "first48 positions cut6; exclude49th position",
+    "ties": "independent Python Random20261029 forward stream starting26/116; stable sort ascending rank sum",
+    "weights": "all exactly1/10"
+  }
+}
