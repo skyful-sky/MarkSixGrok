@@ -1,0 +1,73 @@
+{
+  "MC_paths": 10000,
+  "MC_seed": 20261029,
+  "conventions": {
+    "EWM": "adjusted normalized weights decay**(target_index-1-history_index), with zero numerator/denominator initially; prior draw relative age0",
+    "MC": "10000 independent full69-draw uniform6-subset paths; refit each path from its first draw; replay identical fixed tie permutations",
+    "MC_rng": "NumPy default_rng(20261029), independent from Python tie RNGs",
+    "attempt_cap": 20,
+    "attempt_count": "unique known models tested on096-115; include fixed blocks and24-number pool; merge explore-blocks/canonical archive alias; exclude forward-only hypotheses, dissent, reserved H2, validation-only permutation",
+    "centroid_exclusion": "exclude sorted position49; not forcibly number49 (Research says rank49)",
+    "history": "expanding from26/047; predict before update; W20 is warmup, not a rolling window",
+    "multiplicity": "raw MC p plus Bonferroni20 descriptive bound; do not claim complete-family Holm without old p-values; old failures must not be rerun",
+    "numeric": "RESFOLD exact int64 common-denominator ordering; CENTROID/TAIL float64, no posthoc rounding or tolerance",
+    "p_values": "plus-one upper tail for hits, lower tail for rank sums and score-midrank sums; (1+as_or_more_extreme)/(10000+1)",
+    "rank": "actual ticket-order positions1..49; score midranks also reported",
+    "screen": "096-115 hits>=9 is exploratory screening only; fewer than9 disables the version",
+    "seeded_ties": "independent random.Random(20261029) per seeded model; shuffle ascending1..49 once per scored target, stable score sort; no warmup RNG use",
+    "success": "at least one ticket contains>=3 mains, count once per draw; special numbers ignored",
+    "tickets": "first48 positions cut6;8 disjoint tickets; one remaining number excluded"
+  },
+  "data_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "family": "shadow-batch2-v1",
+  "implementation_sha256": "d82d7048eb3a249de29449826a98f1d3f5bd713baa46ba9472442c0919b4f804",
+  "locked_at_utc": "2026-10-29T01:39:22.160015+00:00",
+  "models": {
+    "SH-CENTROID-v1": {
+      "W": 20,
+      "excluded": "rank_position49, per original Research wording",
+      "half_life": 5,
+      "score": "negative absolute distance to normalized EWM of historical main-six means",
+      "ties": "smaller_number_first"
+    },
+    "SH-RESFOLD-v1": {
+      "W": 20,
+      "kappa": 10,
+      "periods": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "phase": "CSV zero-based index i modulo P;26/047=0",
+      "score": "mean_P((past_phase_number_hits+10*(6/49))/(past_phase_draws+10))",
+      "seed": 20261029,
+      "ties": "seeded_permutation"
+    },
+    "SH-TAIL-v1": {
+      "W": 20,
+      "half_life": 10,
+      "mechanism": "無物理機制",
+      "score": "normalized EWM of main-six tail count divided by that tail's number count",
+      "seed": 20261029,
+      "tail": "number modulo10; sizes[4,5,5,5,5,5,5,5,5,5]",
+      "ties": "seeded_permutation"
+    }
+  },
+  "sources": [
+    {
+      "path": "/workspace/research-duo/logs/codex-20261029T012721Z-9f94bdf8.jsonl",
+      "sha256": "0b9dd47be31f385324857a6542e2a8dfa85a7124f3a1b9989ef3b75aa3a43a9b"
+    },
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T012730Z-002d256e.stdout.json",
+      "sha256": "ac427a200b4ef99ba2b96ea064415eb97d5b44b39ec9bb9a488814fea5882de8"
+    }
+  ],
+  "status": "parameters_and_MC_protocol_locked_before_observed_or_full_MC_run"
+}

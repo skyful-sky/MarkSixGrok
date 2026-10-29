@@ -1,0 +1,38 @@
+{
+  "alias_merge": {
+    "explore-blocks": "EXP-R1-FB8-26096-26115"
+  },
+  "cap_policy": "No new same-window version if it would make used>20",
+  "counted_model_ids": [
+    "explore-24",
+    "EXP-R1-FB8-26096-26115",
+    "SH-GAP20-v1",
+    "SH-GAP1",
+    "SH-LAG1-v1",
+    "SH-LAG-RNO-v1",
+    "SH-HARM48-v1",
+    "SH-WDAY20-v1",
+    "SH-RESFOLD-v1",
+    "SH-CENTROID-v1",
+    "SH-TAIL-v1"
+  ],
+  "excluded_nonmodels": [
+    "r2-H1",
+    "r2-H3",
+    "r2-H1-dissent",
+    "reserved-H2",
+    "explore-permutation"
+  ],
+  "limit": 20,
+  "new_candidates": [
+    "SH-RESFOLD-v1",
+    "SH-CENTROID-v1",
+    "SH-TAIL-v1"
+  ],
+  "previous_unique_models": 8,
+  "recorded_at_utc": "2026-10-29T01:39:22.160015+00:00",
+  "registry_rows": 17,
+  "remaining": 9,
+  "scope": "known registered model versions on26/096-115, including legacy models; alias-deduplicated",
+  "used": 11
+}
