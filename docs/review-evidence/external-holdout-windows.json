@@ -1,0 +1,309 @@
+{
+  "attempts_used": 14,
+  "baseline_commit": "c7303326f77e838cc7b9bf8fff11b182fd8b03e2",
+  "candidate_evaluations": 0,
+  "exposure_disclosure": "Source pages contain historic winning numbers and summaries; some were visible while verifying metadata. No candidate scoring/ranking was executed. Independent no-prior-exposure custody is unverified.",
+  "games": [
+    {
+      "backup_urls": [
+        "https://www.results.co.uk/lotto-result-1997-11-26",
+        "https://lottery.merseyworld.com/Draws/CSV.html"
+      ],
+      "boundary_evidence_urls": [
+        "https://www.results.co.uk/lotto-result-1994-11-19",
+        "https://www.results.co.uk/lotto-result-1997-11-22",
+        "https://www.results.co.uk/lotto-result-1997-11-26",
+        "https://www.results.co.uk/lotto-result-2002-09-07"
+      ],
+      "complete_matrix_history_verified": false,
+      "execution_eligible": false,
+      "holdout": {
+        "count": 500,
+        "date_end": "2002-09-07",
+        "date_start": "1997-11-26",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": "1997-02-05",
+          "effect": "Wednesday draw added; matrix unchanged at6/49 per historical evidence",
+          "kind": "schedule",
+          "status": "official_verified"
+        },
+        {
+          "conservative_exclusion_start": "2015-10-01",
+          "date": null,
+          "kind": "matrix",
+          "month": "2015-10",
+          "new_pool": 59,
+          "old_pool": 49,
+          "source": "https://www.gamblingcommission.gov.uk/about-us/guide/gambling-behaviour-2015-to-2023-quarterly-telephone-survey-trends",
+          "status": "official_month_verified_day_unverified"
+        }
+      ],
+      "lottery": "UK historical Lotto6/49",
+      "main_draw_size": 6,
+      "main_pool": 49,
+      "no_prior_exposure_verified": false,
+      "official_full700_verified": false,
+      "official_urls": [
+        "https://www.national-lottery.co.uk/results/lotto/draw-history",
+        "https://publications.parliament.uk/pa/cm200001/cmselect/cmcumeds/56/5604.htm",
+        "https://publications.parliament.uk/pa/cm200304/cmselect/cmcumeds/196/19605.htm",
+        "https://assets.publishing.service.gov.uk/media/5a80024a40f0b62305b889e8/Gambling_Commission_annual_report_and_accounts_2015_to_2016.pdf"
+      ],
+      "regime_notes": "Only original Lotto main draws; exclude LottoExtra,BigDraw,raffles and additional special games. A calendar weekday change is not a matrix change.",
+      "selection": "first700_original_main_draws_from_launch",
+      "source_status": "Historical6/49 official parliamentary evidence verified; boundary serials from nonofficial archive; official full700 unverified.",
+      "timezone": "Europe/London",
+      "warmup": {
+        "count": 200,
+        "date_end": "1997-11-22",
+        "date_start": "1994-11-19",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      }
+    },
+    {
+      "backup_urls": [
+        "https://loto6.jp/databases/resultsearch/700"
+      ],
+      "boundary_evidence_urls": [
+        "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto60001.html",
+        "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto60181.html",
+        "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto60201.html",
+        "https://loto6.jp/databases/resultsearch/700"
+      ],
+      "complete_matrix_history_verified": false,
+      "execution_eligible": false,
+      "holdout": {
+        "count": 500,
+        "date_end": "2012-10-08",
+        "date_start": "2004-08-26",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "backup_date": "2011-04-04",
+          "date": null,
+          "kind": "schedule",
+          "month": "2011-04",
+          "source": "https://www.takarakuji-official.jp/news/recent/?newsId=201106",
+          "status": "official_month_verified_day_unverified"
+        }
+      ],
+      "lottery": "Japan Loto6",
+      "main_draw_size": 6,
+      "main_pool": 43,
+      "no_prior_exposure_verified": false,
+      "official_full700_verified": false,
+      "official_urls": [
+        "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/index.html",
+        "https://www.takarakuji-official.jp/kuji/loto/loto6/",
+        "https://www.takarakuji-official.jp/news/recent/?newsId=201106"
+      ],
+      "regime_notes": "Official2020review confirms schedule change inApril2011; exact firstMonday2011-04-04 appears in backup, not independently verified official day. No claim absence of matrix/equipment changes.",
+      "selection": "first700_original_main_draws_from_launch",
+      "source_status": "Official first,200,201 dates verified;700 date verified in backup only; complete historical matrix/equipment verification missing.",
+      "timezone": "Asia/Tokyo",
+      "warmup": {
+        "count": 200,
+        "date_end": "2004-08-19",
+        "date_start": "2000-10-05",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      }
+    },
+    {
+      "backup_urls": [
+        "https://lottohaebom.com/history/2006",
+        "https://kr.lottolyzer.com/home/south-korea/6_slash_45-lotto/detail-view/draw/700"
+      ],
+      "boundary_evidence_urls": [
+        "https://lottostory.kr/guide/history/",
+        "https://lottohaebom.com/history/2006",
+        "https://lottohaebom.com/history/2006",
+        "https://kr.lottolyzer.com/home/south-korea/6_slash_45-lotto/detail-view/draw/700"
+      ],
+      "complete_matrix_history_verified": false,
+      "execution_eligible": false,
+      "holdout": {
+        "count": 500,
+        "date_end": "2016-04-30",
+        "date_start": "2006-10-07",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": null,
+          "kind": "matrix_history",
+          "source": "https://www.dhlottery.co.kr/lt645/intro",
+          "status": "unverified"
+        }
+      ],
+      "lottery": "Korea Lotto6/45",
+      "main_draw_size": 6,
+      "main_pool": 45,
+      "no_prior_exposure_verified": false,
+      "official_full700_verified": false,
+      "official_urls": [
+        "https://www.dhlottery.co.kr/lt645/intro",
+        "https://www.dhlottery.co.kr/lt645/winNumber",
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148753767"
+      ],
+      "regime_notes": "Government2012history mentions2002-12-07 launch; not substituted for a per-draw archive. Complete matrix/price/equipment change history unverified.",
+      "selection": "first700_original_main_draws_from_launch",
+      "source_status": "6/45 current rule verified; historical boundary dates from backups; official old endpoints failed TLS; full historical regime unverified.",
+      "timezone": "Asia/Seoul",
+      "warmup": {
+        "count": 200,
+        "date_end": "2006-09-30",
+        "date_start": "2002-12-07",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      }
+    },
+    {
+      "backup_urls": [
+        "https://datachart.500.com/ssq/history/newinc/history.php?start=03001&end=08029"
+      ],
+      "boundary_evidence_urls": [
+        "https://datachart.500.com/ssq/history/newinc/history.php?start=03001&end=08029",
+        "https://www.jslottery.com/articles/b650d8e3-48df-4c9c-81e5-ea108b2b113c?locale=zh-CN",
+        "https://www.jslottery.com/winning_info?locale=zh-CN&lottery_type_id=10&page=714"
+      ],
+      "complete_matrix_history_verified": false,
+      "execution_eligible": false,
+      "holdout": {
+        "count": 500,
+        "date_end": "2008-03-13",
+        "date_start": "2004-12-07",
+        "issue_end": "2008029",
+        "issue_start": "2004112",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": "2004-07-26",
+          "kind": "schedule_authorization",
+          "note": "Actual firstTuesday inbackup2004067=2004-08-24; do not substitute authorization date for observed implementation.",
+          "source": "https://www.mof.gov.cn/gp/xxgkml/zhs/200806/t20080624_2496540.htm",
+          "status": "official_verified_authorized_date_not_actual_first_draw"
+        },
+        {
+          "date": "2026-02-01",
+          "issue": "2026014",
+          "kind": "prize_rule",
+          "source": "https://www.szlottery.org/fcw/fcxw/tzgg/content/post_1649773.html",
+          "status": "official_verified_outside_window"
+        },
+        {
+          "date": null,
+          "kind": "matrix_history",
+          "source": "https://www.scflcp.com.cn/yxgz/823145252.jhtml",
+          "status": "unverified"
+        }
+      ],
+      "lottery": "China SSQ red",
+      "main_draw_size": 6,
+      "main_pool": 33,
+      "no_prior_exposure_verified": false,
+      "official_full700_verified": false,
+      "official_urls": [
+        "https://www.cwl.gov.cn/ygkj/wqkjgg/ssq/",
+        "https://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice",
+        "https://www.jslottery.com/",
+        "https://www.mof.gov.cn/gp/xxgkml/zhs/200806/t20080624_2496540.htm",
+        "https://www.scflcp.com.cn/yxgz/823145252.jhtml"
+      ],
+      "regime_notes": "Red-only target; annual IDs reset, cannot subtract2008029-2004112. Conflicting historical summaries and early blue-ball records require official reconciliation.",
+      "selection": "first700_original_main_draws_from_launch",
+      "source_status": "All700issue/date rows obtained in backup; official700thdate/2008029cross-check verified; official complete series and historical rules unverified.",
+      "timezone": "Asia/Shanghai",
+      "warmup": {
+        "count": 200,
+        "date_end": "2004-12-05",
+        "date_start": "2003-02-23",
+        "issue_end": "2004111",
+        "issue_start": "2003001",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      }
+    }
+  ],
+  "http_probes": [
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto60681.html"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.mizuhobank.co.jp/takarakuji/check/loto/backnumber/loto60661.html"
+    },
+    {
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+      "url": "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=200"
+    },
+    {
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+      "url": "https://www.dhlottery.co.kr/gameResult.do?method=byWin&drwNo=200"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=ssq&issueStart=2003001&issueEnd=2009001&pageNo=1&pageSize=1000&systemType=PC"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://lottery.merseyworld.com/Draws/CSV.html"
+    },
+    {
+      "bytes": 20024,
+      "sha256": "c2e9594039e1f9c8d7f3fa1efa0ea66961d71fdd3adb9fcaf15acf75b447451b",
+      "status": 200,
+      "url": "https://www.results.co.uk/lotto-result-1997-11-26"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.mizuhobank.co.jp/takarakuji/loto/backnumber/loto60681.html"
+    },
+    {
+      "bytes": 279194,
+      "sha256": "7aed5fccb5086544edcd50fe14534663108759853366768c54746fa14f510033",
+      "status": 200,
+      "url": "https://datachart.500.com/ssq/history/newinc/history.php?start=03001&end=08029"
+    },
+    {
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+      "url": "https://www.dhlottery.co.kr/lt645/winNumber?ltEpsd=200"
+    }
+  ],
+  "locked_metadata_at_utc": "2026-10-29T14:18:37.910838+00:00",
+  "missing_policy": "NA; keep exact issue/ordinal; no make-up draw, skipped row, alternative window or synthetic date",
+  "new_ids": 0,
+  "readiness": "metadata_locked_all_four_not_execution_qualified",
+  "selection_policy": "Earliest700original main draws from game launch; first200warmup,next500scoring; no outcome-based window choice or replacement for missingness. Frozen metadata does not establish a clean unseen holdout.",
+  "ssq_year_counts": {
+    "2003": 89,
+    "2004": 122,
+    "2005": 153,
+    "2006": 154,
+    "2007": 153,
+    "2008_partial": 29
+  }
+}

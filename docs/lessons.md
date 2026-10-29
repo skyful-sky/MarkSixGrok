@@ -145,3 +145,11 @@ SH-GAP1的7/20是多次探索中的最佳影子候選，FixedBlocks-E20的8/20�
 |---|---|---|
 | Antigravity兩案提議 | `/workspace/research-duo/logs/antigravity/agy-20261029T114633Z-a0be40df.stdout.json`；[附件](review-evidence/a20/agy-20261029T114633Z-a0be40df.stdout.json) | `f52e6425dcb51019310fdac977e4b4f53f74cb136b44691be361bbce01949f49` |
 | Astra否決理由（Research log） | `/workspace/research-duo/logs/codex-20261029T120917Z-4523c643.jsonl`；[附件](review-evidence/a20/codex-20261029T120917Z-4523c643.jsonl) | `48dfb3c053360540cce1d642ebfdbdc23b2df18779784436c865077a8b9b82ed` |
+
+## A21：長提示卡住即縮短，不空等未完成草稿
+
+依Manager本輪提供的工作紀錄，Antigravity長提示累積約**53萬token**，屢次出現串流中斷或逾時；此數為來源所述約數，本輪未獨立重算用量，亦不把累積量冒稱單次有效上下文長度。
+
+卡住或逾時即改變處理方式：縮短提示至本輪目標、限制、必要證據與明確交付；仍無法完成就開新對話，以精簡交接紀錄保留已做／未做及來源，或改派可處理的工作者。不要維持同一長提示反覆等待或空等串流；逾時、重試與未完成狀態均如實記錄，重試不重做已完成計算。
+
+**未完成草稿不作正式答覆**，不當成已完成審查、已鎖定協議或候選通過；只有完成內容、核對證據並明示缺項的交付才能採用。這是執行可靠性教訓，不新增模型、ID或attempt，也不變更既有方法、H3／H1／META用途或正式預測。
