@@ -1,0 +1,67 @@
+{
+  "MC_paths": 10000,
+  "MC_seed": 20261029,
+  "batch2_dependency_sha256": "d82d7048eb3a249de29449826a98f1d3f5bd713baa46ba9472442c0919b4f804",
+  "conventions": {
+    "BLOCKX_overlap_gate": "report all segments;096-115 or full49 overlap>50% blocks screening; equality50% does not trigger this clause",
+    "BLOCKX_seed": "one independent random.Random(20261029); per eligible target shuffle1..49 for min-frequency ties, then shuffle base-block indices0..7 for block-total ties; no warmup RNG consumption",
+    "EWM": "normalized expanding weighted history, initial numerator/weight0; relative prior age0; predict then update",
+    "Holm": "each segment/statistic family includes all13 cumulative known models; use existing batch2 MC p and current2 p; missing old MC p remains null, substituted1 only for conservative Holm upper bounds; no old observed reruns",
+    "MC": "10000 independent complete69-draw uniform6-subset histories; same observed/null engine and fixed seeded tie priorities",
+    "MC_p": "plus-one hits upper tail and actual-rank-sum lower tail, separately for each segment",
+    "MC_seed": 20261029,
+    "ORDSTAT": "sort each past main six separately before EWM by position; no fitting or search across k",
+    "budget": "unique registered same-window models, legacy fixed/24 included; aliases merged; maximum20; this batch13/20",
+    "inference": "descriptive only; neither MC nor cumulative Holm repairs already-viewed data or same-data prerequisite selection; no cross-endpoint/segment alpha claim",
+    "numeric": "float64; no post-result rounding or distance/frequency tie tolerance",
+    "rank": "actual complete ticket-order positions1..49; BLOCKX includes block order and within-block numeric order",
+    "screen": "096-115 hits<9 disables; >=9 only screening, subject to BLOCKX overlap gate; no retuning or forward authorization",
+    "success": ">=one ticket containing>=3 main numbers, at most once per draw; special ignored",
+    "warmup": "20 observed draws047-066; score067-115; report067-095,096-115,full49"
+  },
+  "data_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "family": "shadow-batch3-v1",
+  "implementation_sha256": "256e11dfb4c3eee5c38a0ff270141a666b8979591675ce15c8bc97f0e59e70c6",
+  "locked_at_utc": "2026-10-29T02:00:36.768484+00:00",
+  "models": {
+    "SH-BLOCKX-v1": {
+      "W": 20,
+      "block_ties": "seeded priority over eight ascending base-block indices",
+      "description_gate": "if overlap fraction>0.5 in096-115 OR full067-115, descriptive only, no screening qualification",
+      "excluded": "one minimum-EWM-frequency number, seeded tie break",
+      "half_life": 20,
+      "order": "block total EWM frequency descending; within block number ascending",
+      "overlap": "exact equality of unordered sets of eight tickets; ignore ticket order",
+      "partition": "sort remaining48 numerically; consecutive groups of6",
+      "prerequisite": "saved CENTROID067-115 actual-order mean rank<25",
+      "seed": 20261029
+    },
+    "SH-ORDSTAT-v1": {
+      "W": 20,
+      "excluded": "rank_position49",
+      "half_life": 10,
+      "score": "negative distance to nearest of six normalized EWM historical order-statistic locations",
+      "ties": "smaller_number_first"
+    }
+  },
+  "prerequisite": {
+    "draws": 49,
+    "evidence": "gate barely passed; no predictive confirmation",
+    "mean_main_rank": 24.88095238095238,
+    "p_rank_lower": 0.4333566643335666,
+    "passed": true,
+    "path": "backtests/shadow-batch2-v1.json",
+    "sha256": "4adcfccd3bb56c5d6e24befad87c9cbb49790c1985fcd18b653c6c8a5c17768a"
+  },
+  "sources": [
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T013026Z-29b933ba.stdout.json",
+      "sha256": "929ca3f5e24964628a7c7f5706fd40a9ca66b48ece1c60c4ed52742e2f83d611"
+    },
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T014938Z-898fc9e2.stdout.json",
+      "sha256": "6d201de305db6f096161010f66e0b1c984fc08f2a5baf11f4fd4dd3f32f6aa50"
+    }
+  ],
+  "status": "locked_before_observed_and_full_MC_execution"
+}
