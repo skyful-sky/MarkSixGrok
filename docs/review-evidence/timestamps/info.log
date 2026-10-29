@@ -1,0 +1,168 @@
+COMMAND ots info docs/review-evidence/timestamps/26-116.prediction.20261029T001900Z.json.ots
+STDOUT
+File sha256 hash: 3476621fd81f14aca6403fbfc8a51e412fac3a5c46f85fe9f7ea5e1360384e3c
+Timestamp:
+append a4d6842fbb715e60ec99e40e552aede3
+sha256
+append f29f05e940e177519933bc4866b64278532898d70c1e659d9e371bfcf41c176f
+sha256
+append b6f18d99ceaa19471e945a478b9798d47b33148b549879c117c6f63df2f9cd70
+sha256
+ -> append a1c14fcc9fd1c164fa0c0d6fa509c680
+    sha256
+    append c10c461915acd344a0dc58c82b8cfd245ac506ce6da4e375fb6faa70d4eb93e8
+    sha256
+    prepend 49afc738674f0620c9994222da3b9a78663b1e19a0a9545275ddab5dead358a5
+    sha256
+    append a8009877389bc1a4a46f61685040e7837b81e31243fb1b7009a6b4a6ee083183
+    sha256
+    append 1f5794ab7f46fa50943decd357ac89c43f4a0c20894bb600f28eb633b037dba1
+    sha256
+    prepend 6ae2d49d
+    append 9e58e8ced5ec5e54
+    verify PendingAttestation('https://finney.calendar.eternitywall.com')
+ -> append bd5e309ce02ee2c3
+    sha256
+    append cb0bb94fff0cf6889ba1e5b09959c6a0a421dd2a0156e0694d20c5c12b0801c1
+    sha256
+    append 336fb89d8793f3003e339e5cdac107d8
+    sha256
+    prepend a60382c22ec2f62b499356dcf9331d77b3d5e3d1dd3399d08da487f43c9bed9a
+    sha256
+    append 47059830d0d9ca92062814390c59dffcb46f2eb8da9136373e58955a4b52a85a
+    sha256
+    prepend bb208762a0a8fad6550549636df11ced3333e7e521ad5c3c7d648742c9ccc7b6
+    sha256
+    prepend 6ae2d49d
+    append 49d001a2905df72c
+    verify PendingAttestation('https://alice.btc.calendar.opentimestamps.org')
+ -> append f9d35d88ad65c56b
+    sha256
+    prepend 81ffb11dfe2b5b278b123178c58a6dd50ca3c835627ae0028d7f5650e0eeb551
+    sha256
+    append a201a637dcf3470b458f020a741bf56a
+    sha256
+    append 17c44d99a7d6592f0f5615eaf85978beb244ee8c459f4fe419764a213b388360
+    sha256
+    prepend 7279a2ed9e13a02106b8224e36422fad2ce398a5ab4a6d410d0f7fc53c3b6f33
+    sha256
+    prepend 6ae2d49c
+    append cf1f16168280783c
+    verify PendingAttestation('https://bob.btc.calendar.opentimestamps.org')
+
+
+STDERR
+
+EXIT_CODE 0
+
+COMMAND ots info docs/review-evidence/timestamps/26-116.prediction.20261029T022640Z.json.ots
+STDOUT
+File sha256 hash: 56743ca4c6ff63867673aebc4d2b428a6ffcf0f01a6ca0bac163f5cbabd75c90
+Timestamp:
+append 09e4a7f3c2fb0a9dde3f5548c8eda07e
+sha256
+prepend 93954bbd59012197fe7042c42353630d3d8efca9bace98fedd6222c6641ecb19
+sha256
+append b6f18d99ceaa19471e945a478b9798d47b33148b549879c117c6f63df2f9cd70
+sha256
+ -> append a1c14fcc9fd1c164fa0c0d6fa509c680
+    sha256
+    append c10c461915acd344a0dc58c82b8cfd245ac506ce6da4e375fb6faa70d4eb93e8
+    sha256
+    prepend 49afc738674f0620c9994222da3b9a78663b1e19a0a9545275ddab5dead358a5
+    sha256
+    append a8009877389bc1a4a46f61685040e7837b81e31243fb1b7009a6b4a6ee083183
+    sha256
+    append 1f5794ab7f46fa50943decd357ac89c43f4a0c20894bb600f28eb633b037dba1
+    sha256
+    prepend 6ae2d49d
+    append 9e58e8ced5ec5e54
+    verify PendingAttestation('https://finney.calendar.eternitywall.com')
+ -> append bd5e309ce02ee2c3
+    sha256
+    append cb0bb94fff0cf6889ba1e5b09959c6a0a421dd2a0156e0694d20c5c12b0801c1
+    sha256
+    append 336fb89d8793f3003e339e5cdac107d8
+    sha256
+    prepend a60382c22ec2f62b499356dcf9331d77b3d5e3d1dd3399d08da487f43c9bed9a
+    sha256
+    append 47059830d0d9ca92062814390c59dffcb46f2eb8da9136373e58955a4b52a85a
+    sha256
+    prepend bb208762a0a8fad6550549636df11ced3333e7e521ad5c3c7d648742c9ccc7b6
+    sha256
+    prepend 6ae2d49d
+    append 49d001a2905df72c
+    verify PendingAttestation('https://alice.btc.calendar.opentimestamps.org')
+ -> append f9d35d88ad65c56b
+    sha256
+    prepend 81ffb11dfe2b5b278b123178c58a6dd50ca3c835627ae0028d7f5650e0eeb551
+    sha256
+    append a201a637dcf3470b458f020a741bf56a
+    sha256
+    append 17c44d99a7d6592f0f5615eaf85978beb244ee8c459f4fe419764a213b388360
+    sha256
+    prepend 7279a2ed9e13a02106b8224e36422fad2ce398a5ab4a6d410d0f7fc53c3b6f33
+    sha256
+    prepend 6ae2d49c
+    append cf1f16168280783c
+    verify PendingAttestation('https://bob.btc.calendar.opentimestamps.org')
+
+
+STDERR
+
+EXIT_CODE 0
+
+COMMAND ots info docs/review-evidence/timestamps/forward-record-audit.md.ots
+STDOUT
+File sha256 hash: 041ef1de1976ff76fa2e3e9e076496417f3cf80f45f7e165f243084a2fba4568
+Timestamp:
+append 65a93e7615b74133fe288afb02dd1202
+sha256
+prepend 8ae3456df510c9f51bad7c4051cb3826740a22d8d0c54ebcc0d5406a64cda999
+sha256
+ -> append a1c14fcc9fd1c164fa0c0d6fa509c680
+    sha256
+    append c10c461915acd344a0dc58c82b8cfd245ac506ce6da4e375fb6faa70d4eb93e8
+    sha256
+    prepend 49afc738674f0620c9994222da3b9a78663b1e19a0a9545275ddab5dead358a5
+    sha256
+    append a8009877389bc1a4a46f61685040e7837b81e31243fb1b7009a6b4a6ee083183
+    sha256
+    append 1f5794ab7f46fa50943decd357ac89c43f4a0c20894bb600f28eb633b037dba1
+    sha256
+    prepend 6ae2d49d
+    append 9e58e8ced5ec5e54
+    verify PendingAttestation('https://finney.calendar.eternitywall.com')
+ -> append bd5e309ce02ee2c3
+    sha256
+    append cb0bb94fff0cf6889ba1e5b09959c6a0a421dd2a0156e0694d20c5c12b0801c1
+    sha256
+    append 336fb89d8793f3003e339e5cdac107d8
+    sha256
+    prepend a60382c22ec2f62b499356dcf9331d77b3d5e3d1dd3399d08da487f43c9bed9a
+    sha256
+    append 47059830d0d9ca92062814390c59dffcb46f2eb8da9136373e58955a4b52a85a
+    sha256
+    prepend bb208762a0a8fad6550549636df11ced3333e7e521ad5c3c7d648742c9ccc7b6
+    sha256
+    prepend 6ae2d49d
+    append 49d001a2905df72c
+    verify PendingAttestation('https://alice.btc.calendar.opentimestamps.org')
+ -> append f9d35d88ad65c56b
+    sha256
+    prepend 81ffb11dfe2b5b278b123178c58a6dd50ca3c835627ae0028d7f5650e0eeb551
+    sha256
+    append a201a637dcf3470b458f020a741bf56a
+    sha256
+    append 17c44d99a7d6592f0f5615eaf85978beb244ee8c459f4fe419764a213b388360
+    sha256
+    prepend 7279a2ed9e13a02106b8224e36422fad2ce398a5ab4a6d410d0f7fc53c3b6f33
+    sha256
+    prepend 6ae2d49c
+    append cf1f16168280783c
+    verify PendingAttestation('https://bob.btc.calendar.opentimestamps.org')
+
+
+STDERR
+
+EXIT_CODE 0

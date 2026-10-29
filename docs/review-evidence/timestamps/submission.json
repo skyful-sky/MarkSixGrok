@@ -1,0 +1,89 @@
+{
+  "base_commit": "ef44fbdd982e4befeb49d89252589451febeac0f",
+  "client_version": "0.8.0",
+  "command": [
+    "/tmp/marksix-ots-venv/bin/ots",
+    "--no-cache",
+    "-v",
+    "stamp",
+    "--timeout",
+    "15",
+    "/tmp/marksix-ots-ugntxn61/26-116.prediction.20261029T001900Z.json",
+    "/tmp/marksix-ots-ugntxn61/26-116.prediction.20261029T022640Z.json",
+    "/tmp/marksix-ots-ugntxn61/forward-record-audit.md"
+  ],
+  "end_utc": "2026-10-29T05:07:48.419041+00:00",
+  "exit_code": 0,
+  "files": [
+    {
+      "attestations": [
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49dd6da993b2f669e3582dc9cee4baa7498d74559c6b1768b7ff98466c1859a66ad9e58e8ced5ec5e54",
+          "repr": "PendingAttestation('https://finney.calendar.eternitywall.com')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49d7674224ff94ae23a2219bf112da2e61962dfa0ddd32f80411e20ab11f6eaf1a049d001a2905df72c",
+          "repr": "PendingAttestation('https://alice.btc.calendar.opentimestamps.org')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49ced328f6fcf1a56c39322fd993fada58afae391d2c61984dfe6890568df032e16cf1f16168280783c",
+          "repr": "PendingAttestation('https://bob.btc.calendar.opentimestamps.org')"
+        }
+      ],
+      "proof": "docs/review-evidence/timestamps/26-116.prediction.20261029T001900Z.json.ots",
+      "proof_sha256": "edd9f207182ba8f7a190cff79def26fccc414a38d3890d0629306225b9c7baad",
+      "source": "forward/26-116.prediction.20261029T001900Z.json",
+      "source_sha256": "3476621fd81f14aca6403fbfc8a51e412fac3a5c46f85fe9f7ea5e1360384e3c"
+    },
+    {
+      "attestations": [
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49dd6da993b2f669e3582dc9cee4baa7498d74559c6b1768b7ff98466c1859a66ad9e58e8ced5ec5e54",
+          "repr": "PendingAttestation('https://finney.calendar.eternitywall.com')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49d7674224ff94ae23a2219bf112da2e61962dfa0ddd32f80411e20ab11f6eaf1a049d001a2905df72c",
+          "repr": "PendingAttestation('https://alice.btc.calendar.opentimestamps.org')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49ced328f6fcf1a56c39322fd993fada58afae391d2c61984dfe6890568df032e16cf1f16168280783c",
+          "repr": "PendingAttestation('https://bob.btc.calendar.opentimestamps.org')"
+        }
+      ],
+      "proof": "docs/review-evidence/timestamps/26-116.prediction.20261029T022640Z.json.ots",
+      "proof_sha256": "f943de811fd1a1ae1c73ef1a22fb211bf3c04d24d61007e1287eee5dd2d92e88",
+      "source": "forward/meta-borda/26-116.prediction.20261029T022640Z.json",
+      "source_sha256": "56743ca4c6ff63867673aebc4d2b428a6ffcf0f01a6ca0bac163f5cbabd75c90"
+    },
+    {
+      "attestations": [
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49dd6da993b2f669e3582dc9cee4baa7498d74559c6b1768b7ff98466c1859a66ad9e58e8ced5ec5e54",
+          "repr": "PendingAttestation('https://finney.calendar.eternitywall.com')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49d7674224ff94ae23a2219bf112da2e61962dfa0ddd32f80411e20ab11f6eaf1a049d001a2905df72c",
+          "repr": "PendingAttestation('https://alice.btc.calendar.opentimestamps.org')"
+        },
+        {
+          "class": "PendingAttestation",
+          "message_hex": "6ae2d49ced328f6fcf1a56c39322fd993fada58afae391d2c61984dfe6890568df032e16cf1f16168280783c",
+          "repr": "PendingAttestation('https://bob.btc.calendar.opentimestamps.org')"
+        }
+      ],
+      "proof": "docs/review-evidence/timestamps/forward-record-audit.md.ots",
+      "proof_sha256": "b2ff249f4eaca491c3e4fb846f1611e86cc3f29d77a3c3256bb52d9e955364a3",
+      "source": "docs/forward-record-audit.md",
+      "source_sha256": "041ef1de1976ff76fa2e3e9e076496417f3cf80f45f7e165f243084a2fba4568"
+    }
+  ],
+  "start_utc": "2026-10-29T05:07:40.242750+00:00"
+}

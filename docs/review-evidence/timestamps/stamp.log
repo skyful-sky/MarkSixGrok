@@ -1,0 +1,15 @@
+START_UTC 2026-10-29T05:07:40.242750+00:00
+COMMAND /tmp/marksix-ots-venv/bin/ots --no-cache -v stamp --timeout 15 /tmp/marksix-ots-ugntxn61/26-116.prediction.20261029T001900Z.json /tmp/marksix-ots-ugntxn61/26-116.prediction.20261029T022640Z.json /tmp/marksix-ots-ugntxn61/forward-record-audit.md
+STDOUT
+
+STDERR
+Doing 2-of-4 request, timeout is 15 seconds
+Submitting to remote calendar https://a.pool.opentimestamps.org
+Submitting to remote calendar https://b.pool.opentimestamps.org
+Submitting to remote calendar https://a.pool.eternitywall.com
+Submitting to remote calendar https://ots.btc.catallaxy.com
+<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>
+8.01 seconds elapsed
+
+EXIT_CODE 0
+END_UTC 2026-10-29T05:07:48.419041+00:00
