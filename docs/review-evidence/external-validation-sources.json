@@ -1,0 +1,56 @@
+{
+  "baseline_commit": "a3f250c7178ce3129ba5898d05b3d9c93b805a40",
+  "external_candidate_runs": 0,
+  "historical_foreign_data_downloaded": false,
+  "logs": [
+    {
+      "copy": "docs/review-evidence/a20/agy-20261029T114633Z-a0be40df.stdout.json",
+      "original": "/workspace/research-duo/logs/antigravity/agy-20261029T114633Z-a0be40df.stdout.json",
+      "sha256": "f52e6425dcb51019310fdac977e4b4f53f74cb136b44691be361bbce01949f49"
+    },
+    {
+      "copy": "docs/review-evidence/a20/codex-20261029T120917Z-4523c643.jsonl",
+      "original": "/workspace/research-duo/logs/codex-20261029T120917Z-4523c643.jsonl",
+      "sha256": "48dfb3c053360540cce1d642ebfdbdc23b2df18779784436c865077a8b9b82ed"
+    }
+  ],
+  "new_hong_kong_attempts": 0,
+  "official_rule_sources": [
+    {
+      "lottery": "UK historical6/49",
+      "observation": "Regulator timeline confirms Lotto increased to59balls inOctober2015; historical6/49 regime exact first/last eligible draw IDs require separate official-data registration before any run.",
+      "url": "https://www.gamblingcommission.gov.uk/about-us/guide/gambling-behaviour-2015-to-2023-quarterly-telephone-survey-trends"
+    },
+    {
+      "lottery": "UK currentLotto",
+      "observation": "Web reader403; not counted as successful full-rule verification.",
+      "url": "https://www.national-lottery.co.uk/games/lotto/about-lotto"
+    },
+    {
+      "lottery": "Japan Loto6",
+      "observation": "Official game page confirms six distinct choices from1..43.",
+      "url": "https://www.takarakuji-official.jp/kuji/loto/loto6/"
+    },
+    {
+      "lottery": "Japan Loto6bonus",
+      "observation": "Six main numbers plus one bonus; bonus used for second prize; excluded from this main-only metric.",
+      "url": "https://www.mizuhobank.co.jp/takarakuji/products/loto6/index.html"
+    },
+    {
+      "lottery": "KoreaLotto6/45",
+      "observation": "Official full desktop page read confirms six choices from1..45 and separate bonus. Mobile endpoint timed out; no historical results retrieved.",
+      "url": "https://www.dhlottery.co.kr/lt645/intro"
+    },
+    {
+      "lottery": "ChinaSSQ",
+      "observation": "Provincial official lottery rule page: six reds from1..33 and one blue from1..16; actual game prize not equivalent to red-only>=3 metric.",
+      "url": "https://www.scflcp.com.cn/yxgz/823145252.jhtml"
+    },
+    {
+      "lottery": "ChinaSSQrule_version",
+      "observation": "Official notice states revised rules effective2026014draw on2026-02-01; exact historical rule regime must be registered.",
+      "url": "https://www.szlottery.org/fcw/fcxw/tzgg/content/post_1649773.html"
+    }
+  ],
+  "reviewed_at_utc": "2026-10-29T12:19:08.639946+00:00"
+}

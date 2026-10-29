@@ -129,3 +129,19 @@ SH-GAP1的7/20是多次探索中的最佳影子候選，FixedBlocks-E20的8/20�
 |---|---|---|
 | Antigravity提案 | `/workspace/research-duo/logs/antigravity/agy-20261029T111355Z-dd1ad3e2.stdout.json`；[完整附件](review-evidence/a19/agy-20261029T111355Z-dd1ad3e2.stdout.json) | `c998795421faab939cd6f56bdbf743d05a228ed99715f10884ad5e080d98716d` |
 | Astra更正（Research log） | `/workspace/research-duo/logs/codex-20261029T113100Z-44efd5d3.jsonl`；[完整附件](review-evidence/a19/codex-20261029T113100Z-44efd5d3.jsonl) | `c9047638ccda15bfdb132ca471a0cffe9e7fc93af51f046e2def3876120fa96d` |
+
+## A20：機制檢定不能代替外部逐期八注命中
+
+本輪 `SH-SETROT-M4-v1` 與 `SH-DRAWSEQ-RACK-v1` 是**被否決的提案名稱**，未建立shadow ID、未實作或執行外部／香港回測；0 attempt，仍**14/20，剩6**。以下保存否決原因，不將「未開跑」誤寫為模型回測失敗，也不否定所有潛在物理效應或停止研究。
+
+- **SETROT的前提未核實。** 官方2016公告只記抽選球箱，未核實現行「四組、上期使用者下期禁用、其餘三組等機率」；本庫亦無逐期球組ID。所列四態機率公式只在這些假設下成立，不能把假設寫成官方事實。按假設抽樣重組英、日序列，只能驗人工輪替條件，不能驗真實制度；沒有同組連用也不表示跨組不能抽出同號，不能據此解釋LAG1失敗。
+- **RACK只檢查已入選球的出場次序，欠入選集合推導。** Astra反例：先從N球均勻選六球，再按槽位排序；早晚槽位統計可顯著，但每個號碼入選率仍為`6/N`，並不產生下一期八注優勢。零和早晚權重不能自動推出號碼入選率、與頻率零相關或訊號被稀釋六倍；由早晚斜率直接排序出票的橋接尚缺。集合吻合也不能證明物理次序；第三方影片只是線索，不能當作已取得65/69期。槽位座標、尺度、回歸及缺期處理尚未定義，範數統計應用上尾，負對照p>0.05不能證明無效應。
+- **兩案都以機制p值替代目標指標。** 重疊統計S或次序統計顯著，均未完成只用`<t`資料的逐期八注命中評估，也未滿足穩定高於各自公平基準。外部選模、失敗、撤回與所有閘門都須留帳，不得因香港不扣額度就反覆外部重試。14.83%不能照搬到不同球數或重疊配置。
+- **GAP20再被誤寫。** 它仍是截頂間隔`min(g_j,20)`，不是等權混合20期或滑動頻率；「正交於LAG／GAP」尚未證明。沒有估計支持的SNR、16%成功率上限、組間方差及合成w到香港設備的映射不能作結論；固定成功率下的功效也不能補足預測推導。
+
+新增[外部預驗證協議](external-validation-protocol.md)固定各彩票八注、各自公平基準、逐期向前及台帳／額度／停止規則；只有穩定高於各自基準才可申請香港attempt，不會自動准跑上述兩案或復活停用版。Tim解除研究暫停的A19紀錄仍有效，本輪工作不開新ID、不動保護檔。
+
+| 來源 | 原始路徑／本庫完整附件 | SHA-256 |
+|---|---|---|
+| Antigravity兩案提議 | `/workspace/research-duo/logs/antigravity/agy-20261029T114633Z-a0be40df.stdout.json`；[附件](review-evidence/a20/agy-20261029T114633Z-a0be40df.stdout.json) | `f52e6425dcb51019310fdac977e4b4f53f74cb136b44691be361bbce01949f49` |
+| Astra否決理由（Research log） | `/workspace/research-duo/logs/codex-20261029T120917Z-4523c643.jsonl`；[附件](review-evidence/a20/codex-20261029T120917Z-4523c643.jsonl) | `48dfb3c053360540cce1d642ebfdbdc23b2df18779784436c865077a8b9b82ed` |
