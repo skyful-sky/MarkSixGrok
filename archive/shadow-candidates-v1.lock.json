@@ -1,0 +1,77 @@
+{
+  "conventions": {
+    "data_start": "26/047",
+    "full_segment": "GAP20/LAG1:048..115 (68); GAP1/RNO:067..115 (49); common067..115 also reported",
+    "gap_exposures": "one exposure per number before each observed draw, including first draw; unseen numbers in bin15",
+    "inference": "no p-values, MC-based stopping or Holm decision added; this delivery implements Manager's four-candidate backtest request",
+    "main_only": true,
+    "primary_window": [
+      "26/096",
+      "26/115"
+    ],
+    "random_equal_class_rates": "shuffle all49 first, including across distinct classes with exactly equal scores",
+    "random_ties": "independent random.Random(20261029) per seeded model; shuffle ascending1..49 once per eligible target, then stable sort by exact score descending; no draws consumed during warmup",
+    "rank_metric": "actual ticket-order positions1..49; also report exact-score average midranks separately",
+    "rno_exposures": "one exposure per class member per adjacent historical pair; first pair047->048; R has priority over N",
+    "selection": ">=9/20 is descriptive exploratory screening only, never confirmation or a forward pass",
+    "smoothing_unit": "per-number Bernoulli exposures, not per-draw counts",
+    "success": "at least one ticket has >=3 main numbers; one success per draw maximum",
+    "tickets": "order positions1..48 cut into eight consecutive groups of6; exclude position49",
+    "training": "expanding history; W=20 is a warmup, not a rolling training window"
+  },
+  "data_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "formal_R2_unchanged": true,
+  "implementation_sha256": "7e0b549c7236cb3e073ef5b8983db6cdde171be1e609859bd0d84204f932d562",
+  "locked_at_utc": "2026-10-29T01:10:17.132309+00:00",
+  "model_family": "shadow-candidates-v1",
+  "models": {
+    "SH-GAP1": {
+      "G": 15,
+      "W": 20,
+      "author": "Antigravity",
+      "kappa": 30,
+      "minimum_history": 20,
+      "never_seen": "bin15_from_start",
+      "score": "(hits[g]+30*(6/49))/(exposures[g]+30)",
+      "seed": 20261029,
+      "ties": "seeded_permutation"
+    },
+    "SH-GAP20-v1": {
+      "author": "Codex",
+      "gap_cap": 20,
+      "minimum_history": 1,
+      "score": "min(g,20); last draw main=0; never seen=observed draw count",
+      "ties": "number_ascending"
+    },
+    "SH-LAG-RNO-v1": {
+      "W": 20,
+      "author": "Antigravity",
+      "classes": "R=previous main; N=bounded +/-1 neighbors minus R; O=rest; no1/49wrap",
+      "kappa": 30,
+      "minimum_history": 20,
+      "score": "(class_hits+30*(6/49))/(class_exposures+30)",
+      "seed": 20261029,
+      "ties": "seeded_permutation"
+    },
+    "SH-LAG1-v1": {
+      "author": "Codex",
+      "include_i_equals_j": true,
+      "lag": 1,
+      "minimum_history": 1,
+      "score": "b_j=(B_j+20*(6/49))/(M+20); s_j=mean_i_in_previous_main((C_ij+20*b_j)/(N_i+20))-b_j",
+      "smoothing": 20,
+      "ties": "number_ascending"
+    }
+  },
+  "research_sources": [
+    {
+      "path": "/workspace/research-duo/logs/codex-20261029T005727Z-36d4185f.jsonl",
+      "sha256": "2f876258b50583afd47ba6ac5001d09bdbe0000af20fbc815c78f2db2db5512a"
+    },
+    {
+      "path": "/workspace/research-duo/logs/antigravity/agy-20261029T005727Z-1e06de32.stdout.json",
+      "sha256": "8f36b3f98b9ea67976efebf6e2a3e4a106a160b9860a4e4bf67fe8c321dc1a8a"
+    }
+  ],
+  "status": "locked_before_first_historical_shadow_run; exploratory_only"
+}
