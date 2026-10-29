@@ -44,7 +44,8 @@
   "remaining": 6,
   "scope": "known registered model versions on26/096-115, including legacy models; alias-deduplicated",
   "triplecover_lock_sha256": "6e09e5fe4ef3ceb9919dfe55bf08bb980b0bca2d6147fb1c454a3c75f4eda5f5",
-  "triplecover_status": "registered_pending_backtest",
-  "updated_at_utc": "2026-10-29T02:40:59.217004+00:00",
+  "triplecover_result_sha256": "15328eb93440af3fc6c34ed76bc1d166973e2d175b2404520afb9e91cdee7a26",
+  "triplecover_status": "disabled",
+  "updated_at_utc": "2026-10-29T02:43:25.414489+00:00",
   "used": 14
 }
