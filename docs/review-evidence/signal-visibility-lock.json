@@ -1,0 +1,45 @@
+{
+  "attempts_remaining": 6,
+  "attempts_used": 14,
+  "implementation_sha256": "2fda30f2f192ac7cacd43d74d68feb5d5951dbd6086830ab9a0b02e26853ada0",
+  "locked_at_utc": "2026-10-29T04:26:24.676185+00:00",
+  "new_attempts": 0,
+  "new_model_ids": 0,
+  "parameter_sha256": "8cd3cde444d3af40ba1ab156dfb1a5f2008f38faaa769ca6fcfff08b1c80c615",
+  "research_source": {
+    "path": "/workspace/research-duo/logs/codex-20261029T041832Z-e3e8d497.jsonl",
+    "sha256": "987d3bef9d49e3deee91e7c5192cead488582618fedc72d3f9d2e3fc920ed84a"
+  },
+  "specification": {
+    "A": "positions1..48 cut into8 disjoint groups of6; position49 unused",
+    "B": "shared positions1,2,3 plus unique groups4..6,7..9,...,25..27; other positions unused",
+    "analytic_check": "integer generating-function counts for each fixed positional template; random order baseline independent of w; visibility mixture linear in v",
+    "binomial": "fixed constant p, independent20 Bernoulli periods; sum k9..20 C(20,k)*p**k*(1-p)**(20-k); MC plug-in p and analytic p both reported; no inference about HKJC",
+    "bit_generator": "PCG64",
+    "cell_order": "w1,2,4 outer; visibility0,.5,1 inner; one continuous Generator(PCG64(seed))",
+    "difference": "B-A; SE from sample variance of paired indicator difference divided by N; normal95% Monte Carlo error halfwidth=1.959963984540054*SE",
+    "distribution": "unordered six-subset D of1..49; P(D) proportional to w**len(D intersection {1..6})",
+    "ideal": "S first then complement; within tied group smaller number; w1 all equally likely, ascending order is arbitrary deterministic tie break, no useful signal",
+    "pairing": "A and B share same D and supplied rank within each cell; nine cells use successive independent samples",
+    "per_cell": 100000,
+    "protected": "no real CSV read; no096-115 backtest; no registered model, protocol, predictor or forecast changes; attempts14/20,remaining6",
+    "purpose": "synthetic signal visibility method calibration; no model ID or attempt",
+    "rank": "after drawing D, draw visibility flags with rng.random(N)<v; then independent uniform row permutations of0..48 for ALL rows; replace visible rows by ascending0..48; all draws independent of rank visibility",
+    "rank_diagnostic": "actual supplied-order positions1..49; main-six average; not midrank and not a selection rule",
+    "sample": "draw K with probabilities C(6,k)*C(43,6-k)*w**k/Z; rng.choice(7,size=N,p=...); rng.permuted broadcast0..5 and6..48 separately per row; keep first K and6-K",
+    "seed": 20261030,
+    "success": "at least one group contains>=3 selected main numbers; one success max per period; no special number",
+    "visibilities": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "weights": [
+      1,
+      2,
+      4
+    ]
+  },
+  "status": "locked_before_100000_per_cell_synthetic_diagnostic",
+  "test_sha256": "018699e4ff17a2dd594081e032ef3d7cbf12f596c88a26c15871362d40369c79"
+}
