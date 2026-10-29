@@ -1,0 +1,223 @@
+{
+  "a19_sources": [
+    {
+      "archived_path": "docs/review-evidence/a19/agy-20261029T111355Z-dd1ad3e2.stdout.json",
+      "original_path": "/workspace/research-duo/logs/antigravity/agy-20261029T111355Z-dd1ad3e2.stdout.json",
+      "sha256": "c998795421faab939cd6f56bdbf743d05a228ed99715f10884ad5e080d98716d"
+    },
+    {
+      "archived_path": "docs/review-evidence/a19/codex-20261029T113100Z-44efd5d3.jsonl",
+      "original_path": "/workspace/research-duo/logs/codex-20261029T113100Z-44efd5d3.jsonl",
+      "sha256": "c9047638ccda15bfdb132ca471a0cffe9e7fc93af51f046e2def3876120fa96d"
+    }
+  ],
+  "attempts_remaining": 6,
+  "attempts_used": 14,
+  "baseline_commit": "ac1e4f3bc268dfbffe8342c8343023ad84017e3b",
+  "coverage_interpretation": "0 obtained and verified within69target draws, not proof official records do not exist; no claim all69videos were opened",
+  "excluded_nonofficial_lead": {
+    "listed_draw": "26/047",
+    "observation": "third-party description claims excerpting HKJC app video; not authenticated official archive, no transcript or field values accepted",
+    "uploader_as_indexed": "六合彩頭獎貓",
+    "url": "https://www.youtube.com/watch?v=iJLQDwxiz1Q"
+  },
+  "http_probes": [
+    {
+      "bytes": 133,
+      "final_url": "https://www.hkjc.com/jctv/",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Thu, 29 Oct 2026 11:33:31 GMT"
+      },
+      "observation": "HTML meta refresh points to //campaign.hkjc.com/ch/jctv/index.aspx; not a historic draw archive",
+      "sha256": "54b8c766f1bcd2a530f485a3dfcba06a923f820b662f6423d2c6d6d09fa73519",
+      "status": 200,
+      "url": "https://www.hkjc.com/jctv/"
+    },
+    {
+      "bytes": 124319,
+      "final_url": "https://campaign.hkjc.com/ch/jctv/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 29 Oct 2026 11:33:32 GMT"
+      },
+      "sha256": "3edd63cef897c22b7de87fd4ac9b12fbb427fe73c9a5ba89aafdeac117f172e6",
+      "status": 200,
+      "url": "https://campaign.hkjc.com/ch/jctv/"
+    },
+    {
+      "bytes": 332438,
+      "final_url": "https://campaigns.hkjc.com/2026-marksix/ch/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 29 Oct 2026 11:33:33 GMT"
+      },
+      "sha256": "6f83a156db5910c5eb325c08b1bdb11e023d2b067bb10c054f5319842244364c",
+      "status": 200,
+      "url": "https://campaigns.hkjc.com/2026-marksix/ch/"
+    },
+    {
+      "bytes": 4300,
+      "final_url": "https://bet.hkjc.com/ch/marksix/results",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Thu, 29 Oct 2026 11:33:34 GMT",
+        "Last-Modified": "Tue, 27 Oct 2026 09:48:35 GMT"
+      },
+      "sha256": "cf9369ec948eecf9796e01450a8ecab0977bdb0223758bc3245eab6a4cef98b5",
+      "status": 200,
+      "url": "https://bet.hkjc.com/ch/marksix/results"
+    },
+    {
+      "bytes": 19177,
+      "checked_at_utc": "2026-10-29T11:34:46.161727+00:00",
+      "final_url": "https://www.hkjc.com/chinese/pressrelease/mcs01_showhtml.asp?SelType=NEWS&filename=20160219_143108_C_NEWS.htm",
+      "headers": {
+        "Content-Length": "19177",
+        "Content-Type": "text/html; Charset=BIG5",
+        "Date": "Thu, 29 Oct 2026 11:34:46 GMT"
+      },
+      "method": "GET",
+      "sha256": "9657fb6ccfef1231b6c6eea040e2017bdca7ba6b5189b401a12515649c2f3f20",
+      "status": 200,
+      "url": "https://www.hkjc.com/chinese/pressrelease/mcs01_showhtml.asp?SelType=NEWS&filename=20160219_143108_C_NEWS.htm"
+    },
+    {
+      "bytes": 187285,
+      "checked_at_utc": "2026-10-29T11:34:46.601761+00:00",
+      "final_url": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news/2026-04/news_2026042101511",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 29 Oct 2026 11:34:48 GMT"
+      },
+      "method": "GET",
+      "sha256": "6f25eccb4532e7a671f0a78d3b00a36f222f477e9209b05e63060c59b92d45ac",
+      "status": 200,
+      "url": "https://corporate.hkjc.com/zh-HK/news-and-publications/corporate-news/2026-04/news_2026042101511"
+    },
+    {
+      "bytes": 51884,
+      "checked_at_utc": "2026-10-29T11:34:48.737822+00:00",
+      "final_url": "https://is.hkjc.com/AOSBS/help/ch/MK6_Guide.html",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Thu, 29 Oct 2026 11:34:49 GMT",
+        "Last-Modified": "Tue, 20 Aug 2024 08:04:47 GMT"
+      },
+      "method": "GET",
+      "sha256": "e03653725d617fe713d1346cf1ab20f7a8c13a40d0ece91e69c507c581d9764c",
+      "status": 200,
+      "url": "https://is.hkjc.com/AOSBS/help/ch/MK6_Guide.html"
+    },
+    {
+      "body_prefix": "<!doctype html><html lang=\"zh-HK\"><head><meta charset=\"utf-8\"/><link rel=\"icon\" href=\"/favicon.ico\"/><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap\"/><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap\"/><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com",
+      "checked_at_utc": "2026-10-29T11:34:49.289575+00:00",
+      "method": "GET",
+      "sha256": "cf9369ec948eecf9796e01450a8ecab0977bdb0223758bc3245eab6a4cef98b5",
+      "status": 404,
+      "url": "https://bet.hkjc.com/contentserver/jcbw/cmc/last30draw.json"
+    },
+    {
+      "bytes": 0,
+      "checked_at_utc": "2026-10-29T11:34:50.214996+00:00",
+      "final_url": "https://streaminghkjc-a.akamaihd.net/hdflash/jctv2/marksixClip/marksix_2.mp4",
+      "headers": {
+        "Content-Length": "973390",
+        "Content-Type": "video/mp4",
+        "Date": "Thu, 29 Oct 2026 11:34:50 GMT",
+        "Last-Modified": "Tue, 22 Mar 2016 07:08:10 GMT"
+      },
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://streaminghkjc-a.akamaihd.net/hdflash/jctv2/marksixClip/marksix_2.mp4"
+    },
+    {
+      "bytes": 3565580,
+      "checked_at_utc": "2026-10-29T11:35:46.014130+00:00",
+      "selected_query_snippet": "fragment lotteryDrawsFragment on LotteryDraw {\\n    id\\n    year\\n    no\\n    openDate\\n    closeDate\\n    drawDate\\n    status\\n    snowballCode\\n    snowballName_en\\n    snowballName_ch\\n    lotteryPool {\\n      sell\\n      status\\n      totalInvestment\\n      jackpot\\n      unitBet\\n      estimatedPrize\\n      derivedFirstPrizeDiv\\n      lotteryPrizes {\\n        type\\n        winningUnit\\n        dividend\\n      }\\n    }\\n    drawResult {\\n      drawnNo\\n      xDrawnNo\\n    }\\n  }\"])))},Ku=function(){return(0,Si.J1)(Pu||(Pu=(0,Ti.A)([\"fragment lotteryStatFragment on LotteryStat {\\n    year\\n    no\\n    drawDate\\n    drawnNumbers {\\n        lastDrawnIn\\n        totalNumber\\n        drawnNo\\n    }\\n  }\"])))};function zu(){return(0,Si.J1)(Fu||(Fu=(0,Ti.A)([\"\\n        \",\"\\n        query marksixResult($lastNDraw: Int, $startDate: String, $endDate: String, $drawType: LotteryDrawType) {\\n            lotteryDraws(lastNDraw: $lastNDraw, startDate: $startDate, endDate: $endDate, drawType: $drawType) {\\n              ...lotteryDrawsFragment\\n            }\\n        }\\n    \"])),Xu())}function qu(e,n){var l=Object.keys(e);if(Object.getOwnPropertySymbols){var t=Object.getOwnPropertySymbols(e);n&&(t=t.filter((function(n){return Object.getOwnPropertyDescriptor(e,n).enumerable}))),l.push.apply(l,t)}return l}function Qu(e){for(var n=1;n<arguments.length;n++){var l=null!=arguments[n]?arguments[n]:{};n%2?qu(Object(l),!0).forEach((function(n){(0,t.A)(e,n,l[n])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(l)):qu(Object(l)).forEach((function(n){Object.defineProperty(e,n,Object.getOwnPropertyDescriptor(l,n))}))}return e}var Zu=(0,a.createContext)(),$u=function(e){var n,l,t,i,o,r,u=(0,a.useState)(!1),c=(0,s.A)(u,2),p=c[0],m=c[1],v=(0,d.B)(),h=",
+      "sha256": "86b512069b49df641dcbae10a7626663b02252b4024d3ca1a6f88ec5400a0619",
+      "status": 200,
+      "url": "https://bet.hkjc.com/static/js/main.5709b251.js"
+    },
+    {
+      "body": "{\"errors\":[{\"message\":\"Internal server error - BAD_REQUEST\"}]}\n",
+      "body_sha256": "563bf2e2bcf325301909ac13dda3bd583e1760369afde08790f34e3072f1964f",
+      "checked_at_utc": "2026-10-29T11:35:46.016601+00:00",
+      "method": "GET",
+      "request": {
+        "operationName": "marksixResult",
+        "query": "fragment lotteryDrawsFragment on LotteryDraw {\n    id\n    year\n    no\n    openDate\n    closeDate\n    drawDate\n    status\n    snowballCode\n    snowballName_en\n    snowballName_ch\n    lotteryPool {\n      sell\n      status\n      totalInvestment\n      jackpot\n      unitBet\n      estimatedPrize\n      derivedFirstPrizeDiv\n      lotteryPrizes {\n        type\n        winningUnit\n        dividend\n      }\n    }\n    drawResult {\n      drawnNo\n      xDrawnNo\n    }\n  }\n\n        query marksixResult($lastNDraw: Int, $startDate: String, $endDate: String, $drawType: LotteryDrawType) {\n            lotteryDraws(lastNDraw: $lastNDraw, startDate: $startDate, endDate: $endDate, drawType: $drawType) {\n              ...lotteryDrawsFragment\n            }\n        }\n    ",
+        "variables": {
+          "drawType": "All",
+          "endDate": "20261027",
+          "lastNDraw": 100,
+          "startDate": "20260505"
+        }
+      },
+      "status": 400,
+      "url": "https://info.cld.hkjc.com/graphql/base-get/"
+    }
+  ],
+  "new_attempts": 0,
+  "new_ids": 0,
+  "official_video_probe": {
+    "bytes": 973390,
+    "checked_at_utc": "2026-10-29T11:36:33.608602+00:00",
+    "duration_seconds": "10.164792",
+    "format_tags": {
+      "compatible_brands": "isomiso2avc1mp41",
+      "creation_time": "2015-11-23T03:00:44.000000Z",
+      "encoder": "Lavf54.6.100",
+      "major_brand": "isom",
+      "minor_version": "512"
+    },
+    "method": "GET",
+    "scope": "official linked product guide; not a verified draw26/047-115 archive",
+    "sha256": "a555131dbad96bb801ed5df3b82204fad80929ed56a77e4424178e3040c52c43",
+    "status": 200,
+    "url": "https://streaminghkjc-a.akamaihd.net/hdflash/jctv2/marksixClip/marksix_2.mp4",
+    "visual_observation": "Frame at4s inspected: draw studio inside mobile live-view UI; no verified26/047-115 issue/date mapping. No physical sequence transcribed."
+  },
+  "recorded_at_utc": "2026-10-29T11:37:24.849284+00:00",
+  "scope": "official source availability audit only; no new candidate, prediction, historical backtest or attempt",
+  "target_window": {
+    "dates_from_frozen_snapshot": true,
+    "first_issue": "26/047",
+    "last_issue": "26/115",
+    "rows": 69
+  },
+  "verified_period_records": {
+    "ball_set_id": 0,
+    "machine_id": 0,
+    "physical_draw_order": 0
+  },
+  "web_read_limitations": [
+    {
+      "observation": "web read returned footer only; no verifiable target draw playlist obtained",
+      "url": "https://www.youtube.com/user/HKJC/playlists"
+    },
+    {
+      "observation": "web fetch403; direct urllibGET200 recorded separately; linked official HKJC YouTube channel, no target-period archive established",
+      "url": "https://campaigns.hkjc.com/2026-marksix/ch/"
+    },
+    {
+      "observation": "web fetch rejected size27092775; search excerpt only, not counted as full-document verification",
+      "url": "https://m.hkjc.com/download/DigitalGuide_HKJC_chi.pdf"
+    }
+  ],
+  "web_search_queries": [
+    "site:hkjc.com \"六合彩\" \"重溫\" \"2026\"",
+    "site:hkjc.com \"六合彩\" \"球組\"",
+    "site:hkjc.com \"六合彩\" \"攪珠機\" \"編號\"",
+    "六合彩2026 047攪珠官方影片",
+    "site:hkjc.com \"Mark Six\" \"ball sets\"",
+    "site:hkjc.com \"Mark Six\" \"draw order\"",
+    "site:hkjc.com \"六合彩\" \"監場\" \"號碼球\"",
+    "site:hkjc.com \"六合彩\" \"26/047\" \"影片\"",
+    "site:hkjc.com \"六合彩\" \"球組編號\"",
+    "\"六合彩\" \"2026\" \"攪珠\" \"香港賽馬會\" 官方影片 (youtube.com)",
+    "\"ball sets\" \"Mark Six\"",
+    "\"六合彩\" \"球箱\" site:hkjc.com",
+    "\"六合彩\" \"攪珠機編號\""
+  ]
+}
