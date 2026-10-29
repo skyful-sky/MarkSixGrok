@@ -1,6 +1,12 @@
 # 外部固定窗口與欄位級來源合格清單
 
-本輪基準 `c7303326f77e838cc7b9bf8fff11b182fd8b03e2`；查核日期 2026-10-29 HKT。補充[外部預驗證協議](external-validation-protocol.md)，不改200／500、八注映射、公平基準、α、通過／停止條件。**只鎖定窗口中繼資料，不代表已取得合格、未曝光holdout；四個彩票目前均不能據此開跑候選。**沒有候選評分、回測、新ID、外部提交序號或香港attempt。
+本輪基準 `c7303326f77e838cc7b9bf8fff11b182fd8b03e2`；查核日期 2026-10-29 HKT。補充[外部預驗證協議](external-validation-protocol.md)，不改200／500、八注映射、公平基準、α、通過／停止條件。**初版只鎖定窗口中繼資料；本輪已補備用歷史快照，仍不代表合格、未曝光holdout，四個彩票均不能據此開跑候選。**沒有候選評分、回測、新ID、外部提交序號或香港attempt。
+
+## 本輪下載複核（基準2984885之後）
+
+四組各700期的六主號、獨立額外球及日期已從原列備用站取得，存於[`data/external/`](../data/external/README.md)。**備用快照的700列／200暖身＋500評分、無重複、無主號缺漏、期號或期序及固定邊界已核實**；每列有URL與原文路徑，全部成功回應保存原文及SHA-256。UK期號為日期排序索引，僅四個邊界詳頁印出期號已另核，不冒稱每列皆有官方期號。
+
+日本完整700列備用球組及報稱抽選順序已取得；所有彩票的**官方完整逐期對照、完整歷史矩陣／機球制度及未曝光資格仍未核實**。UK官方CSV本輪回200但轉為最新期XML，非目標歷史；日／中官方歷史403，韓官方JSON SSL EOF。本輪已下載與解析全部結果，不能聲稱盲測資格。逐項判定、來源與資料雜湊以[下載審計](external-data-download-audit.md)及[manifest](../data/external/manifest.json)為準；下列窗口定義不變，首版HTTP狀態保留作當時記錄。
 
 ## 選窗規則：不看任何候選成績
 
@@ -21,7 +27,7 @@ UK只列已核實的歷史6/49遊戲；不混Lotto Extra、Big Draw、raffle或�
 | 韓國Lotto6/45，Asia/Seoul | **1–200**；**2002-12-07–2006-09-30** | **201–700**；**2006-10-07–2016-04-30** | [備用首期歷史表](https://lottostory.kr/guide/history/)、[200／201期年表](https://lottohaebom.com/history/2006)、[700期](https://kr.lottolyzer.com/home/south-korea/6_slash_45-lotto/detail-view/draw/700)核對。政府[十週年介紹](https://www.korea.kr/briefing/policyBriefingView.do?newsId=148753767)也記2002-12-07起步，但不能代替逐期結果。官方邊界／整段原檔：**未核實**。 |
 | 中國雙色球紅球，Asia/Shanghai | **2003001–2004111**；**2003-02-23–2004-12-05**；累計第1–200期 | **2004112–2008029**；**2004-12-07–2008-03-13**；累計第201–700期 | [500.com備用原表](https://datachart.500.com/ssq/history/newinc/history.php?start=03001&end=08029)實際讀到700列期號／日期；[江蘇福彩紀錄](https://www.jslottery.com/articles/b650d8e3-48df-4c9c-81e5-ea108b2b113c?locale=zh-CN)確認第700次在3月13日，[官方獎訊](https://www.jslottery.com/winning_info?locale=zh-CN&lottery_type_id=10&page=714)對應2008029／2008-03-13。官方完整700期原檔：**未核實**。 |
 
-雙色球備用表的累計分母為：2003年89期＋2004年122期＋2005年153期＋2006年154期＋2007年153期＋2008年前29期＝700。暖身89＋111＝200；評分為2004年餘11＋153＋154＋153＋29＝500。只含期號／日期的[700列中繼資料](review-evidence/external-ssq-issue-calendar.json)完整保留，沒有存入新號碼資料或進行評分。
+雙色球備用表的累計分母為：2003年89期＋2004年122期＋2005年153期＋2006年154期＋2007年153期＋2008年前29期＝700。暖身89＋111＝200；評分為2004年餘11＋153＋154＋153＋29＝500。前輪只含期號／日期的[700列中繼資料](review-evidence/external-ssq-issue-calendar.json)完整保留；本輪新增紅球快照與其逐列比對一致，沒有進行評分。
 
 ## 制度／矩陣分界：已核實與未核實分開
 
@@ -55,4 +61,4 @@ UK只列已核實的歷史6/49遊戲；不混Lotto Extra、Big Draw、raffle或�
 
 新測試檢查四組200／500、期號連續與不重疊、日期順序、雙色球年度重設與700列真實中繼資料、預期矩陣與已知排除界線；並用負例確認少一期、重疊、錯矩陣及跨矩陣改制會失敗，未知資格不會被當成可執行。**離線測試不能證明外部來源真偽、未曝光或實體機球制度一致**，也不調用任何出票／回測函式。
 
-完整測試：`PYTHONDONTWRITEBYTECODE=1 /tmp/marksix-r2-venv/bin/python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py -q -p no:cacheprovider`，結果 **120 passed in 8.21s**。文件與中繼資料／測試的SHA-256納入[校驗清單](review-evidence/SHA256SUMS)，本文件另附同名`.sha256`。保護檔、香港registry及tag不動；attempts仍**14/20，剩6**。
+窗口初版測試記錄（本輪完整結果見下載審計）：`PYTHONDONTWRITEBYTECODE=1 /tmp/marksix-r2-venv/bin/python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py -q -p no:cacheprovider`，結果 **120 passed in 8.21s**。文件與中繼資料／測試的SHA-256納入[校驗清單](review-evidence/SHA256SUMS)，本文件另附同名`.sha256`。保護檔、香港registry及tag不動；attempts仍**14/20，剩6**。

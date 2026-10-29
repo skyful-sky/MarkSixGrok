@@ -1,0 +1,287 @@
+{
+  "schema": "external-fixed-window-data-v1",
+  "baseline_commit": "2984885a5eeb5cb69ec4a4e84787cb53cf1b1484",
+  "created_at_utc": "2026-10-29T14:42:30.865324+00:00",
+  "purpose": "Data acquisition/integrity only; no model, scoring, backtest, external trial or new ID.",
+  "candidate_evaluations": 0,
+  "new_ids": 0,
+  "attempts_used": 14,
+  "attempts_cap": 20,
+  "retrievals_path": "retrievals.json",
+  "retrievals_sha256": "bde4c5ad405bd73a1811a7b95fb49d60f18f7c71a3c021e332d96d2035d4efcc",
+  "window_policy": "unchanged first700 original main draws; first200 warmup and next500 holdout",
+  "missing_policy": "NA at original fixed issue; no replacement, date/ball imputation, compressed denominator or shifted window; parser fails closed on missing/changed structure.",
+  "exposure": "Full historical results downloaded, parsed and published in this work; no independent unexposed custody established. Never certify blindness from successful download/integrity tests.",
+  "datasets": [
+    {
+      "key": "uk",
+      "path": "uk.csv",
+      "sha256": "17e9e9a8a4c5b5b7805004ef5645fd0579dc984ae6a704c79b784601510c6610",
+      "source_class": "listed_nonofficial_backup",
+      "source_urls": [
+        "https://www.results.co.uk/lotto-results-1994",
+        "https://www.results.co.uk/lotto-results-1995",
+        "https://www.results.co.uk/lotto-results-1996",
+        "https://www.results.co.uk/lotto-results-1997",
+        "https://www.results.co.uk/lotto-results-1998",
+        "https://www.results.co.uk/lotto-results-1999",
+        "https://www.results.co.uk/lotto-results-2000",
+        "https://www.results.co.uk/lotto-results-2001",
+        "https://www.results.co.uk/lotto-results-2002"
+      ],
+      "lottery": "UK historical Lotto6/49",
+      "main_pool_expected": 49,
+      "main_draw_size": 6,
+      "warmup": {
+        "count": 200,
+        "date_end": "1997-11-22",
+        "date_start": "1994-11-19",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      },
+      "holdout": {
+        "count": 500,
+        "date_end": "2002-09-07",
+        "date_start": "1997-11-26",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": "1997-02-05",
+          "effect": "Wednesday draw added; matrix unchanged at6/49 per historical evidence",
+          "kind": "schedule",
+          "status": "official_verified"
+        },
+        {
+          "conservative_exclusion_start": "2015-10-01",
+          "date": null,
+          "kind": "matrix",
+          "month": "2015-10",
+          "new_pool": 59,
+          "old_pool": 49,
+          "source": "https://www.gamblingcommission.gov.uk/about-us/guide/gambling-behaviour-2015-to-2023-quarterly-telephone-survey-trends",
+          "status": "official_month_verified_day_unverified"
+        }
+      ],
+      "rows": 700,
+      "warmup_rows": 200,
+      "holdout_rows": 500,
+      "observed_main_rows": 700,
+      "missing_main_issues": [],
+      "duplicate_issues": [],
+      "duplicate_dates": [],
+      "backup_continuity_verified": true,
+      "observed_values_match_expected_matrix": true,
+      "official_full700_verified": false,
+      "complete_matrix_history_verified": false,
+      "physical_fields_officially_verified": false,
+      "no_prior_exposure_verified": false,
+      "execution_eligible": false,
+      "regime_status": "Expected main-six matrix values and known boundaries checked; complete historical/physical regime consistency unverified.",
+      "provenance_note": "700 backup archive dates; chronological issue indices, not printed row-wise official IDs; four printed boundary draw numbers independently checked in saved detail pages."
+    },
+    {
+      "key": "japan",
+      "path": "japan.csv",
+      "sha256": "d8fbe8aaa0f01a1d96ff9259b891f693ba6837097c906436c8b2a8f132b0f52c",
+      "source_class": "listed_nonofficial_backup",
+      "source_urls": [
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=101",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=201",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=301",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=401",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=501",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=601"
+      ],
+      "lottery": "Japan Loto6",
+      "main_pool_expected": 43,
+      "main_draw_size": 6,
+      "warmup": {
+        "count": 200,
+        "date_end": "2004-08-19",
+        "date_start": "2000-10-05",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      },
+      "holdout": {
+        "count": 500,
+        "date_end": "2012-10-08",
+        "date_start": "2004-08-26",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "backup_date": "2011-04-04",
+          "date": null,
+          "kind": "schedule",
+          "month": "2011-04",
+          "source": "https://www.takarakuji-official.jp/news/recent/?newsId=201106",
+          "status": "official_month_verified_day_unverified"
+        }
+      ],
+      "rows": 700,
+      "warmup_rows": 200,
+      "holdout_rows": 500,
+      "observed_main_rows": 700,
+      "missing_main_issues": [],
+      "duplicate_issues": [],
+      "duplicate_dates": [],
+      "backup_continuity_verified": true,
+      "observed_values_match_expected_matrix": true,
+      "official_full700_verified": false,
+      "complete_matrix_history_verified": false,
+      "physical_fields_officially_verified": false,
+      "no_prior_exposure_verified": false,
+      "execution_eligible": false,
+      "regime_status": "Expected main-six matrix values and known boundaries checked; complete historical/physical regime consistency unverified.",
+      "provenance_note": "700 explicit backup issue IDs1..700; backup o1..o6/setball preserved as unverified physical fields; official historical pages HTTP403."
+    },
+    {
+      "key": "korea",
+      "path": "korea.csv",
+      "sha256": "73bb6bfd83d18d4f5bcdf98cd2383c2f0503f800c23dae66102334cd7177031a",
+      "source_class": "listed_nonofficial_backup",
+      "source_urls": [
+        "https://lottohaebom.com/history/2002",
+        "https://lottohaebom.com/history/2003",
+        "https://lottohaebom.com/history/2004",
+        "https://lottohaebom.com/history/2005",
+        "https://lottohaebom.com/history/2006",
+        "https://lottohaebom.com/history/2007",
+        "https://lottohaebom.com/history/2008",
+        "https://lottohaebom.com/history/2009",
+        "https://lottohaebom.com/history/2010",
+        "https://lottohaebom.com/history/2011",
+        "https://lottohaebom.com/history/2012",
+        "https://lottohaebom.com/history/2013",
+        "https://lottohaebom.com/history/2014",
+        "https://lottohaebom.com/history/2015",
+        "https://lottohaebom.com/history/2016"
+      ],
+      "lottery": "Korea Lotto6/45",
+      "main_pool_expected": 45,
+      "main_draw_size": 6,
+      "warmup": {
+        "count": 200,
+        "date_end": "2006-09-30",
+        "date_start": "2002-12-07",
+        "issue_end": "200",
+        "issue_start": "1",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      },
+      "holdout": {
+        "count": 500,
+        "date_end": "2016-04-30",
+        "date_start": "2006-10-07",
+        "issue_end": "700",
+        "issue_start": "201",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": null,
+          "kind": "matrix_history",
+          "source": "https://www.dhlottery.co.kr/lt645/intro",
+          "status": "unverified"
+        }
+      ],
+      "rows": 700,
+      "warmup_rows": 200,
+      "holdout_rows": 500,
+      "observed_main_rows": 700,
+      "missing_main_issues": [],
+      "duplicate_issues": [],
+      "duplicate_dates": [],
+      "backup_continuity_verified": true,
+      "observed_values_match_expected_matrix": true,
+      "official_full700_verified": false,
+      "complete_matrix_history_verified": false,
+      "physical_fields_officially_verified": false,
+      "no_prior_exposure_verified": false,
+      "execution_eligible": false,
+      "regime_status": "Expected main-six matrix values and known boundaries checked; complete historical/physical regime consistency unverified.",
+      "provenance_note": "700 explicit backup issue IDs1..700; year in URL plus source month/day; official historical JSON SSL EOF."
+    },
+    {
+      "key": "ssq",
+      "path": "ssq.csv",
+      "sha256": "394c0f6d0207e4ccb1c9ae2abb078fb11dd67ec1c8c721ddda78d87604641404",
+      "source_class": "listed_nonofficial_backup",
+      "source_urls": [
+        "https://datachart.500.com/ssq/history/newinc/history.php?start=03001&end=08029"
+      ],
+      "lottery": "China SSQ red",
+      "main_pool_expected": 33,
+      "main_draw_size": 6,
+      "warmup": {
+        "count": 200,
+        "date_end": "2004-12-05",
+        "date_start": "2003-02-23",
+        "issue_end": "2004111",
+        "issue_start": "2003001",
+        "ordinal_end": 200,
+        "ordinal_start": 1
+      },
+      "holdout": {
+        "count": 500,
+        "date_end": "2008-03-13",
+        "date_start": "2004-12-07",
+        "issue_end": "2008029",
+        "issue_start": "2004112",
+        "ordinal_end": 700,
+        "ordinal_start": 201
+      },
+      "known_changes": [
+        {
+          "date": "2004-07-26",
+          "kind": "schedule_authorization",
+          "note": "Actual firstTuesday inbackup2004067=2004-08-24; do not substitute authorization date for observed implementation.",
+          "source": "https://www.mof.gov.cn/gp/xxgkml/zhs/200806/t20080624_2496540.htm",
+          "status": "official_verified_authorized_date_not_actual_first_draw"
+        },
+        {
+          "date": "2026-02-01",
+          "issue": "2026014",
+          "kind": "prize_rule",
+          "source": "https://www.szlottery.org/fcw/fcxw/tzgg/content/post_1649773.html",
+          "status": "official_verified_outside_window"
+        },
+        {
+          "date": null,
+          "kind": "matrix_history",
+          "source": "https://www.scflcp.com.cn/yxgz/823145252.jhtml",
+          "status": "unverified"
+        }
+      ],
+      "rows": 700,
+      "warmup_rows": 200,
+      "holdout_rows": 500,
+      "observed_main_rows": 700,
+      "missing_main_issues": [],
+      "duplicate_issues": [],
+      "duplicate_dates": [],
+      "backup_continuity_verified": true,
+      "observed_values_match_expected_matrix": true,
+      "official_full700_verified": false,
+      "complete_matrix_history_verified": false,
+      "physical_fields_officially_verified": false,
+      "no_prior_exposure_verified": false,
+      "execution_eligible": false,
+      "regime_status": "Expected main-six matrix values and known boundaries checked; complete historical/physical regime consistency unverified.",
+      "provenance_note": "700 explicit source issues, year resets retained; all dates/issues match previously locked700-row metadata; official API HTTP403."
+    }
+  ]
+}
