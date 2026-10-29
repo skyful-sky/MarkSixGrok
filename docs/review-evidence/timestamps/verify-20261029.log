@@ -1,0 +1,29 @@
+START_UTC 2026-10-29T09:13:03.220491+00:00
+COMMAND /tmp/marksix-ots-venv/bin/ots verify --timeout 15 -f forward/26-116.prediction.20261029T001900Z.json docs/review-evidence/timestamps/26-116.prediction.20261029T001900Z.json.ots
+STDOUT
+
+STDERR
+Could not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/box/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/box/.bitcoin/bitcoin.conf'
+
+EXIT_CODE 1
+END_UTC 2026-10-29T09:13:03.356646+00:00
+
+START_UTC 2026-10-29T09:13:03.357305+00:00
+COMMAND /tmp/marksix-ots-venv/bin/ots verify --timeout 15 -f forward/meta-borda/26-116.prediction.20261029T022640Z.json docs/review-evidence/timestamps/26-116.prediction.20261029T022640Z.json.ots
+STDOUT
+
+STDERR
+Could not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/box/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/box/.bitcoin/bitcoin.conf'
+
+EXIT_CODE 1
+END_UTC 2026-10-29T09:13:03.519503+00:00
+
+START_UTC 2026-10-29T09:13:03.520046+00:00
+COMMAND /tmp/marksix-ots-venv/bin/ots verify --timeout 15 -f docs/forward-record-audit.md docs/review-evidence/timestamps/forward-record-audit.md.ots
+STDOUT
+
+STDERR
+Could not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '/home/box/.bitcoin/.cookie') and rpcpassword not specified in the configuration file: '/home/box/.bitcoin/bitcoin.conf'
+
+EXIT_CODE 1
+END_UTC 2026-10-29T09:13:03.675404+00:00

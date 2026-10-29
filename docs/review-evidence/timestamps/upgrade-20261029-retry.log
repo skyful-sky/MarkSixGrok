@@ -1,0 +1,20 @@
+START_UTC 2026-10-29T09:12:38.255426+00:00
+COMMAND /tmp/marksix-ots-venv/bin/ots --no-cache upgrade --timeout 15 docs/review-evidence/timestamps/26-116.prediction.20261029T001900Z.json.ots docs/review-evidence/timestamps/26-116.prediction.20261029T022640Z.json.ots docs/review-evidence/timestamps/forward-record-audit.md.ots
+STDOUT
+
+STDERR
+Calendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain
+Got 1 attestation(s) from https://alice.btc.calendar.opentimestamps.org
+Got 1 attestation(s) from https://bob.btc.calendar.opentimestamps.org
+Success! Timestamp complete
+Calendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain
+Got 1 attestation(s) from https://alice.btc.calendar.opentimestamps.org
+Got 1 attestation(s) from https://bob.btc.calendar.opentimestamps.org
+Success! Timestamp complete
+Calendar https://finney.calendar.eternitywall.com: Pending confirmation in Bitcoin blockchain
+Got 1 attestation(s) from https://alice.btc.calendar.opentimestamps.org
+Got 1 attestation(s) from https://bob.btc.calendar.opentimestamps.org
+Success! Timestamp complete
+
+EXIT_CODE 0
+END_UTC 2026-10-29T09:12:40.967092+00:00
