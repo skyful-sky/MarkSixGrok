@@ -1,0 +1,44 @@
+{
+  "at_utc": "2026-10-30T10:03:36.410331+00:00",
+  "test_result": {
+    "passed": 263,
+    "skipped": 27,
+    "failed": 0,
+    "seconds": 17.92,
+    "skip_reason": "Manager-protected sealed result body reads; explicit no-sealed-results profile"
+  },
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider",
+  "prereg_commit": "a8fa3563f72d7e477085e28c6b0c50ef685ba59e",
+  "implementation_commit": "090dc17de677dc63010b09275d13c6afac8a5cfd",
+  "source_and_implementation_hashes_unchanged": true,
+  "sealed_result_sha256": "e2cf0b60f36f1323e50a9b84a5b000466909212b4a0b49d5e47557689cbd7a55",
+  "seal_and_ledger_verified": true,
+  "ledger_previous_records_unchanged": true,
+  "run_count": 1,
+  "npz_files_verified": 24,
+  "all_replicate_rows_retained": 310000,
+  "draw_batches_recorded": 1222,
+  "protected_diff_baseline": "9e52e2d59a9ee871369a4cb180103b22ba70d2c6",
+  "protected_paths_unchanged": [
+    "prereg",
+    "forward",
+    "marksix_data.csv",
+    "registry",
+    "data/external",
+    "data/discovery",
+    "calibration",
+    "ev",
+    "requirements.txt",
+    "docs/prereg/ev-comp-nb-r3.md",
+    "docs/prereg/ev-comp-nb-r3.lock.json"
+  ],
+  "preexisting_source_files_unchanged": true,
+  "tag_refs": [
+    "refs/tags/prereg-r2 3f39e09868d105b68805b2b5c0aa32af2b9c4da5"
+  ],
+  "new_hit_attempts": 0,
+  "cumulative_hk_hit_attempts": 14,
+  "new_simulations_in_validation": 0,
+  "no_hk_application": true,
+  "ev_r3_runs": 0
+}

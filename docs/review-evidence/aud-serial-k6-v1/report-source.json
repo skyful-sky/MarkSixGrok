@@ -1,0 +1,10 @@
+{
+  "renderer": "render_report.py",
+  "input_results_sha256": "e2cf0b60f36f1323e50a9b84a5b000466909212b4a0b49d5e47557689cbd7a55",
+  "input_calibration_sha256": "05a80c06d8195f351686910a02bf17b5a083bde3852302462ecb6d737fa5ce8f",
+  "report_sha256": "01d1b5bb8b1e674cee8b960c44643b70d102892824ca25d8c8d5082be80903d9",
+  "power_csv_sha256": "83642ec458b4200ddb7eb3260b8dea81b92ace889390aaa2ecc635e68da77bb0",
+  "new_simulations": 0,
+  "new_fits": 0,
+  "new_candidate_scores": 0
+}
