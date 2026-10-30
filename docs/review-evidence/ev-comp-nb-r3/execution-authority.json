@@ -1,0 +1,8 @@
+{
+  "authority": "Manager 2026-10-30 18:05 HKT",
+  "instruction": "Execute EV-COMP-NB-R3 under 26876ff without parameter changes; exact grouped NB2 fitting/scoring, test, commit and push",
+  "HK_attempts_added": 0,
+  "HK_attempts_cumulative": 14,
+  "AUD_SERIAL_rerun_authorized": false,
+  "protected_inputs_unchanged": true
+}

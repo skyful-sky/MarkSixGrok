@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-30T10:19:04.329553+00:00",
+  "synthetic_unit_passed": 15,
+  "synthetic_unit_skipped_real_result": 1,
+  "full_suite_passed": 278,
+  "full_suite_skipped": 28,
+  "full_suite_failed": 0,
+  "seconds": 19.12,
+  "sealed_body_read_skips": 27,
+  "R3_result_not_yet_created_skips": 1,
+  "real_R3_enumerations": 0,
+  "real_R3_fits": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider"
+}

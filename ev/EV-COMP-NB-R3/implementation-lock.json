@@ -1,0 +1,41 @@
+{
+  "id": "EV-COMP-NB-R3",
+  "status": "implementation_locked_not_run",
+  "prereg_commit": "26876ff214ca655b80f962d5d2024043ae78189b",
+  "baseline_commit": "cfe62acff20f5cda8a4ff3b565433de70e183c6b",
+  "at_utc": "2026-10-30T10:19:04.332765+00:00",
+  "files_sha256": {
+    "src/ev_comp_nb_r3.py": "02a587216e664e688181810aa75e2c3e70be7f30e00cc834ce7b18e55f1c17da",
+    "tests/test_ev_comp_nb_r3.py": "6b61e2632a0699de7a1ab02c3b1d143bebd8739f62ba88041ee06fa4cae3ed7f",
+    "src/ev_dyn_dilute_r1.py": "3e687136ac4b91b75dceb9f28997407b46b76528e674ffd02f7b23dc8d3e6e10",
+    "requirements.txt": "7701526b5dcc84676ab9a7f7b2c4e3382d16bd9264585b1e971d53ae00c9fd0f",
+    "docs/review-evidence/prepare_ev1.py": "63adeb2f1fd9e3ba5f737bde410bee65b167fbc5610018404488ea3f8a5e6678",
+    "docs/review-evidence/prepare_discovery.py": "7a1d8eb1faf2b61257975db591a2790a3995514f85787218c9786f3bf19060dd",
+    "docs/prereg/ev-comp-nb-r3.md": "cfb88a954f01fc1e6b90e4970ea00038f27fa2d39237740347d726550eb03d2c",
+    "docs/prereg/ev-comp-nb-r3.lock.json": "563ceee27a06c19e96ee907d077d486e32101ba04bd606fefdcfc2c95cf4510c",
+    "docs/ev-comp-nb-r3-implementation.md": "a9b3ce995c4f794cd2fd392b812864fc7950b3bd29634c9d1ac620d083b73110",
+    "data/discovery/ev1/acquisition-plan.json": "bcd18b12a350b71aa881cc5acd9a9c971219e4138039de6898a26312d98d9eb6",
+    "ev/EV-DYN-DILUTE-R1/run/scores.jsonl": "cc399ea9f711e0a607cc576d62d8baa262e69cd971b5493e6ce6ef10bb9f5708",
+    "ev/EV-DYN-DILUTE-R1/run/results.json": "6fcbde15f56677f27307e7ff358d272357ce0965848d29499001e560b195daa3",
+    "ev/EV-DYN-DILUTE-R1/run/sealed.json": "f352e07a67ea9ad2aec9038759ac4e9fa415c618d41e4f2439957e80f668792b",
+    "docs/review-evidence/ev-comp-nb-r3/execution-authority.json": "02925e97d3da3eab1cf6ce99239f0cbde4d1853e800ccfb82bf38fabebd8b3f3",
+    "docs/review-evidence/ev-comp-nb-r3/validation-before-run.json": "c674e236d8f1274dfb8ae1b0bb7b13158b1b556be412482e1ed73e792bfb471c"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "runs_authorized": 1,
+  "real_fits_started": 0,
+  "real_enumerations_started": 0,
+  "enumeration_batch": 65536,
+  "exact_class_domain": 240100,
+  "bootstrap_seed_sequence": "[20261030,20,country_index,0]",
+  "R1_refits": 0,
+  "AUD_SERIAL_reruns": 0,
+  "HK_attempts_added": 0,
+  "HK_attempts_cumulative": 14
+}
