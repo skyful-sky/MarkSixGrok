@@ -1,0 +1,25 @@
+{
+  "id": "AUD-SERIAL-K6-v1",
+  "status": "implementation_locked_before_run",
+  "prereg_commit": "a8fa3563f72d7e477085e28c6b0c50ef685ba59e",
+  "created_at_utc": "2026-10-30T09:57:22.414905+00:00",
+  "files_sha256": {
+    "src/aud_serial_k6_v1.py": "0e91e50b6bc15cfe0cd9c5134c1d8924b68e950068cb62bad80607d220fd744c",
+    "tests/test_aud_serial_k6_v1.py": "51bf3d4b7e198d9903ce4b6679b0438cdd0635f7e248d8ca64d33b4c9c487e54",
+    "docs/prereg/aud-serial-k6-v1.md": "0450d5c471e896524a8856841364db668df0fe88017779704a85b8e04deaf798",
+    "audits/AUD-SERIAL-K6-v1/lock.json": "ffd3c1c48ec5310461893caf9e500a43a1d1b1cb5d127284f7777029fe5fc7ee",
+    "requirements.txt": "7701526b5dcc84676ab9a7f7b2c4e3382d16bd9264585b1e971d53ae00c9fd0f",
+    "docs/review-evidence/aud-serial-k6-v1/research-final.json": "9d624af74465f8786f7651753bd5770cd999d6a942ed7fe3504e20d3c66139dc",
+    "docs/review-evidence/aud-serial-k6-v1/validation-before-run.json": "bd4b6c91d6648e706ab86f090789681e63ef017c6cb1b2e59a94fbadc9361c88",
+    "data/discovery/manifest.json": "745d5ca55fe73a2178c0b06c65524e24eeefc820e5b8ae318edaa6d2bbfddfd4"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3"
+  },
+  "entrypoint": "PYTHONDONTWRITEBYTECODE=1 /tmp/marksix-commit-venv/bin/python src/aud_serial_k6_v1.py --run",
+  "runs_authorized": 1,
+  "runs_started": 0,
+  "no_statistic_or_parameter_changes_after_results": true
+}

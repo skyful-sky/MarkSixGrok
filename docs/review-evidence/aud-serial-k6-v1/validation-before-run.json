@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-30T09:57:22.413217+00:00",
+  "phase": "implementation_only_before_real_run",
+  "unit_synthetic": {
+    "passed": 24,
+    "skipped": 1,
+    "reason": "real output does not yet exist; test never initiates run"
+  },
+  "full_suite": {
+    "passed": 262,
+    "skipped": 28,
+    "failed": 0,
+    "seconds": 17.43,
+    "sealed_body_skips": 27,
+    "not_yet_run_output_skip": 1
+  },
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider",
+  "real_audit_runs": 0,
+  "real_observed_statistics_computed": false
+}
