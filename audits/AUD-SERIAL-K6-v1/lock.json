@@ -1,0 +1,196 @@
+{
+  "id": "AUD-SERIAL-K6-v1",
+  "kind": "audit_not_hit_attempt",
+  "status": "locked_not_run",
+  "baseline_commit": "9e52e2d59a9ee871369a4cb180103b22ba70d2c6",
+  "created_at_utc": "2026-10-30T09:50:10.734371+00:00",
+  "spec_path": "docs/prereg/aud-serial-k6-v1.md",
+  "spec_sha256": "0450d5c471e896524a8856841364db668df0fe88017779704a85b8e04deaf798",
+  "review_evidence_path": "docs/review-evidence/aud-serial-k6-v1/research-final.json",
+  "review_evidence_sha256": "9d624af74465f8786f7651753bd5770cd999d6a942ed7fe3504e20d3c66139dc",
+  "discovery_manifest_sha256": "745d5ca55fe73a2178c0b06c65524e24eeefc820e5b8ae318edaa6d2bbfddfd4",
+  "sources": [
+    {
+      "key": "uk",
+      "country_index": 0,
+      "path": "data/discovery/uk.csv",
+      "sha256": "1559ee96017407d75347e17baa192fef051b71e78d610fcddefa15368f8b3295",
+      "N": 49,
+      "k": 6,
+      "available_rows": 1000,
+      "source_urls": [
+        "https://www.results.co.uk/lotto-results-2002",
+        "https://www.results.co.uk/lotto-results-2003",
+        "https://www.results.co.uk/lotto-results-2004",
+        "https://www.results.co.uk/lotto-results-2005",
+        "https://www.results.co.uk/lotto-results-2006",
+        "https://www.results.co.uk/lotto-results-2007",
+        "https://www.results.co.uk/lotto-results-2008",
+        "https://www.results.co.uk/lotto-results-2009",
+        "https://www.results.co.uk/lotto-results-2010",
+        "https://www.results.co.uk/lotto-results-2011",
+        "https://www.results.co.uk/lotto-results-2012"
+      ],
+      "source_class": "listed_nonofficial_backup",
+      "score_first": 901,
+      "score_last": 1400,
+      "score_n": 500,
+      "warmup_first": 701,
+      "warmup_last": 900,
+      "available_last": 1700,
+      "missing_issues": [],
+      "confirmatory_holdout_eligible": false
+    },
+    {
+      "key": "japan",
+      "country_index": 1,
+      "path": "data/discovery/japan.csv",
+      "sha256": "ed7c2f47353e3326cfedb308c50729747a1965d32b66e0c56687ba07b76e9c16",
+      "N": 43,
+      "k": 6,
+      "available_rows": 446,
+      "source_urls": [
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=701",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=801",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=901",
+        "https://loto6.jp/databases/resultlist/data?count=100&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1001",
+        "https://loto6.jp/databases/resultlist/data?count=46&order=1&order_rule=2&view_order=1&view_type=1&stage=1&week=1&setball_type=1&offset=1101"
+      ],
+      "source_class": "listed_nonofficial_backup",
+      "score_first": 901,
+      "score_last": 1146,
+      "score_n": 246,
+      "warmup_first": 701,
+      "warmup_last": 900,
+      "available_last": 1146,
+      "missing_issues": [],
+      "confirmatory_holdout_eligible": false
+    },
+    {
+      "key": "korea",
+      "country_index": 2,
+      "path": "data/discovery/korea.csv",
+      "sha256": "6e2b79173d80c558d2e8bc32db08480dcdb35e814c920166139ef5e33e00db78",
+      "N": 45,
+      "k": 6,
+      "available_rows": 135,
+      "source_urls": [
+        "https://lottohaebom.com/history/2016",
+        "https://lottohaebom.com/history/2017",
+        "https://lottohaebom.com/history/2018"
+      ],
+      "source_class": "listed_nonofficial_backup",
+      "score_first": 901,
+      "score_last": null,
+      "score_n": 0,
+      "warmup_first": 701,
+      "warmup_last": 900,
+      "available_last": 835,
+      "missing_issues": [],
+      "confirmatory_holdout_eligible": false
+    }
+  ],
+  "lag": 1,
+  "statistics": [
+    "marginal_chi_square",
+    "pair_max_absolute_z",
+    "positive_serial_overlap"
+  ],
+  "integer_comparison_keys": [
+    "sum_marginal_count_squared",
+    "max_abs_pair_count_times_N_Nminus1_minus_30n",
+    "sum_adjacent_overlap"
+  ],
+  "warmup": 200,
+  "null_reps": 100000,
+  "power_reps": 5000,
+  "batch": 256,
+  "seed": 20261030,
+  "rng": "PCG64(SeedSequence([seed,country_index,stream_index]))",
+  "alpha_total": 0.0125,
+  "bonferroni_slots": 9,
+  "alpha_per_slot_fraction": "1/720",
+  "p_value": "(1+count(null_key>=observed_key))/(100000+1)",
+  "null_stream": 0,
+  "power_alternatives": [
+    {
+      "stream": 1,
+      "family": "uniform",
+      "strength": 1.0
+    },
+    {
+      "stream": 2,
+      "family": "weighted_set",
+      "strength": 1.25
+    },
+    {
+      "stream": 3,
+      "family": "weighted_set",
+      "strength": 1.5
+    },
+    {
+      "stream": 4,
+      "family": "weighted_set",
+      "strength": 2.0
+    },
+    {
+      "stream": 5,
+      "family": "cyclic_cluster",
+      "strength": 0.1
+    },
+    {
+      "stream": 6,
+      "family": "cyclic_cluster",
+      "strength": 0.25
+    },
+    {
+      "stream": 7,
+      "family": "cyclic_cluster",
+      "strength": 0.5
+    },
+    {
+      "stream": 8,
+      "family": "serial_copy_one",
+      "strength": 0.1
+    },
+    {
+      "stream": 9,
+      "family": "serial_copy_one",
+      "strength": 0.25
+    },
+    {
+      "stream": 10,
+      "family": "serial_copy_one",
+      "strength": 0.5
+    },
+    {
+      "stream": 11,
+      "family": "serial_copy_one",
+      "strength": 1.0
+    }
+  ],
+  "appendices": {
+    "gap_bins": "0..14,>=15; completed endpoints in score, censored separately; no p",
+    "phi": "descriptive Pearson divergence on warmup quartile symbols of sum, lag1; no p; NOT reproduction of maximum Phi-entropy paper"
+  },
+  "reference_fair_q": {
+    "uk": {
+      "numerator": 12344,
+      "denominator": 83237
+    },
+    "japan": {
+      "numerator": 1221091,
+      "denominator": 6096454
+    },
+    "korea": {
+      "numerator": 50363,
+      "denominator": 271502
+    }
+  },
+  "reference_ticket_template_only": "r[(6*b+j)%N], b=0..7,j=0..5; no generated or scored tickets",
+  "cumulative_hk_hit_attempts": 14,
+  "hk_attempts_added": 0,
+  "hk_application_authorized": false,
+  "ev_r3_run_authorized": false,
+  "runs_authorized": 1
+}
