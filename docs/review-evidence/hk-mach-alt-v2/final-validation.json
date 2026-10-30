@@ -1,0 +1,24 @@
+{
+  "at_utc": "2026-10-30T12:46:47.414044+00:00",
+  "passed": 333,
+  "skipped": 27,
+  "failed": 0,
+  "seconds": 26.57,
+  "profile": "--no-sealed-results",
+  "prelock_commit": "3aca3f7",
+  "protected_sha256": {
+    "src/marksix_r2.py": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c",
+    "prereg/round2.yaml": "4fa4b500f78605143f9022a4392b9889e445ef2badf88051a9d02b3e2215c53e",
+    "prereg/round3.yaml": "f5b8bd0a6e3f9e2a04fe790ea5151593dd1fc38d2e2360885c0f664bcbc4144c",
+    "marksix_data.csv": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+    "registry/attempts.csv": "63590c3d3b3483f5a5f4f4f2f9ebbd9206605b1b3ebb76cf74c8881b214d906f",
+    "forward/26-116.prediction.20261029T001900Z.json": "3476621fd81f14aca6403fbfc8a51e412fac3a5c46f85fe9f7ea5e1360384e3c",
+    "forward/meta-borda/26-116.prediction.20261029T022640Z.json": "56743ca4c6ff63867673aebc4d2b428a6ffcf0f01a6ca0bac163f5cbabd75c90"
+  },
+  "background_files_modified_by_this_work": false,
+  "hk_attempts": 15,
+  "exploration_run_count": 1,
+  "exploration_successes": 4,
+  "forward_scored": 0,
+  "background_auto_submission_requires_later_integration": true
+}
