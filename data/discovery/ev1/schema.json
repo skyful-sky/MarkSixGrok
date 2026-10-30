@@ -1,0 +1,36 @@
+{
+  "schema": "ev1-country-csv-v1",
+  "one_row": "one original planned issue; no reindexing, replacement or extension",
+  "NA": "literal NA for missing, unverifiable, conflicting or structurally inapplicable values; reasons in missing_reasons",
+  "sales": "currency amount of completed draw total sales/turnover; never prize pool, jackpot or inferred from payout",
+  "ticket_price": "full single-entry currency amount; documentary regime assignment for UK/JP, official per-draw unitBet for HK; not a physical-ticket count",
+  "ticket_price_basis": "source keys in retrievals.json, not evidence of exhaustive rule continuity",
+  "prize_scheme": "JSON: main pool, drawn-main count, tier conditions. Not an asserted complete legal payout contract.",
+  "full_prize_rule_version": "NA unless complete dated applicable legal allocation/caps/promotion version chain verified; presently all NA",
+  "announcement_at_utc": "verified original publication timestamp only; all NA. Draw/open/close/HTTP Last-Modified/Date/download time never substituted.",
+  "announcement_source_key": "NA because no original official publication timestamp was verified",
+  "secondary_claimed_publication_date": "MarkSixInfo self-reported datePublished date only; unverified original publication, not a UTC timestamp",
+  "publication_precision": "unknown for original official publication; secondary date-only claim separately preserved",
+  "tier_k_winners": "UK/JP counts of entries; HK full-unit equivalents winningUnit/unitBet per official browser; fractional values retained exactly, not unique persons",
+  "tier_k_payout": "currency payout per winning full entry; NA if no winners, not 0 or offered jackpot. Not total prize fund.",
+  "tier_k_reported_prize": "exact source quote, even for no-winner draw (0 or an unawarded jackpot); conflicts NA; raw original values in captures and crosschecks",
+  "primary_source_sha256": "SHA256 of original HTTP entity content bytes after HTTP transfer decompression, before character decoding or normalization",
+  "primary_fetched_at_utc": "acquisition completion timestamp, not original announcement time",
+  "crosscheck_source_keys": "financial crosscheck sources; source URL/hash/time linked in retrievals.json; domains not proof of independent data generation",
+  "conflict_policy": "adopted field NA even where primary is official; preserve official and backup original values; no majority vote or correction by plausibility",
+  "no_winner_quote_convention": "offered jackpot/0/not-applicable differences when count explicitly0; not an actual payout contradiction; payout remains NA",
+  "uk_sales_check": "Merseyworld only; Lottery.co.uk omits sales for all700; no claim that sales was independently checked",
+  "financial_na_definition": "NA cells among sales, ticket_price, tier{k}_winners and tier{k}_payout; excludes duplicate reported-prize quote and metadata; includes no-winner structural NAs",
+  "currency": "GBP, JPY, HKD; no FX conversion",
+  "use_policy": "forensic data acceptance only, no model or prediction; sealed/existing discovery access module unchanged",
+  "rows_by_country": {
+    "uk": 700,
+    "japan": 446,
+    "hongkong": 69
+  },
+  "country_tiers": {
+    "uk": 5,
+    "japan": 5,
+    "hongkong": 7
+  }
+}

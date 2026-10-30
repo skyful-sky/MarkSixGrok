@@ -1,0 +1,1037 @@
+[
+  {
+    "issue": "26/047",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "40",
+      "3": "1345",
+      "4": "6202",
+      "5": "70938",
+      "6": "133640",
+      "7": "1095068"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/048",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "1072",
+      "4": "1920",
+      "5": "46429",
+      "6": "52475",
+      "7": "846619"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/049",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "30",
+      "3": "860",
+      "4": "2415",
+      "5": "46990",
+      "6": "74287",
+      "7": "894334"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/050",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "15",
+      "3": "855",
+      "4": "2025",
+      "5": "48925",
+      "6": "57200",
+      "7": "946333"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/051",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "660",
+      "4": "1990",
+      "5": "39345",
+      "6": "61917",
+      "7": "735800"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/052",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "25",
+      "3": "795",
+      "4": "2475",
+      "5": "45732",
+      "6": "73791",
+      "7": "888348"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/053",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "55",
+      "3": "1850",
+      "4": "5490",
+      "5": "89425",
+      "6": "121903",
+      "7": "1476730"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/054",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "1225",
+      "4": "2105",
+      "5": "61710",
+      "6": "56250",
+      "7": "861631"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/055",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "625",
+      "4": "2310",
+      "5": "33280",
+      "6": "71720",
+      "7": "670782"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/056",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "655",
+      "4": "2585",
+      "5": "42242",
+      "6": "70547",
+      "7": "837364"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/057",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "40",
+      "3": "1075",
+      "4": "1825",
+      "5": "47539",
+      "6": "52325",
+      "7": "840925"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/058",
+    "source_key": "hk_month_05",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "590",
+      "4": "1465",
+      "5": "28511",
+      "6": "36831",
+      "7": "538533"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/059",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "30",
+      "3": "665",
+      "4": "1375",
+      "5": "35459",
+      "6": "45900",
+      "7": "710397"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/060",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "15",
+      "3": "760",
+      "4": "1700",
+      "5": "42525",
+      "6": "50760",
+      "7": "774447"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/061",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "695",
+      "4": "1555",
+      "5": "34603",
+      "6": "41875",
+      "7": "668710"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/062",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "10",
+      "3": "1020",
+      "4": "2150",
+      "5": "47255",
+      "6": "65723",
+      "7": "856207"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/063",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "60",
+      "2": "195",
+      "3": "4070",
+      "4": "7052",
+      "5": "114323",
+      "6": "101132",
+      "7": "1226057"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/064",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "15",
+      "3": "735",
+      "4": "1905",
+      "5": "30893",
+      "6": "50387",
+      "7": "604185"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/065",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "40",
+      "3": "2790",
+      "4": "6085",
+      "5": "135069",
+      "6": "178924",
+      "7": "2443529"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/066",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "575",
+      "4": "1140",
+      "5": "39273",
+      "6": "32625",
+      "7": "692731"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/067",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "680",
+      "4": "1495",
+      "5": "31745",
+      "6": "46716",
+      "7": "613911"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/068",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "25",
+      "3": "1230",
+      "4": "3245",
+      "5": "63987",
+      "6": "82488",
+      "7": "1072492"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/069",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "30",
+      "3": "985",
+      "4": "2740",
+      "5": "54555",
+      "6": "81524",
+      "7": "1068485"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/070",
+    "source_key": "hk_month_06",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "35",
+      "3": "1065",
+      "4": "3595",
+      "5": "58386",
+      "6": "86251",
+      "7": "1124307"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/071",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "585",
+      "4": "1205",
+      "5": "27960",
+      "6": "30365",
+      "7": "528104"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/072",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "0",
+      "3": "547",
+      "4": "1245",
+      "5": "35955",
+      "6": "44435",
+      "7": "720864"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/073",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "25",
+      "3": "420",
+      "4": "1060",
+      "5": "26315",
+      "6": "35970",
+      "7": "509249"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/074",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "25",
+      "3": "855",
+      "4": "4060",
+      "5": "47881",
+      "6": "101236",
+      "7": "812408"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/075",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "30",
+      "3": "650",
+      "4": "1500",
+      "5": "41942",
+      "6": "34894",
+      "7": "780627"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/076",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "20",
+      "2": "5",
+      "3": "615",
+      "4": "1600",
+      "5": "33665",
+      "6": "46815",
+      "7": "604885"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/077",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "20",
+      "3": "500",
+      "4": "1360",
+      "5": "28615",
+      "6": "39086",
+      "7": "549696"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/078",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "20",
+      "2": "115",
+      "3": "2920",
+      "4": "9695",
+      "5": "166167",
+      "6": "265165",
+      "7": "3253166"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/079",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "570",
+      "4": "1675",
+      "5": "29012",
+      "6": "54512",
+      "7": "568310"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/080",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "1400",
+      "4": "3745",
+      "5": "64035",
+      "6": "91277",
+      "7": "862251"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/081",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "1425",
+      "4": "2337",
+      "5": "66921",
+      "6": "63497",
+      "7": "1020679"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/082",
+    "source_key": "hk_month_07",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "0",
+      "3": "755",
+      "4": "1565",
+      "5": "45620",
+      "6": "52450",
+      "7": "892078"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/083",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "530",
+      "4": "1987",
+      "5": "34481",
+      "6": "58072",
+      "7": "671210"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/084",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "30",
+      "3": "1155",
+      "4": "2040",
+      "5": "49038",
+      "6": "57427",
+      "7": "873448"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/085",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "5",
+      "3": "845",
+      "4": "1685",
+      "5": "36554",
+      "6": "53099",
+      "7": "681336"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/086",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "40",
+      "3": "1155",
+      "4": "2020",
+      "5": "56852",
+      "6": "55660",
+      "7": "855715"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/087",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "5",
+      "3": "695",
+      "4": "1415",
+      "5": "34040",
+      "6": "43401",
+      "7": "632072"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/088",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "0",
+      "3": "355",
+      "4": "1045",
+      "5": "22080",
+      "6": "32579",
+      "7": "457122"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/089",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "700",
+      "4": "2195",
+      "5": "43165",
+      "6": "55034",
+      "7": "782493"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/090",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "0",
+      "3": "1170",
+      "4": "3230",
+      "5": "66845",
+      "6": "84085",
+      "7": "1196068"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/091",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "795",
+      "4": "1460",
+      "5": "43979",
+      "6": "43072",
+      "7": "777537"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/092",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "785",
+      "4": "1797",
+      "5": "45129",
+      "6": "59861",
+      "7": "819125"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/093",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "745",
+      "4": "3072",
+      "5": "44790",
+      "6": "96324",
+      "7": "874266"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/094",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "565",
+      "4": "2050",
+      "5": "41480",
+      "6": "61865",
+      "7": "822611"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/095",
+    "source_key": "hk_month_08",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "70",
+      "2": "30",
+      "3": "4325",
+      "4": "3795",
+      "5": "147645",
+      "6": "86450",
+      "7": "1888166"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/096",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "35",
+      "2": "200",
+      "3": "8750",
+      "4": "22480",
+      "5": "412228",
+      "6": "589973",
+      "7": "6781663"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/097",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "20",
+      "3": "580",
+      "4": "1455",
+      "5": "34176",
+      "6": "45898",
+      "7": "684559"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/098",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "0",
+      "3": "715",
+      "4": "1710",
+      "5": "31211",
+      "6": "48365",
+      "7": "572402"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/099",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "925",
+      "4": "2350",
+      "5": "39731",
+      "6": "64314",
+      "7": "720264"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/100",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "10",
+      "2": "115",
+      "3": "2850",
+      "4": "7837",
+      "5": "106954",
+      "6": "139840",
+      "7": "1387699"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/101",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "600",
+      "4": "1480",
+      "5": "29880",
+      "6": "47355",
+      "7": "554959"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/102",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "5",
+      "2": "40",
+      "3": "1620",
+      "4": "3255",
+      "5": "68132",
+      "6": "76349",
+      "7": "1024021"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/103",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "15",
+      "2": "5",
+      "3": "960",
+      "4": "1445",
+      "5": "42075",
+      "6": "44665",
+      "7": "669165"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/104",
+    "source_key": "hk_month_09",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "125",
+      "3": "3380",
+      "4": "7910",
+      "5": "173190",
+      "6": "226960",
+      "7": "3115546"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/105",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "30",
+      "2": "60",
+      "3": "4240",
+      "4": "9705",
+      "5": "217187",
+      "6": "307930",
+      "7": "4038785"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/106",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "25",
+      "3": "915",
+      "4": "2830",
+      "5": "40852",
+      "6": "66234",
+      "7": "718659"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/107",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "35",
+      "3": "750",
+      "4": "1845",
+      "5": "39610",
+      "6": "55776",
+      "7": "756420"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/108",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "15",
+      "3": "990",
+      "4": "1854",
+      "5": "46597",
+      "6": "66497",
+      "7": "888817"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/109",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "20",
+      "2": "30",
+      "3": "2185",
+      "4": "3827",
+      "5": "93832",
+      "6": "93655",
+      "7": "1522657"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/110",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "10",
+      "3": "915",
+      "4": "2665",
+      "5": "53417",
+      "6": "72729",
+      "7": "922311"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/111",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "15",
+      "3": "764",
+      "4": "2897",
+      "5": "40699",
+      "6": "85485",
+      "7": "726938"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/112",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "15",
+      "2": "55",
+      "3": "3019",
+      "4": "5825",
+      "5": "122040",
+      "6": "126155",
+      "7": "1517229"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/113",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "40",
+      "3": "790",
+      "4": "1990",
+      "5": "37711",
+      "6": "61812",
+      "7": "716158"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/114",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "40",
+      "3": "885",
+      "4": "2040",
+      "5": "44103",
+      "6": "53746",
+      "7": "789720"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  },
+  {
+    "issue": "26/115",
+    "source_key": "hk_month_10",
+    "unit_bet": "10",
+    "raw_winning_unit": {
+      "1": "0",
+      "2": "20",
+      "3": "835",
+      "4": "2585",
+      "5": "54200",
+      "6": "74558",
+      "7": "1008556"
+    },
+    "conversion": "winningUnit / unitBet; exact Decimal, official browser formula"
+  }
+]

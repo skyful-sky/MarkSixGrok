@@ -1,0 +1,25 @@
+{
+  "record_type": "EV-1 data acceptance operational record, not a prediction/candidate attempt",
+  "operation": "financial_data_acquisition_and_crosscheck",
+  "run_count": 1,
+  "status": "completed_with_documented_gaps",
+  "start_at_utc": "2026-10-30T04:38:29.343087+00:00",
+  "completed_at_utc": "2026-10-30T04:49:26.581969+00:00",
+  "baseline_commit": "0e04f1cceaf32203dbf85f9cb6860fa748d97b52",
+  "adopted_review_log": "/workspace/research-duo/logs/codex-20261030T043345Z-bf91c494.jsonl",
+  "acquisition_plan_sha256": "bcd18b12a350b71aa881cc5acd9a9c971219e4138039de6898a26312d98d9eb6",
+  "models_executed": 0,
+  "candidate_evaluations": 0,
+  "predictions_generated": 0,
+  "new_shadow_ids": 0,
+  "hit_attempts_added": 0,
+  "hit_attempts_cumulative": 14,
+  "registry_modified": false,
+  "external_sealed_window_opened": false,
+  "rows": {
+    "uk": 700,
+    "japan": 446,
+    "hongkong": 69
+  },
+  "no_scoring_permission": true
+}
