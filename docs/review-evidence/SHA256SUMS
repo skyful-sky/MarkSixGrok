@@ -102,3 +102,9 @@ f4fc034df5cab0cc3e861cf73e880d82beb87523bdebb89330f08740950dc21f  docs/review-ev
 045341d22214c15e648e7ebf685d7d438b2e260995398ca2437d60dd743bf84f  docs/review-evidence/ev-dyn-dilute-r1/validation.json
 95879d8f4e42fa31618a7c0d894dfdd4839133ba51af909599d9c86b79488f5a  docs/review-evidence/ev-dyn-dilute-r1/validation.json.sha256
 3e69dcf8d93029814ebdf5ac19692429b3ab68bb20257a3d8b206fea07a0e834  ev/EV-DYN-DILUTE-R1/SHA256SUMS
+cfb88a954f01fc1e6b90e4970ea00038f27fa2d39237740347d726550eb03d2c  docs/prereg/ev-comp-nb-r3.md
+a4b09934f157365bcb6578c2b775b79a7a2410e538e9db2d4d43108f0c32d02d  docs/prereg/ev-comp-nb-r3.md.sha256
+563ceee27a06c19e96ee907d077d486e32101ba04bd606fefdcfc2c95cf4510c  docs/prereg/ev-comp-nb-r3.lock.json
+502b7b3005546c4a31f78b6384f3309b17821cc75145d8dc3f17198dd88ae9e7  docs/prereg/ev-comp-nb-r3.lock.json.sha256
+63cd7f21bb58cf9d787c9fef9d3b492d09843b602408578089b61e67b922ef72  docs/review-evidence/manager-20261030-ev-r3-markarea.json
+29420d22ed9fa6afbaf5428847bf691e1892dddda34de79d5b7be21dc23a423a  docs/review-evidence/manager-20261030-ev-r3-markarea.json.sha256

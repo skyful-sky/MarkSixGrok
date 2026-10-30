@@ -1,0 +1,118 @@
+{
+  "id": "EV-COMP-NB-R3",
+  "status": "preregistered_not_run",
+  "created_at_utc": "2026-10-30T05:51:53.132654+00:00",
+  "baseline_commit": "43093f721f91a84634b9886dd0b277beec3bb0ad",
+  "prereg_path": "docs/prereg/ev-comp-nb-r3.md",
+  "prereg_sha256": "cfb88a954f01fc1e6b90e4970ea00038f27fa2d39237740347d726550eb03d2c",
+  "features_defined_once": [
+    "prime_fraction",
+    "seven_present",
+    "other_seven_tail_fraction",
+    "month_fraction",
+    "day_only_fraction",
+    "low_decade_entropy",
+    "low_gap_entropy"
+  ],
+  "feature_count": 7,
+  "reference_rule": "definitions in prereg are controlling; no feature or optimizer implementation in this step",
+  "model": "NB2, zero counts retained, exact combination normalization and prize-tier projection",
+  "normalization": "nonadditive entropy requires exact all-combination sum or exact multiplicity aggregation; ESP only for additive-only restriction",
+  "theta_l2": 0.1,
+  "theta_bounds": [
+    -4,
+    4
+  ],
+  "shape_log_l2": 0.01,
+  "shape_prior": 30,
+  "shape_bounds": [
+    0.1,
+    10000
+  ],
+  "warmup_original_slots": 200,
+  "update_every_original_slots": 20,
+  "seed": 20261030,
+  "alpha_nominal": 0.0125,
+  "bootstrap_reps_planned": 10000,
+  "bootstrap_block_length": 10,
+  "countries": {
+    "uk": {
+      "training": [
+        701,
+        900
+      ],
+      "scoring": [
+        901,
+        1400
+      ],
+      "planned_scored_n": 500
+    },
+    "japan": {
+      "training": [
+        701,
+        900
+      ],
+      "scoring": [
+        901,
+        1146
+      ],
+      "planned_scored_n": 246,
+      "first_excluded_regime_issue": 1147
+    }
+  },
+  "primary_comparator": "uniform Random NB2",
+  "secondary_comparators": [
+    "one-feature <=31 static preference",
+    "sealed EV-DYN-DILUTE-R1; do not refit"
+  ],
+  "no_new_confirmatory_alpha_budget": true,
+  "previous_ev_comparisons": [
+    {
+      "id": "EV-DYN-DILUTE-R1/uk/dynamic_vs_static",
+      "status": "previously_executed"
+    },
+    {
+      "id": "EV-DYN-DILUTE-R1/uk/dynamic_vs_random",
+      "status": "previously_executed"
+    },
+    {
+      "id": "EV-DYN-DILUTE-R1/japan/dynamic_vs_static",
+      "status": "previously_executed"
+    },
+    {
+      "id": "EV-DYN-DILUTE-R1/japan/dynamic_vs_random",
+      "status": "previously_executed"
+    }
+  ],
+  "planned_ev_comparisons": [
+    {
+      "country": "uk",
+      "comparison": "R3_vs_Random",
+      "status": "not_run",
+      "p_value": null
+    },
+    {
+      "country": "japan",
+      "comparison": "R3_vs_Random",
+      "status": "not_run",
+      "p_value": null
+    }
+  ],
+  "rollover_interactions": false,
+  "uk_unverified_legal_rule_chain": null,
+  "model_implementation_created": false,
+  "fits_run": 0,
+  "scores_run": 0,
+  "enumerations_run": 0,
+  "predictions_generated": 0,
+  "hit_attempts_added": 0,
+  "hit_attempts_cumulative": 14,
+  "inputs_sha256": {
+    "data/discovery/ev1/manifest.json": "156eb13c442e4949488e3ff6d8163f9b1a848e8246b35fd415d9e732dab935df",
+    "data/discovery/ev1/uk.csv": "817639ad3dc9b4b72b1d7669a74b0e0a37afc6893d0118bea9bfba0f18b92b00",
+    "data/discovery/ev1/japan.csv": "634953607a4e206938dc7c84901380fb8c46922e3d00ff16274994de683af8c5",
+    "data/discovery/ev1/retrievals.json": "97126e00fa3e43fd94b0908124f78b53fe5277297efb0111f34957a5bd9c07ca",
+    "data/discovery/ev1/raw/target-sources.jsonl.gz": "bf5a0a64f8d9a455da33e3f377ca00e9ce843f667fcb238d18eb4bb46e04a93d"
+  },
+  "Astra_final_evidence_sha256": "63cd7f21bb58cf9d787c9fef9d3b492d09843b602408578089b61e67b922ef72"
+}
