@@ -1,0 +1,2 @@
+attempt_id,hk_attempt_number,alpha,shared_H3_nonindependent,first_issue,horizon_valid_draws,threshold,status,lock_path,lock_sha256,registered_at_utc
+HK-MACH-ALT-v2,15,1/100,True,26/116,200,43,preregistered_before_forward_result,prereg/hk-mach-alt-v2/lock.json,98e6d1998244ce137bfb66412c41e55039bf862dd006c48fbf3909946685a42f,2026-10-30T12:41:21.534872+00:00
