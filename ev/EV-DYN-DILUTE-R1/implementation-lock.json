@@ -1,0 +1,15 @@
+{
+  "id": "EV-DYN-DILUTE-R1",
+  "prereg_commit": "43f1a84ef342f2b789cda00e386877bf691403a2",
+  "created_at_utc": "2026-10-30T05:19:00.443872+00:00",
+  "files_sha256": {
+    "src/ev_dyn_dilute_r1.py": "3e687136ac4b91b75dceb9f28997407b46b76528e674ffd02f7b23dc8d3e6e10",
+    "tests/test_ev_dyn_dilute_r1.py": "d5712cf40080aa9fc5d5ab66f4e677d04b8a2cfaef6cf14915b663209617e169",
+    "requirements.txt": "7701526b5dcc84676ab9a7f7b2c4e3382d16bd9264585b1e971d53ae00c9fd0f",
+    "docs/review-evidence/prepare_ev1.py": "63adeb2f1fd9e3ba5f737bde410bee65b167fbc5610018404488ea3f8a5e6678",
+    "docs/review-evidence/prepare_discovery.py": "7a1d8eb1faf2b61257975db591a2790a3995514f85787218c9786f3bf19060dd"
+  },
+  "real_country_fits_started": false,
+  "synthetic_unit_checks": "13 passed,1 real-result verification test skipped before run",
+  "execution_rule": "only clean committed code; exclusive run directory; no retry"
+}

@@ -3,3 +3,5 @@ PyYAML==6.0.3
 # Test-only dependencies (NumPy batches the adaptive null simulation).
 pytest==8.4.2
 numpy==2.3.4
+# EV-DYN-DILUTE-R1: fixed bounded NB2 optimizer and distribution functions.
+scipy==1.16.3
