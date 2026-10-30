@@ -1,0 +1,11 @@
+{
+  "id": "EV-DYN-DILUTE-R1",
+  "run_count": 1,
+  "started_at_utc": "2026-10-30T05:19:07.587306+00:00",
+  "prereg_commit": "43f1a84ef342f2b789cda00e386877bf691403a2",
+  "implementation_commit": "338c4922ace20bb1f79137e0081139bbe196f6fd",
+  "lock_sha256": "fd7667dd3eb30ce386b2083e18aba152a32c55104af9af54d0f3e6fd335c43e0",
+  "python": "3.13.5",
+  "scipy": "1.16.3",
+  "numpy": "2.3.4"
+}

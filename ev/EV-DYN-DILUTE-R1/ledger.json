@@ -1,13 +1,18 @@
 {
   "id": "EV-DYN-DILUTE-R1",
   "kind": "EV_not_hit_attempt",
-  "status": "preregistered_not_run",
+  "status": "archived",
   "seed": 20261030,
-  "run_count": 0,
+  "run_count": 1,
   "hk_attempt_cost": 0,
   "hk_attempts_cumulative": 14,
   "lock_path": "ev/EV-DYN-DILUTE-R1/lock.json",
   "lock_sha256": "fd7667dd3eb30ce386b2083e18aba152a32c55104af9af54d0f3e6fd335c43e0",
   "results_path": "ev/EV-DYN-DILUTE-R1/run/results.json",
-  "no_rerun": true
+  "no_rerun": true,
+  "implementation_commit": "338c4922ace20bb1f79137e0081139bbe196f6fd",
+  "started_at_utc": "2026-10-30T05:19:07.588309+00:00",
+  "completed_at_utc": "2026-10-30T05:19:16.271464+00:00",
+  "results_sha256": "6fcbde15f56677f27307e7ff358d272357ce0965848d29499001e560b195daa3",
+  "passed": false
 }

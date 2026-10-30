@@ -1,0 +1,30 @@
+{
+  "id": "EV-DYN-DILUTE-R1",
+  "validated_at_utc": "2026-10-30T05:27:09.675296+00:00",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 /tmp/marksix-r2-venv/bin/python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider",
+  "passed": 238,
+  "skipped": 27,
+  "failed": 0,
+  "seconds": 15.96,
+  "skip_reason": "legacy sealed-result-body readers deliberately excluded",
+  "r1_related_tests_passed": 18,
+  "numerical_checks": [
+    "9-ball exhaustive weighted-tier sum",
+    "NB0 compared with scipy.stats.nbinom",
+    "complex-step vs central difference",
+    "greedy8 vs exhaustive combinations",
+    "independent sums of saved scores and adopted count NA masks",
+    "saved forecast arithmetic and frozen coefficients",
+    "journal fsync/hash-before-reveal",
+    "sealed-run/input/implementation SHA checks"
+  ],
+  "actual_country_refits_during_validation": 0,
+  "formal_mc_reruns_during_validation": 0,
+  "plot_png_visually_inspected": true,
+  "plot_note": "one-sided lower-to-estimate segments; annotation overlap fixed in plotting only; source statistics unchanged",
+  "results_sha256": "6fcbde15f56677f27307e7ff358d272357ce0965848d29499001e560b195daa3",
+  "protected_paths_diff_empty": true,
+  "original_tags_unchanged": true,
+  "hk_attempts_cumulative": 14,
+  "remaining_financial_gap": "conditional ratios and ROI NA; no own-share/cap/floor cashflow calculation claimed"
+}

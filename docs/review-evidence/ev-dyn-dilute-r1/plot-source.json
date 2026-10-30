@@ -1,0 +1,56 @@
+{
+  "source_path": "ev/EV-DYN-DILUTE-R1/run/results.json",
+  "source_sha256": "6fcbde15f56677f27307e7ff358d272357ce0965848d29499001e560b195daa3",
+  "matplotlib": "3.10.7",
+  "values": [
+    {
+      "country": "uk",
+      "comparison": "dynamic_vs_static",
+      "n": 500,
+      "mean_log_score_gain": 0.0010390627521363331,
+      "lower_9875": 0.0005242143071872656,
+      "p_value": 9.999000099990002e-05,
+      "bonferroni_p": 0.00039996000399960006,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "uk",
+      "comparison": "dynamic_vs_random",
+      "n": 500,
+      "mean_log_score_gain": -0.07128362239346786,
+      "lower_9875": -0.14977329334247425,
+      "p_value": 0.975002499750025,
+      "bonferroni_p": 1.0,
+      "alpha": 0.0125,
+      "pass_count": false,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "japan",
+      "comparison": "dynamic_vs_static",
+      "n": 246,
+      "mean_log_score_gain": 0.0013458970884877223,
+      "lower_9875": 0.0001730149416066106,
+      "p_value": 0.0053994600539946005,
+      "bonferroni_p": 0.021597840215978402,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "japan",
+      "comparison": "dynamic_vs_random",
+      "n": 246,
+      "mean_log_score_gain": -0.01054735528871669,
+      "lower_9875": -0.08206144113942465,
+      "p_value": 0.6307369263073692,
+      "bonferroni_p": 1.0,
+      "alpha": 0.0125,
+      "pass_count": false,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    }
+  ],
+  "scope": "Visualization only of sealed values, no refit, scoring or resampling"
+}

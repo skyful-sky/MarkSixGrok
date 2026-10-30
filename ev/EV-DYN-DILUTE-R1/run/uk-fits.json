@@ -1,0 +1,86 @@
+{
+  "sales": {
+    "beta": [
+      16.983471476218607,
+      -0.005211830328303158,
+      0.46408089246987244
+    ],
+    "residual_mse": 0.01479290298875869,
+    "observed_training_rows": 200,
+    "max_training_issue": 900,
+    "weekday": 5
+  },
+  "counts": {
+    "dynamic": {
+      "kind": "dynamic",
+      "values": [
+        -0.24535117131809356,
+        0.33525824698104034,
+        0.04110487820999176,
+        -0.07087373184963362,
+        0.038711318635723656,
+        -0.01120333703202124,
+        2.8831495307511736,
+        2.1104574376311347,
+        3.0597320490849795,
+        3.937211858780361,
+        4.858085495182132
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "objective": 6.607163857137985,
+      "nit": 36,
+      "nfev": 480,
+      "njev": 40,
+      "observed_training_cells": 999,
+      "missing_training_cells": 1,
+      "max_training_issue": 900
+    },
+    "static": {
+      "kind": "static",
+      "values": [
+        -0.2454050374189904,
+        0.3351669535482222,
+        0.041127064404231056,
+        -0.07080992465081719,
+        0.0385835335285837,
+        2.884019308948645,
+        2.1104192091662317,
+        3.059798295689322,
+        3.937086409202976,
+        4.857987070318589
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "objective": 6.607170348120948,
+      "nit": 35,
+      "nfev": 473,
+      "njev": 43,
+      "observed_training_cells": 999,
+      "missing_training_cells": 1,
+      "max_training_issue": 900
+    },
+    "random": {
+      "kind": "random",
+      "values": [
+        2.610544940953657,
+        1.6733677710926724,
+        2.458682366376818,
+        3.109917880481261,
+        3.879528103321003
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.909837086447277,
+      "nit": 11,
+      "nfev": 72,
+      "njev": 12,
+      "observed_training_cells": 999,
+      "missing_training_cells": 1,
+      "max_training_issue": 900
+    }
+  }
+}

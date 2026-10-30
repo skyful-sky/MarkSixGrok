@@ -1,0 +1,86 @@
+{
+  "sales": {
+    "beta": [
+      16.074997482096585,
+      -0.24522054784178002,
+      -0.024303755083811333
+    ],
+    "residual_mse": 0.028045704460606617,
+    "observed_training_rows": 200,
+    "max_training_issue": 900,
+    "weekday": 0
+  },
+  "counts": {
+    "dynamic": {
+      "kind": "dynamic",
+      "values": [
+        -0.3948428708011267,
+        0.1542110437638852,
+        -0.008603794454603485,
+        0.007256640322493812,
+        -0.07877038956119015,
+        -0.04710349734870607,
+        3.1024356089572143,
+        2.192410330252979,
+        2.6303923480437255,
+        3.7508609689736314,
+        4.859432203394569
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "objective": 6.244274574757184,
+      "nit": 48,
+      "nfev": 624,
+      "njev": 52,
+      "observed_training_cells": 1000,
+      "missing_training_cells": 0,
+      "max_training_issue": 900
+    },
+    "static": {
+      "kind": "static",
+      "values": [
+        -0.39456968478400195,
+        0.15405208321676944,
+        -0.008542100762194778,
+        0.007161091943036343,
+        -0.07954297794310246,
+        3.102536707049739,
+        2.192414622381789,
+        2.629877627045851,
+        3.750166841957415,
+        4.858331199280465
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.244386908134572,
+      "nit": 44,
+      "nfev": 528,
+      "njev": 48,
+      "observed_training_cells": 1000,
+      "missing_training_cells": 0,
+      "max_training_issue": 900
+    },
+    "random": {
+      "kind": "random",
+      "values": [
+        3.0641078352109123,
+        1.9974513573958441,
+        2.411731245282701,
+        3.258296081379359,
+        4.1284688829786
+      ],
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.405567774808563,
+      "nit": 13,
+      "nfev": 84,
+      "njev": 14,
+      "observed_training_cells": 1000,
+      "missing_training_cells": 0,
+      "max_training_issue": 900
+    }
+  }
+}

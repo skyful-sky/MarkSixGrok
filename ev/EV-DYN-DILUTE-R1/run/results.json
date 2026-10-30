@@ -1,0 +1,272 @@
+{
+  "id": "EV-DYN-DILUTE-R1",
+  "status": "archived",
+  "run_count": 1,
+  "completed_at_utc": "2026-10-30T05:19:16.271464+00:00",
+  "prereg_commit": "43f1a84ef342f2b789cda00e386877bf691403a2",
+  "implementation_commit": "338c4922ace20bb1f79137e0081139bbe196f6fd",
+  "spec_sha256": "00cd79ec845b90787c288c6e51736b373b7b7c8e479a7dbed84276273d85e0b6",
+  "countries": {
+    "uk": {
+      "status": "archived",
+      "scored_n": 500,
+      "observed_count_cells": 2498,
+      "missing_count_cells": 2,
+      "omega_first": 0.5091138524150136,
+      "omega_last": 0.5063192928830041,
+      "mean_scores": {
+        "dynamic": -7.203149846326203,
+        "static": -7.204188909078339,
+        "random": -7.131866223932733
+      },
+      "paper_portfolio_grade_counts": {
+        "dynamic_template": [
+          3926,
+          0,
+          0,
+          0,
+          1,
+          73
+        ],
+        "static_template": [
+          3926,
+          0,
+          0,
+          0,
+          1,
+          73
+        ],
+        "random_template": [
+          3913,
+          0,
+          0,
+          0,
+          7,
+          80
+        ],
+        "dynamic_greedy": [
+          3945,
+          0,
+          0,
+          0,
+          3,
+          52
+        ]
+      },
+      "paper_financial_results": {
+        "dynamic_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 500,
+          "missing_complete_legal_version": 500,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "static_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 500,
+          "missing_complete_legal_version": 500,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "random_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 500,
+          "missing_complete_legal_version": 500,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "dynamic_greedy": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 500,
+          "missing_complete_legal_version": 500,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        }
+      },
+      "financial_gate": {
+        "status": "not_evaluable",
+        "missing_original_announcement": 500,
+        "missing_complete_legal_version": 500,
+        "conditional_payout_ratio": null,
+        "corrected_ratio_lower": null,
+        "roi_lower": null,
+        "passed": false,
+        "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+      },
+      "count_pass": false
+    },
+    "japan": {
+      "status": "archived",
+      "scored_n": 246,
+      "observed_count_cells": 1229,
+      "missing_count_cells": 1,
+      "omega_first": 0.4779547536635305,
+      "omega_last": 0.4721989764711912,
+      "mean_scores": {
+        "dynamic": -6.518942533559978,
+        "static": -6.520288430648466,
+        "random": -6.508395178271261
+      },
+      "paper_portfolio_grade_counts": {
+        "dynamic_template": [
+          1910,
+          0,
+          0,
+          0,
+          2,
+          56
+        ],
+        "static_template": [
+          1910,
+          0,
+          0,
+          0,
+          2,
+          56
+        ],
+        "random_template": [
+          1908,
+          0,
+          0,
+          0,
+          2,
+          58
+        ],
+        "dynamic_greedy": [
+          1902,
+          0,
+          0,
+          0,
+          3,
+          63
+        ]
+      },
+      "paper_financial_results": {
+        "dynamic_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 246,
+          "missing_complete_legal_version": 246,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "static_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 246,
+          "missing_complete_legal_version": 246,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "random_template": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 246,
+          "missing_complete_legal_version": 246,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        },
+        "dynamic_greedy": {
+          "status": "not_evaluable",
+          "missing_original_announcement": 246,
+          "missing_complete_legal_version": 246,
+          "conditional_payout_ratio": null,
+          "corrected_ratio_lower": null,
+          "roi_lower": null,
+          "passed": false,
+          "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+        }
+      },
+      "financial_gate": {
+        "status": "not_evaluable",
+        "missing_original_announcement": 246,
+        "missing_complete_legal_version": 246,
+        "conditional_payout_ratio": null,
+        "corrected_ratio_lower": null,
+        "roi_lower": null,
+        "passed": false,
+        "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+      },
+      "count_pass": false
+    }
+  },
+  "comparisons": [
+    {
+      "country": "uk",
+      "comparison": "dynamic_vs_static",
+      "n": 500,
+      "mean_log_score_gain": 0.0010390627521363331,
+      "lower_9875": 0.0005242143071872656,
+      "p_value": 9.999000099990002e-05,
+      "bonferroni_p": 0.00039996000399960006,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "uk",
+      "comparison": "dynamic_vs_random",
+      "n": 500,
+      "mean_log_score_gain": -0.07128362239346786,
+      "lower_9875": -0.14977329334247425,
+      "p_value": 0.975002499750025,
+      "bonferroni_p": 1.0,
+      "alpha": 0.0125,
+      "pass_count": false,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "japan",
+      "comparison": "dynamic_vs_static",
+      "n": 246,
+      "mean_log_score_gain": 0.0013458970884877223,
+      "lower_9875": 0.0001730149416066106,
+      "p_value": 0.0053994600539946005,
+      "bonferroni_p": 0.021597840215978402,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    },
+    {
+      "country": "japan",
+      "comparison": "dynamic_vs_random",
+      "n": 246,
+      "mean_log_score_gain": -0.01054735528871669,
+      "lower_9875": -0.08206144113942465,
+      "p_value": 0.6307369263073692,
+      "bonferroni_p": 1.0,
+      "alpha": 0.0125,
+      "pass_count": false,
+      "inference": "centered circular block bootstrap approximation; retrospective discovery, no repaired blindness"
+    }
+  ],
+  "passed": false,
+  "reason": "R1 archived: financial/timing gate unavailable; additionally report each locked count gate without substitution",
+  "conditional_payout_ratio": null,
+  "corrected_payout_ratio_lower": null,
+  "positive_ev": false,
+  "roi_lower": null,
+  "hk_attempts_cumulative": 14,
+  "hk_attempts_added": 0,
+  "power_scope": "synthetic paired-t rule, not actual financial or NB count-test power",
+  "prediction_journal_sha256": "008c231c22c1fd39c37d4fa526dec0167220819241091ad618279056e36efb3b",
+  "score_file_sha256": "cc399ea9f711e0a607cc576d62d8baa262e69cd971b5493e6ce6ef10bb9f5708"
+}
