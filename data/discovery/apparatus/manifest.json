@@ -141,6 +141,34 @@
     {
       "path": "raw/source-audit.jsonl.gz",
       "sha256": "99cf592ca2f60740db8ddb59739b2e15be2081dd4d3c418229b32d27817f0ca4"
+    },
+    {
+      "path": "lineage/decision.json",
+      "sha256": "d99d725276b55e95d3e3db1831149ddc618d6874a1813b0e4095bddbd88ef6bb"
+    },
+    {
+      "path": "lineage/events.csv",
+      "sha256": "82668deee6c4d0e27a7057e4795b80af78888c83fd754963aabac88d37d7d141"
+    },
+    {
+      "path": "lineage/label-inventory.json",
+      "sha256": "8b3374f15c49ead5262487ad4985dfd9d79b1b41e4a061b1b67d1413280ee4a3"
+    },
+    {
+      "path": "lineage/search-scope.json",
+      "sha256": "057e253dc071e0bbbd64e5f99d09832056b74ed2ec61b4d21784887268198fc8"
+    },
+    {
+      "path": "lineage/source-bodies.jsonl.gz",
+      "sha256": "dc924ec424ceba11b045f65d3a8d6692c503286d03be33fcb81dfc45004e738b"
+    },
+    {
+      "path": "lineage/sources.json",
+      "sha256": "dd669710ad5ca39be9cf6772b865410227e89663e34571668bfa188c029f50c7"
+    },
+    {
+      "path": "lineage/venue-category-runs.csv",
+      "sha256": "a8c74ea53d5dacaa4e2ad63b5b10af1e63d4210607c374960c69e71f79510680"
     }
   ],
   "hk_pre_sales_close_conclusion": "未見官方公開逐期實際球組ID或機台序號；機器代際的一般預告不等於逐期ID已事前公開",
@@ -154,5 +182,23 @@
     "hk_next"
   ],
   "audit_document": "docs/apparatus-source-audit.md",
-  "normalizer": "docs/review-evidence/prepare_apparatus.py"
+  "normalizer": "docs/review-evidence/prepare_apparatus.py",
+  "loto6_lineage_review": {
+    "path": "lineage/decision.json",
+    "sha256": "d99d725276b55e95d3e3db1831149ddc618d6874a1813b0e4095bddbd88ef6bb",
+    "audit_document": "docs/loto6-ballset-lineage.md",
+    "stable_physical_identity_verified": false,
+    "ballset_lineage_calibration_allowed": false,
+    "qualified_periods": 0,
+    "official_venue_schedule_issues": [
+      921,
+      922,
+      944,
+      945
+    ],
+    "original_discovery_rows": 446,
+    "metadata_rows_after700": 1450,
+    "new_models": 0,
+    "new_attempts": 0
+  }
 }

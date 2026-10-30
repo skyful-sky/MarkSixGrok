@@ -1,0 +1,200 @@
+{
+  "original_discovery_701_1146": {
+    "issue_start": 701,
+    "issue_end": 1146,
+    "source_stage_id": "all",
+    "rows": 446,
+    "label_counts": {
+      "A": 53,
+      "B": 44,
+      "C": 46,
+      "D": 43,
+      "E": 45,
+      "F": 46,
+      "G": 42,
+      "H": 40,
+      "I": 45,
+      "J": 42
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "apparatus_metadata_701_2150": {
+    "issue_start": 701,
+    "issue_end": 2150,
+    "source_stage_id": "all",
+    "rows": 1450,
+    "label_counts": {
+      "A": 159,
+      "B": 137,
+      "C": 144,
+      "D": 139,
+      "E": 148,
+      "F": 141,
+      "G": 136,
+      "H": 136,
+      "I": 140,
+      "J": 147
+    },
+    "NA": 23,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "original_discovery_source_stage1": {
+    "issue_start": 701,
+    "issue_end": 1146,
+    "source_stage_id": "1",
+    "rows": 412,
+    "label_counts": {
+      "A": 48,
+      "B": 40,
+      "C": 41,
+      "D": 40,
+      "E": 40,
+      "F": 45,
+      "G": 41,
+      "H": 39,
+      "I": 40,
+      "J": 38
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "original_discovery_source_stage2": {
+    "issue_start": 701,
+    "issue_end": 1146,
+    "source_stage_id": "2",
+    "rows": 34,
+    "label_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 5,
+      "D": 3,
+      "E": 5,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 5,
+      "J": 4
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "auxiliary_tokyo_gen3_candidate": {
+    "issue_start": 701,
+    "issue_end": 1366,
+    "source_stage_id": "1",
+    "rows": 616,
+    "label_counts": {
+      "A": 68,
+      "B": 60,
+      "C": 60,
+      "D": 59,
+      "E": 62,
+      "F": 64,
+      "G": 62,
+      "H": 61,
+      "I": 60,
+      "J": 60
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "auxiliary_tokyo_gen4_candidate": {
+    "issue_start": 1367,
+    "issue_end": 2150,
+    "source_stage_id": "1",
+    "rows": 743,
+    "label_counts": {
+      "A": 74,
+      "B": 68,
+      "C": 76,
+      "D": 69,
+      "E": 76,
+      "F": 71,
+      "G": 68,
+      "H": 68,
+      "I": 69,
+      "J": 81
+    },
+    "NA": 23,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "auxiliary_osaka_gen1_candidate": {
+    "issue_start": 701,
+    "issue_end": 922,
+    "source_stage_id": "2",
+    "rows": 18,
+    "label_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 3,
+      "D": 1,
+      "E": 2,
+      "F": 1,
+      "G": 0,
+      "H": 0,
+      "I": 3,
+      "J": 3
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "auxiliary_osaka_gen2_candidate": {
+    "issue_start": 944,
+    "issue_end": 1722,
+    "source_stage_id": "2",
+    "rows": 48,
+    "label_counts": {
+      "A": 8,
+      "B": 5,
+      "C": 4,
+      "D": 6,
+      "E": 7,
+      "F": 4,
+      "G": 4,
+      "H": 3,
+      "I": 5,
+      "J": 2
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  },
+  "auxiliary_osaka_gen3_candidate": {
+    "issue_start": 1768,
+    "issue_end": 2150,
+    "source_stage_id": "2",
+    "rows": 25,
+    "label_counts": {
+      "A": 6,
+      "B": 2,
+      "C": 1,
+      "D": 4,
+      "E": 1,
+      "F": 1,
+      "G": 2,
+      "H": 4,
+      "I": 3,
+      "J": 1
+    },
+    "NA": 0,
+    "physical_lineage_verified": false,
+    "eligible_physical_calibration_rows": 0,
+    "meaning": "Source-label inventory only; not certified same physical balls or machines"
+  }
+}

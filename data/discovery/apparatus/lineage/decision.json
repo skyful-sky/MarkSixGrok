@@ -1,0 +1,52 @@
+{
+  "reviewed_at_utc": "2026-10-30T01:09:36.072549+00:00",
+  "baseline_commit": "40c34ba597a6d1fadbd29bb5048ed01d41272f35",
+  "scope": "Physical-ballset/machine-lineage-dependent discovery-only calibration, not all calibration methods",
+  "attempts_used": 14,
+  "new_ids": 0,
+  "new_attempts": 0,
+  "calibrations_executed": 0,
+  "models_executed": 0,
+  "predictions_generated": 0,
+  "official_physical_lineage_verified": false,
+  "stable_A_to_J_physical_identity_established": false,
+  "qualified_same_physical_generation_intervals": [],
+  "qualified_periods": 0,
+  "qualified_label_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "H": 0,
+    "I": 0,
+    "J": 0
+  },
+  "ballset_lineage_calibration_allowed": false,
+  "original_discovery_result_range": {
+    "first": 701,
+    "last": 1146,
+    "rows": 446
+  },
+  "supplementary_metadata_range": {
+    "first": 701,
+    "last": 2150,
+    "rows": 1450
+  },
+  "source_metadata_sha256": "b441989d4b5a43affe71bd2edf9e49cbd27c84d7c547ad8bce2e7f951a8a5573",
+  "reason": "未見官方公開A-J逐批實體/後備組/機台序號與生效及替換期次台帳；會場公告與日期核對不能替代球組更換證據",
+  "stop_conditions": [
+    "No official link between letter, venue, physical ballset/batch, start/end issue and actual machine: stop before lineage-dependent calibration",
+    "Unresolved same-letter backup substitution, individual ball replacement, relabeling or temporary venue move: stop physical pooling",
+    "NA or conflicting labels/venue categories: retain NA/conflict, do not impute or choose a convenient source",
+    "Do not expand discovery result range, borrow sealed1..700, use calibration outcomes to select eras, or reopen sealed calibration",
+    "If a future method requires pre-draw apparatus metadata, independently verify historical publication before sales cutoff"
+  ],
+  "missing_official_publication": "未見官方公開",
+  "unknown_machine_change_date": "NA",
+  "unknown_machine_change_issue": "NA",
+  "existing_calibration_outputs_unchanged": true,
+  "prior_metadata_values_repaired": false
+}

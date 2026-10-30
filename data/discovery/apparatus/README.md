@@ -13,3 +13,5 @@ UK701–1400共700期；機台全數一致，球組1322衝突NA。日本1–2150
 `raw/*.jsonl.gz`是審計包，每行`key`及`body_base64`。含結果的701期後頁面僅供取得重現，禁止模型程式讀取。投影與原始完整回應有明確區分，不把保存的投影雜湊冒作原始回應雜湊。
 
 完整審計見[`docs/apparatus-source-audit.md`](../../../docs/apparatus-source-audit.md)。
+
+官方實體沿革補查見[`docs/loto6-ballset-lineage.md`](../../../docs/loto6-ballset-lineage.md)及`lineage/decision.json`。官方會場安排不等於球組換代證據；目前同一實體的合資格區間／期數均0，不能據A–J穩定實體假設啟動球組校準。原446期結果discovery與701–2150的球組中繼資料範圍維持分開，原CSV及已封存校準不變。

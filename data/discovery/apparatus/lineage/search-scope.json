@@ -1,0 +1,25 @@
+{
+  "purpose": "Finite public-source search; no claim of exhaustive archive search or nonexistence",
+  "queries": [
+    "site:mizuhobank.co.jp ロト6 セット球 交換 更新",
+    "site:takarakuji-official.jp ロト6 セット球 交換 更新",
+    "全国自治宝くじ事務協議会 ロト6 セット球 変更",
+    "ロト6 抽せん球 交換",
+    "ロト6 抽せん機 更新",
+    "site:takarakuji-official.jp ロト6 抽せん会場 変更",
+    "ロト6 2019年4月1日 セット球",
+    "ロト6 649 セット みずほ",
+    "site:takarakuji-official.jp 2007 3月29日 大阪 ロト6",
+    "site:takarakuji-official.jp 2024年7月22日 抽せん 会場",
+    "site:mizuhobank.co.jp 2015年2月23日 第944回",
+    "site:mizuhobank.co.jp 2023年2月20日 第1768回"
+  ],
+  "not_done": [
+    "No organization contacted",
+    "No official historical video corpus transcribed",
+    "No manufacturer service records or procurement ledger obtained",
+    "No modeling or calibration",
+    "No sealed result read"
+  ],
+  "invalid_evidence_policy": "HTTP200 is not sufficient; NOT FOUND, empty draw tables and invalid guessed IDs are rejected; cached search summaries do not repair live missing content"
+}
