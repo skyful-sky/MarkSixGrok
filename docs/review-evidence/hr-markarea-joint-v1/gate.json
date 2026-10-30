@@ -1,0 +1,70 @@
+{
+  "id": "HR-MARKAREA-JOINT-v1",
+  "stage": "data_qualification_only",
+  "status": "archived_data_gate_failed",
+  "authority": "Manager 2026-10-30 13:46 HKT; adopted Astra final item_11",
+  "authority_evidence": "docs/review-evidence/manager-20261030-ev-r3-markarea.json",
+  "beta_prior": {
+    "distribution": "Normal",
+    "mean": 0,
+    "sd": 0.25,
+    "variance": 0.0625
+  },
+  "measurement_target": {
+    "x": "physical number-glyph and identifying underline/dot surface area divided by whole sphere area",
+    "units": "dimensionless fraction in [0,1]",
+    "status": "qualification target only; no validated algorithm/calibration",
+    "all_values": "NA",
+    "no_substitution": [
+      "illustrated glyph area",
+      "flat pixel count without calibration",
+      "draw frequency",
+      "A-J label as physical generation"
+    ]
+  },
+  "countries": {
+    "hk": {
+      "intended_scope_only": "26/047-26/115",
+      "historical_physical_photo_chain": "missing",
+      "validated_consistent_area_measurement": "missing",
+      "physical_service_intervals": "missing",
+      "eligible_intervals": [],
+      "eligible_draws": 0,
+      "area_values": "NA",
+      "beta_posterior": "NA",
+      "decision": "archive"
+    },
+    "uk": {
+      "intended_scope_only": "discovery 701-1700",
+      "historical_physical_photo_chain": "missing",
+      "validated_consistent_area_measurement": "missing",
+      "physical_service_intervals": "missing",
+      "eligible_intervals": [],
+      "eligible_draws": 0,
+      "area_values": "NA",
+      "beta_posterior": "NA",
+      "decision": "archive"
+    },
+    "japan": {
+      "intended_scope_only": "result discovery 701-1146",
+      "historical_physical_photo_chain": "missing",
+      "validated_consistent_area_measurement": "missing",
+      "physical_service_intervals": "missing",
+      "eligible_intervals": [],
+      "eligible_draws": 0,
+      "area_values": "NA",
+      "beta_posterior": "NA",
+      "decision": "archive"
+    }
+  },
+  "model_fits": 0,
+  "posterior_estimates": 0,
+  "hit_backtests": 0,
+  "ev_fits": 0,
+  "ticket_predictions": 0,
+  "joint_success_calculations": 0,
+  "new_hit_attempts": 0,
+  "cumulative_hk_hit_attempts": 14,
+  "sealed_windows_read_for_analysis": false,
+  "reopening": "Requires documented missing evidence, renewed qualification and separate authorization/full specification; no automatic attempt registration"
+}
