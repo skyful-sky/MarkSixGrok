@@ -1,0 +1,177 @@
+{
+  "started_at_utc": "2026-10-30T00:04:04.097305+00:00",
+  "input_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "plan_sha256": "22e581526c3c4881821b62b223be71e6052ab3a3f0d9015ab13bc157855d4b45",
+  "script_sha256": "1a649e5663fc2b68d3721d21c33409dc06eaaaf3fcc9a86b09691d1dfb96bb7b",
+  "numpy": "2.3.4",
+  "python": "3.13.5",
+  "run_count": 1,
+  "candidate_evaluations": 0,
+  "prediction_attempts": 0,
+  "attempts_total_unchanged": 14,
+  "completed_at_utc": "2026-10-30T00:04:25.286423+00:00",
+  "total_tests": 1373,
+  "exact_tests": 1339,
+  "iid_statistics": 28,
+  "permutation_statistics": 6,
+  "replicates_per_null": 100000,
+  "group_summary": {
+    "consecutive": {
+      "tests": 3,
+      "minimum_p": 0.7184679779787173,
+      "key_at_minimum_p": "any_consecutive_period",
+      "q_BH_at_minimum_p": 1.0,
+      "minimum_q_BH": 1.0
+    },
+    "frequency": {
+      "tests": 50,
+      "minimum_p": 0.00016135043164373483,
+      "key_at_minimum_p": "frequency_07",
+      "q_BH_at_minimum_p": 0.1782191720736351,
+      "minimum_q_BH": 0.1782191720736351
+    },
+    "gap": {
+      "tests": 51,
+      "minimum_p": 0.038524273409895546,
+      "key_at_minimum_p": "gap_24",
+      "q_BH_at_minimum_p": 0.9478520453603084,
+      "minimum_q_BH": 0.9478520453603084
+    },
+    "large": {
+      "tests": 2,
+      "minimum_p": 0.10886891131088688,
+      "key_at_minimum_p": "large_histogram",
+      "q_BH_at_minimum_p": 0.9557028801260778,
+      "minimum_q_BH": 0.9557028801260778
+    },
+    "markov": {
+      "tests": 4,
+      "minimum_p": 0.007129928700712993,
+      "key_at_minimum_p": "markov_fair",
+      "q_BH_at_minimum_p": 0.7081089659127663,
+      "minimum_q_BH": 0.7081089659127663
+    },
+    "neighbor": {
+      "tests": 1,
+      "minimum_p": 0.5912740872591274,
+      "key_at_minimum_p": "neighbor_residual",
+      "q_BH_at_minimum_p": 1.0,
+      "minimum_q_BH": 1.0
+    },
+    "odd": {
+      "tests": 2,
+      "minimum_p": 0.32375676243237567,
+      "key_at_minimum_p": "odd_mean",
+      "q_BH_at_minimum_p": 1.0,
+      "minimum_q_BH": 1.0
+    },
+    "pair": {
+      "tests": 1177,
+      "minimum_p": 0.0002596054946447707,
+      "key_at_minimum_p": "pair_05_07",
+      "q_BH_at_minimum_p": 0.1782191720736351,
+      "minimum_q_BH": 0.1782191720736351
+    },
+    "repeat": {
+      "tests": 2,
+      "minimum_p": 0.5768442315576844,
+      "key_at_minimum_p": "repeat_mean",
+      "q_BH_at_minimum_p": 1.0,
+      "minimum_q_BH": 1.0
+    },
+    "section": {
+      "tests": 6,
+      "minimum_p": 0.018785126380902732,
+      "key_at_minimum_p": "section_0",
+      "q_BH_at_minimum_p": 0.9478520453603084,
+      "minimum_q_BH": 0.9478520453603084
+    },
+    "special": {
+      "tests": 56,
+      "minimum_p": 0.05277775894332148,
+      "key_at_minimum_p": "special_frequency_08",
+      "q_BH_at_minimum_p": 0.9478520453603084,
+      "minimum_q_BH": 0.9478520453603084
+    },
+    "sum": {
+      "tests": 3,
+      "minimum_p": 0.03120968790312097,
+      "key_at_minimum_p": "sum_mean",
+      "q_BH_at_minimum_p": 0.9478520453603084,
+      "minimum_q_BH": 0.9478520453603084
+    },
+    "tail": {
+      "tests": 11,
+      "minimum_p": 0.020600430135623814,
+      "key_at_minimum_p": "tail_7",
+      "q_BH_at_minimum_p": 0.9478520453603084,
+      "minimum_q_BH": 0.9478520453603084
+    },
+    "weekday": {
+      "tests": 5,
+      "minimum_p": 0.6018139818601814,
+      "key_at_minimum_p": "weekday_large",
+      "q_BH_at_minimum_p": 1.0,
+      "minimum_q_BH": 1.0
+    }
+  },
+  "descriptive": {
+    "mean_main_sum": 141.46376811594203,
+    "sample_variance_main_sum": 1378.075873827792,
+    "mean_repeat": 0.6764705882352942,
+    "mean_odd": 3.2028985507246377,
+    "mean_large": 2.9420289855072466,
+    "mean_neighbor": 1.161764705882353,
+    "mean_neighbor_null_conditional": 1.2226890756302524,
+    "mean_special_offset": 3.031400966183575,
+    "mean_special_nearest_distance": 4.318840579710145,
+    "special_distance_null": 4.210025177809852,
+    "special_adjacent_null": 0.2321428571428573,
+    "mean_consecutive_edges": 0.6376811594202898,
+    "maximum_consecutive_run": 3,
+    "any_consecutive_periods": 36,
+    "weekday_counts": {
+      "1": 23,
+      "3": 22,
+      "5": 20,
+      "6": 4
+    },
+    "weekday_means": {
+      "1": {
+        "sums": 134.82608695652175,
+        "odd": 3.260869565217391,
+        "large": 2.652173913043478,
+        "special": 25.565217391304348
+      },
+      "3": {
+        "sums": 148.54545454545453,
+        "odd": 3.090909090909091,
+        "large": 3.0454545454545454,
+        "special": 27.272727272727273
+      },
+      "5": {
+        "sums": 140.15,
+        "odd": 3.25,
+        "large": 3.1,
+        "special": 28.0
+      },
+      "6": {
+        "sums": 147.25,
+        "odd": 3.25,
+        "large": 3.25,
+        "special": 22.0
+      }
+    }
+  },
+  "q_BH_below_005": [],
+  "q_BY_below_005": [],
+  "limitations": [
+    "69 periods include viewed096..115; historical selection and old searches not repaired by within-scan BH",
+    "BH dependence assumptions not established; BY reported as sensitivity, not a correction for all prior research",
+    "Sorted mains are not physical extraction order; Markov is between draws, not within-draw order",
+    "Special-main same-number exclusion is structural, not a tested anomaly",
+    "No weekday with zero observations is tested; small weekday groups and sparse pair/transition cells limit power",
+    "No multi-lag, alternative bins, alternate subwindows, physical apparatus, forecasting or scores"
+  ],
+  "after_scan_no_candidate_id_or_prediction": true
+}

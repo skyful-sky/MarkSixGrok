@@ -1,0 +1,12 @@
+{
+  "run_count": 1,
+  "rerun_allowed": false,
+  "files_sha256": {
+    "markov-matrix.csv": "4865bfbaf41d7f39217a5e6aaf9d3aacaede56b3482d2426d35c429d9a28bb85",
+    "null-statistics.npz": "92549b5e8c27dfd506b11b2f36c83a48f82afc5531a7e53229d9244a8f0944d9",
+    "observed-features.csv": "e35821ce63b05a83f420b12260c7597273e7e0635598ffb965d9f07bcfcd6528",
+    "started.json": "62bf2a34f65b15314f7a8ffb2b6b5f708a3e1b49c9aa8aa2680be8edfe4b912a",
+    "summary.json": "5f57cc6da978195e14dcca5a6aac1ba346ee66dde59ef79b9b86a756c6d48f01",
+    "tests.csv": "727844ba472e348402ae9e35734248f8387626d7867995005e8ac521048b00b7"
+  }
+}

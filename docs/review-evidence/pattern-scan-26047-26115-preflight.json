@@ -1,0 +1,9 @@
+{
+  "fixed_before_real_scan_utc": "2026-10-30T00:04:04.020912+00:00",
+  "plan_sha256": "22e581526c3c4881821b62b223be71e6052ab3a3f0d9015ab13bc157855d4b45",
+  "script_sha256": "1a649e5663fc2b68d3721d21c33409dc06eaaaf3fcc9a86b09691d1dfb96bb7b",
+  "csv_sha256": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+  "synthetic_tests": "15 passed in0.16s; no real scan executed by tests",
+  "prospective_preregistration": false,
+  "note": "Same data/window already viewed in prior research; this only freezes this descriptive scan, not a new preregistered claim"
+}
