@@ -1,0 +1,164 @@
+{
+  "at_utc": "2026-10-30T11:49:29.217081+00:00",
+  "purpose": "synthetic numerical validation only",
+  "historical_io_guard": true,
+  "external_results_read": 0,
+  "HK_results_read": 0,
+  "real_fits": 0,
+  "external_scored_periods": 0,
+  "new_hit_attempts": 0,
+  "hit_attempts_cumulative": 14,
+  "cases": [
+    {
+      "family": "exclusion",
+      "pool": 8,
+      "k": 4,
+      "synthetic_U": [
+        [
+          0.35,
+          0.1
+        ],
+        [
+          -0.3,
+          0.2
+        ],
+        [
+          0.1,
+          -0.4
+        ],
+        [
+          0.25,
+          0.3
+        ],
+        [
+          -0.2,
+          -0.35
+        ],
+        [
+          0.1,
+          0.15
+        ],
+        [
+          -0.25,
+          0.05
+        ],
+        [
+          0.3,
+          -0.1
+        ]
+      ],
+      "balanced_log_weights": [
+        -0.010116611596973796,
+        -0.011661568888851434,
+        -0.0446345838531343,
+        -0.02586735510749823,
+        -0.03447989449752427,
+        0.06990296172276886,
+        0.0429216995682005,
+        0.013935352653012668
+      ],
+      "inner_steps": 2,
+      "max_equal_marginal_error": 4.698913242014158e-14,
+      "numerical_Z": 106.21214733491576,
+      "brute_Z": 106.21214733491574,
+      "max_marginal_difference": 3.597653858850025e-16,
+      "joint_p8": 0.45632100672151693,
+      "brute_joint_p8": 0.4563210067215172,
+      "absolute_p8_difference": 2.7755575615628914e-16,
+      "p8_error_acceptance": 5e-12,
+      "quadrature_relative_bound": 0.0
+    },
+    {
+      "family": "attract2",
+      "pool": 8,
+      "k": 4,
+      "synthetic_U": [
+        [
+          0.35,
+          0.1
+        ],
+        [
+          -0.3,
+          0.2
+        ],
+        [
+          0.1,
+          -0.4
+        ],
+        [
+          0.25,
+          0.3
+        ],
+        [
+          -0.2,
+          -0.35
+        ],
+        [
+          0.1,
+          0.15
+        ],
+        [
+          -0.25,
+          0.05
+        ],
+        [
+          0.3,
+          -0.1
+        ]
+      ],
+      "balanced_log_weights": [
+        -0.04374999999995172,
+        0.07124999999975025,
+        0.00625000000003046,
+        -0.011249999999978506,
+        0.05624999999996572,
+        -0.04874999999994975,
+        0.026250000000026273,
+        -0.056249999999892726
+      ],
+      "inner_steps": 2,
+      "max_equal_marginal_error": 7.240524369303558e-14,
+      "numerical_Z": 64.52674458963087,
+      "brute_Z": 64.52674458963087,
+      "max_marginal_difference": 2.500170209751573e-16,
+      "joint_p8": 0.4363304385831707,
+      "brute_joint_p8": 0.43633043858317067,
+      "absolute_p8_difference": 5.551115123125783e-17,
+      "p8_error_acceptance": 5e-12,
+      "quadrature_relative_bound": 4.2343487848300416e-35
+    }
+  ],
+  "U_zero_fair_cases": [
+    {
+      "family": "exclusion",
+      "pool": 49,
+      "k": 6,
+      "exact_fraction": "12344/83237",
+      "shortcut": "known uniform distribution, no numerical integral"
+    },
+    {
+      "family": "exclusion",
+      "pool": 43,
+      "k": 6,
+      "exact_fraction": "1221091/6096454",
+      "shortcut": "known uniform distribution, no numerical integral"
+    },
+    {
+      "family": "attract2",
+      "pool": 49,
+      "k": 6,
+      "exact_fraction": "12344/83237",
+      "shortcut": "known uniform distribution, no numerical integral"
+    },
+    {
+      "family": "attract2",
+      "pool": 43,
+      "k": 6,
+      "exact_fraction": "1221091/6096454",
+      "shortcut": "known uniform distribution, no numerical integral"
+    }
+  ],
+  "GH64_relative_truncation_bound": 7.92174198471781e-17,
+  "GH80_relative_truncation_bound": 1.636834680133345e-26,
+  "floating_budget_is_engineering_acceptance_not_interval_certificate": true
+}

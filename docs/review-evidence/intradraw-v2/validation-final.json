@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-30T11:56:54.694144+00:00",
+  "step": "preregistration and synthetic numerical validation only",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider",
+  "tests": {
+    "passed": 313,
+    "skipped": 27,
+    "failed": 0,
+    "new_kernel_tests_passed": 34,
+    "seconds": 25.26,
+    "skip_reason": "existing protected sealed-result body reads"
+  },
+  "lock_sha256": "578bccb989ba4cf3210420d1c78847b2c70cae6a306cf7983ff3fc1ef7cead2f",
+  "synthetic_evidence_sha256": "61c6f5168cc8cdfa39867aa1a7ce8f448be7308ebda9eadd89acf0cd633d980b",
+  "protected_baseline_commit": "7ea1e5dcce65bc1254e0cbb548f8680a8edc0664",
+  "protected_unchanged": [
+    "prereg/round2.yaml",
+    "prereg/round3.yaml",
+    "forward",
+    "marksix_data.csv",
+    "registry",
+    "data",
+    "audits",
+    "ev",
+    "backtests",
+    "calibration",
+    "archive",
+    "requirements.txt",
+    "docs/lessons.md"
+  ],
+  "all_preexisting_source_and_test_files_unchanged": true,
+  "tag_refs": [
+    "refs/tags/prereg-r2 3f39e09868d105b68805b2b5c0aa32af2b9c4da5"
+  ],
+  "HK_attempts_cumulative": 14,
+  "HK_attempts_added": 0,
+  "external_fits": 0,
+  "external_scored_periods": 0,
+  "Hong_Kong_model_inputs_used": 0,
+  "new_IDs_preregistered": 2,
+  "external_j_reserved": [
+    2,
+    3
+  ],
+  "real_data_gate_evaluations": 0,
+  "all_parameters_locked": true,
+  "not_verified": [
+    "full-scale nonzero fitting/64-candidate runtime",
+    "full official historical source and nonexposure eligibility",
+    "formal interval certificate for floating arithmetic budget"
+  ]
+}
