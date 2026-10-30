@@ -1,0 +1,43 @@
+{
+  "at_utc": "2026-10-30T10:26:12.073499+00:00",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider",
+  "tests": {
+    "passed": 279,
+    "skipped": 27,
+    "failed": 0,
+    "seconds": 19.16,
+    "skip_reason": "protected sealed-result reads explicitly skipped"
+  },
+  "run_count": 1,
+  "fits_checked": 114,
+  "all_fits_converged": true,
+  "prediction_receipts_verified": 746,
+  "all_score_masks_identical_across_three_models": true,
+  "source_and_implementation_fingerprints_unchanged": true,
+  "normalizer_multiplicity_and_all_projection_row_counts_verified": true,
+  "bootstrap_stored_arrays_verified_without_resampling": true,
+  "protected_baseline_commit": "cfe62acff20f5cda8a4ff3b565433de70e183c6b",
+  "protected_paths_unchanged": [
+    "prereg",
+    "forward",
+    "marksix_data.csv",
+    "registry",
+    "data/external",
+    "data/discovery",
+    "audits",
+    "ev/EV-DYN-DILUTE-R1",
+    "requirements.txt",
+    "docs/prereg/ev-comp-nb-r3.md",
+    "docs/prereg/ev-comp-nb-r3.lock.json"
+  ],
+  "tag_refs": [
+    "refs/tags/prereg-r2 3f39e09868d105b68805b2b5c0aa32af2b9c4da5"
+  ],
+  "AUD_SERIAL_reruns": 0,
+  "R1_refits": 0,
+  "HK_attempts_added": 0,
+  "HK_attempts_cumulative": 14,
+  "new_fits_in_validation": 0,
+  "new_enumerations_in_validation": 0,
+  "results_sha256": "69953801cd4f6a0545768819cff415defc139703ead368dc875c0be7ce5a9ea2"
+}

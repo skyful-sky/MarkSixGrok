@@ -1,0 +1,140 @@
+{
+  "id": "EV-COMP-NB-R3",
+  "run_count": 1,
+  "started_at_utc": "2026-10-30T10:19:09.144941+00:00",
+  "implementation_commit": "7daaebfda0b9d400801778807c3ae018a6521404",
+  "prereg_commit": "26876ff214ca655b80f962d5d2024043ae78189b",
+  "prereg_sha256": "cfb88a954f01fc1e6b90e4970ea00038f27fa2d39237740347d726550eb03d2c",
+  "implementation_lock_sha256": "a06447f636c6817a9b38605aa35f6eb384b9ca6bb1deec6fb080300396f89e65",
+  "completed_at_utc": "2026-10-30T10:21:01.322990+00:00",
+  "status": "archived",
+  "countries": {
+    "uk": {
+      "status": "count_scoring_complete",
+      "planned_score_n": 500,
+      "processed_score_slots": 500,
+      "valid_paired_score_n": 500,
+      "failed": null,
+      "updates_completed": 25,
+      "exact_universe_size": 13983816,
+      "exact_feature_classes": 21320,
+      "observed_count_cells": 2498,
+      "missing_count_cells": 2,
+      "mean_scores": {
+        "r3": -6.7760768150872694,
+        "random": -6.958840304644655,
+        "static": -6.800438261391467
+      },
+      "descriptive_secondary": {
+        "R3_minus_static_mean": 0.02436144630419799,
+        "R3_minus_sealed_R1_same_cell_mean": 0.42707303123893253,
+        "p_values": null,
+        "R1_refits": 0
+      },
+      "financial_gate": {
+        "status": "not_evaluable",
+        "missing_original_announcement": 500,
+        "missing_complete_legal_version": 500,
+        "conditional_payout_ratio": null,
+        "corrected_ratio_lower": null,
+        "roi_lower": null,
+        "passed": false,
+        "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+      },
+      "count_pass": true
+    },
+    "japan": {
+      "status": "count_scoring_complete",
+      "planned_score_n": 246,
+      "processed_score_slots": 246,
+      "valid_paired_score_n": 246,
+      "failed": null,
+      "updates_completed": 13,
+      "exact_universe_size": 6096454,
+      "exact_feature_classes": 19031,
+      "observed_count_cells": 1229,
+      "missing_count_cells": 1,
+      "mean_scores": {
+        "r3": -6.309058193782409,
+        "random": -6.383698327278434,
+        "static": -6.32635380469208
+      },
+      "descriptive_secondary": {
+        "R3_minus_static_mean": 0.017295610909670505,
+        "R3_minus_sealed_R1_same_cell_mean": 0.20988433977756885,
+        "p_values": null,
+        "R1_refits": 0
+      },
+      "financial_gate": {
+        "status": "not_evaluable",
+        "missing_original_announcement": 246,
+        "missing_complete_legal_version": 246,
+        "conditional_payout_ratio": null,
+        "corrected_ratio_lower": null,
+        "roi_lower": null,
+        "passed": false,
+        "reason": "No complete applicable payout/legal/timing inputs; no sales or dividend imputation, no counterfactual own-share/cap/floor calculation claimed"
+      },
+      "count_pass": true
+    }
+  },
+  "primary_comparisons": [
+    {
+      "country": "uk",
+      "comparison": "R3_vs_Random",
+      "n": 500,
+      "mean_log_score_gain": 0.1827634895573859,
+      "lower_9875": 0.13541206003478706,
+      "p_value": 9.999000099990002e-05,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "seed_sequence_entropy": [
+        20261030,
+        20,
+        0,
+        0
+      ],
+      "block_length": 10,
+      "bootstrap_reps": 10000,
+      "inference": "nominal exploratory screen; prior EV comparisons/exposure not reset"
+    },
+    {
+      "country": "japan",
+      "comparison": "R3_vs_Random",
+      "n": 246,
+      "mean_log_score_gain": 0.07464013349602333,
+      "lower_9875": 0.025548615966036074,
+      "p_value": 0.00019998000199980003,
+      "alpha": 0.0125,
+      "pass_count": true,
+      "seed_sequence_entropy": [
+        20261030,
+        20,
+        1,
+        0
+      ],
+      "block_length": 10,
+      "bootstrap_reps": 10000,
+      "inference": "nominal exploratory screen; prior EV comparisons/exposure not reset"
+    }
+  ],
+  "both_countries_count_pass": true,
+  "financial_pass": false,
+  "passed": false,
+  "conditional_payout_ratio": null,
+  "corrected_payout_ratio_lower": null,
+  "roi_lower": null,
+  "positive_ev": false,
+  "reason": "No complete legal/timing/payout inputs or separately locked cashflow/ticket protocol; financial gate NA. Count gate reported separately without substitution.",
+  "ev_comparison_accounting": {
+    "previous_R1_comparisons": 4,
+    "R3_primary_slots": 2,
+    "new_confirmatory_alpha_budget": false
+  },
+  "hk_attempts_added": 0,
+  "hk_attempts_cumulative": 14,
+  "tickets_generated": 0,
+  "AUD_SERIAL_reruns": 0,
+  "prediction_journal_sha256": "4099c44dc0f36d18f05aec482c3037c6b8cbdf75122838c4ff9886644bd7395c",
+  "score_file_sha256": "45ea5075e6ab0d959cab62e52efc2758c3f2e22e77f9cd14c166791f9aac8306"
+}

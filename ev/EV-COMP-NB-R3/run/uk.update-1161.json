@@ -1,0 +1,91 @@
+{
+  "target_issue": 1161,
+  "history_through": 1160,
+  "sales": {
+    "beta": [
+      16.936463889281725,
+      -0.15312979506647403,
+      0.5386588284851299
+    ],
+    "residual_mse": 0.011277907922583692,
+    "observed_training_rows": 460,
+    "max_training_issue": 1160,
+    "weekday": 5
+  },
+  "fits": {
+    "r3": {
+      "kind": "r3",
+      "values": [
+        0.21676494048704642,
+        0.17646935798091065,
+        -0.037443314559334695,
+        1.0666345258462822,
+        0.6635690548385114,
+        -0.33198475081644707,
+        0.23129070172571786,
+        3.0827008710571926,
+        2.174419835694706,
+        2.8844334766903885,
+        3.7310735561861694,
+        4.6538894105341475
+      ],
+      "theta_dimension": 7,
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.704085431690415,
+      "nit": 23,
+      "nfev": 26,
+      "njev": 26,
+      "gradient_max_abs": 5.0403666261022995e-06,
+      "observed_training_cells": 2298,
+      "missing_training_cells": 2,
+      "max_training_issue": 1160
+    },
+    "random": {
+      "kind": "random",
+      "values": [
+        2.897816114398188,
+        1.8230151943689616,
+        2.313093431282496,
+        2.9772145800323573,
+        3.7463847611419885
+      ],
+      "theta_dimension": 0,
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.902037632301282,
+      "nit": 11,
+      "nfev": 13,
+      "njev": 13,
+      "gradient_max_abs": 6.870388092227158e-06,
+      "observed_training_cells": 2298,
+      "missing_training_cells": 2,
+      "max_training_issue": 1160
+    },
+    "static": {
+      "kind": "static",
+      "values": [
+        1.0557002978676906,
+        3.032582323819296,
+        2.0937614458103377,
+        2.7353996716509785,
+        3.5608177252615834,
+        4.445858901253879
+      ],
+      "theta_dimension": 1,
+      "success": true,
+      "status": 0,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 6.736208203367778,
+      "nit": 14,
+      "nfev": 16,
+      "njev": 16,
+      "gradient_max_abs": 4.58923647571937e-06,
+      "observed_training_cells": 2298,
+      "missing_training_cells": 2,
+      "max_training_issue": 1160
+    }
+  }
+}
