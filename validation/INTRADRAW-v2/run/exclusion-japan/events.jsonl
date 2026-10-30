@@ -1,0 +1,97 @@
+{"at_utc": "2026-10-30T12:05:27.658126+00:00", "event": "warmup_read_start"}
+{"at_utc": "2026-10-30T12:05:27.662123+00:00", "event": "warmup_validated", "n": 200}
+{"at_utc": "2026-10-30T12:05:27.663508+00:00", "event": "objective_start", "call": 1}
+{"at_utc": "2026-10-30T12:05:34.011841+00:00", "event": "objective_end", "call": 1, "seconds": 6.348362913000528, "value": 3124.8071905020443}
+{"at_utc": "2026-10-30T12:05:34.013140+00:00", "event": "objective_start", "call": 2}
+{"at_utc": "2026-10-30T12:05:40.217149+00:00", "event": "objective_end", "call": 2, "seconds": 6.204048165000131, "value": 3124.8071886707403}
+{"at_utc": "2026-10-30T12:05:40.219001+00:00", "event": "objective_start", "call": 3}
+{"at_utc": "2026-10-30T12:05:46.440613+00:00", "event": "objective_end", "call": 3, "seconds": 6.2216433829999005, "value": 3124.8071923438456}
+{"at_utc": "2026-10-30T12:05:46.442392+00:00", "event": "objective_start", "call": 4}
+{"at_utc": "2026-10-30T12:05:52.749804+00:00", "event": "objective_end", "call": 4, "seconds": 6.307459287998427, "value": 3124.807199828995}
+{"at_utc": "2026-10-30T12:05:52.751439+00:00", "event": "objective_start", "call": 5}
+{"at_utc": "2026-10-30T12:05:59.137367+00:00", "event": "objective_end", "call": 5, "seconds": 6.385961789001158, "value": 3124.807181184596}
+{"at_utc": "2026-10-30T12:05:59.138563+00:00", "event": "objective_start", "call": 6}
+{"at_utc": "2026-10-30T12:06:05.563171+00:00", "event": "objective_end", "call": 6, "seconds": 6.424633358999927, "value": 3124.807183232347}
+{"at_utc": "2026-10-30T12:06:05.565008+00:00", "event": "objective_start", "call": 7}
+{"at_utc": "2026-10-30T12:06:11.842424+00:00", "event": "objective_end", "call": 7, "seconds": 6.2774482400000124, "value": 3124.807197781093}
+{"at_utc": "2026-10-30T12:06:11.843693+00:00", "event": "objective_start", "call": 8}
+{"at_utc": "2026-10-30T12:06:18.089037+00:00", "event": "objective_end", "call": 8, "seconds": 6.245364694999807, "value": 3124.807196843813}
+{"at_utc": "2026-10-30T12:06:18.090656+00:00", "event": "objective_start", "call": 9}
+{"at_utc": "2026-10-30T12:06:24.392817+00:00", "event": "objective_end", "call": 9, "seconds": 6.302198467999915, "value": 3124.8071841711712}
+{"at_utc": "2026-10-30T12:06:24.394636+00:00", "event": "objective_start", "call": 10}
+{"at_utc": "2026-10-30T12:06:30.744553+00:00", "event": "objective_end", "call": 10, "seconds": 6.349955810999745, "value": 3124.8071944874687}
+{"at_utc": "2026-10-30T12:06:30.746524+00:00", "event": "objective_start", "call": 11}
+{"at_utc": "2026-10-30T12:06:37.000538+00:00", "event": "objective_end", "call": 11, "seconds": 6.254047861999425, "value": 3124.8071865257148}
+{"at_utc": "2026-10-30T12:06:37.002464+00:00", "event": "objective_start", "call": 12}
+{"at_utc": "2026-10-30T12:06:43.561461+00:00", "event": "objective_end", "call": 12, "seconds": 6.559040353000455, "value": 3124.8071897460923}
+{"at_utc": "2026-10-30T12:06:43.562736+00:00", "event": "objective_start", "call": 13}
+{"at_utc": "2026-10-30T12:06:50.014729+00:00", "event": "objective_end", "call": 13, "seconds": 6.452029349999066, "value": 3124.807191268675}
+{"at_utc": "2026-10-30T12:06:50.016276+00:00", "event": "objective_start", "call": 14}
+{"at_utc": "2026-10-30T12:06:56.307692+00:00", "event": "objective_end", "call": 14, "seconds": 6.291440316001172, "value": 3124.807194815359}
+{"at_utc": "2026-10-30T12:06:56.309551+00:00", "event": "objective_start", "call": 15}
+{"at_utc": "2026-10-30T12:07:02.601808+00:00", "event": "objective_end", "call": 15, "seconds": 6.292293726000935, "value": 3124.8071861972935}
+{"at_utc": "2026-10-30T12:07:02.602799+00:00", "event": "objective_start", "call": 16}
+{"at_utc": "2026-10-30T12:07:08.980116+00:00", "event": "objective_end", "call": 16, "seconds": 6.377340938999623, "value": 3124.80719793932}
+{"at_utc": "2026-10-30T12:07:08.982398+00:00", "event": "objective_start", "call": 17}
+{"at_utc": "2026-10-30T12:07:15.293689+00:00", "event": "objective_end", "call": 17, "seconds": 6.311324479000177, "value": 3124.8071830744866}
+{"at_utc": "2026-10-30T12:07:15.294640+00:00", "event": "objective_start", "call": 18}
+{"at_utc": "2026-10-30T12:07:22.090542+00:00", "event": "objective_end", "call": 18, "seconds": 6.795925423999506, "value": 3124.8071861890853}
+{"at_utc": "2026-10-30T12:07:22.092160+00:00", "event": "objective_start", "call": 19}
+{"at_utc": "2026-10-30T12:07:28.527913+00:00", "event": "objective_end", "call": 19, "seconds": 6.435779379999076, "value": 3124.8071948252013}
+{"at_utc": "2026-10-30T12:07:28.548988+00:00", "event": "objective_start", "call": 20}
+{"at_utc": "2026-10-30T12:07:34.830935+00:00", "event": "objective_end", "call": 20, "seconds": 6.28198275899922, "value": 3124.8071876438457}
+{"at_utc": "2026-10-30T12:07:34.832461+00:00", "event": "objective_start", "call": 21}
+{"at_utc": "2026-10-30T12:07:41.178038+00:00", "event": "objective_end", "call": 21, "seconds": 6.3456085119996715, "value": 3124.807193369698}
+{"at_utc": "2026-10-30T12:07:41.179513+00:00", "event": "objective_start", "call": 22}
+{"at_utc": "2026-10-30T12:07:47.691540+00:00", "event": "objective_end", "call": 22, "seconds": 6.512052506001055, "value": 3124.8071846976272}
+{"at_utc": "2026-10-30T12:07:47.693425+00:00", "event": "objective_start", "call": 23}
+{"at_utc": "2026-10-30T12:07:54.140137+00:00", "event": "objective_end", "call": 23, "seconds": 6.446751396999389, "value": 3124.807196316318}
+{"at_utc": "2026-10-30T12:07:54.141138+00:00", "event": "objective_start", "call": 24}
+{"at_utc": "2026-10-30T12:08:00.519613+00:00", "event": "objective_end", "call": 24, "seconds": 6.37850548499955, "value": 3124.807196377525}
+{"at_utc": "2026-10-30T12:08:00.521608+00:00", "event": "objective_start", "call": 25}
+{"at_utc": "2026-10-30T12:08:07.651704+00:00", "event": "objective_end", "call": 25, "seconds": 7.130128237000463, "value": 3124.8071846367943}
+{"at_utc": "2026-10-30T12:08:07.653131+00:00", "event": "objective_start", "call": 26}
+{"at_utc": "2026-10-30T12:08:14.261538+00:00", "event": "objective_end", "call": 26, "seconds": 6.60844182999972, "value": 3124.807201064903}
+{"at_utc": "2026-10-30T12:08:14.263054+00:00", "event": "objective_start", "call": 27}
+{"at_utc": "2026-10-30T12:08:20.984539+00:00", "event": "objective_end", "call": 27, "seconds": 6.721523999998681, "value": 3124.8071799498002}
+{"at_utc": "2026-10-30T12:08:20.986512+00:00", "event": "objective_start", "call": 28}
+{"at_utc": "2026-10-30T12:08:28.055286+00:00", "event": "objective_end", "call": 28, "seconds": 7.0688115780012595, "value": 3124.80719213894}
+{"at_utc": "2026-10-30T12:08:28.057338+00:00", "event": "objective_start", "call": 29}
+{"at_utc": "2026-10-30T12:08:34.859161+00:00", "event": "objective_end", "call": 29, "seconds": 6.801860892999684, "value": 3124.807188874907}
+{"at_utc": "2026-10-30T12:08:34.861287+00:00", "event": "objective_start", "call": 30}
+{"at_utc": "2026-10-30T12:08:41.708308+00:00", "event": "objective_end", "call": 30, "seconds": 6.847082651000164, "value": 3124.8071907155845}
+{"at_utc": "2026-10-30T12:08:41.709909+00:00", "event": "objective_start", "call": 31}
+{"at_utc": "2026-10-30T12:08:48.630934+00:00", "event": "objective_end", "call": 31, "seconds": 6.921126928000376, "value": 3124.8071902986803}
+{"at_utc": "2026-10-30T12:08:48.632593+00:00", "event": "objective_start", "call": 32}
+{"at_utc": "2026-10-30T12:08:55.442997+00:00", "event": "objective_end", "call": 32, "seconds": 6.810441386000093, "value": 3124.807186222504}
+{"at_utc": "2026-10-30T12:08:55.443755+00:00", "event": "objective_start", "call": 33}
+{"at_utc": "2026-10-30T12:09:02.433804+00:00", "event": "objective_end", "call": 33, "seconds": 6.9900768410007, "value": 3124.8071947921226}
+{"at_utc": "2026-10-30T12:09:02.434953+00:00", "event": "objective_start", "call": 34}
+{"at_utc": "2026-10-30T12:09:09.226495+00:00", "event": "objective_end", "call": 34, "seconds": 6.791572550000637, "value": 3124.807186737055}
+{"at_utc": "2026-10-30T12:09:09.227664+00:00", "event": "objective_start", "call": 35}
+{"at_utc": "2026-10-30T12:09:15.668411+00:00", "event": "objective_end", "call": 35, "seconds": 6.440778967998995, "value": 3124.807194276666}
+{"at_utc": "2026-10-30T12:09:15.669927+00:00", "event": "objective_start", "call": 36}
+{"at_utc": "2026-10-30T12:09:22.157604+00:00", "event": "objective_end", "call": 36, "seconds": 6.487713962998896, "value": 3124.80718646194}
+{"at_utc": "2026-10-30T12:09:22.159206+00:00", "event": "objective_start", "call": 37}
+{"at_utc": "2026-10-30T12:09:28.589480+00:00", "event": "objective_end", "call": 37, "seconds": 6.430308252000032, "value": 3124.807194552696}
+{"at_utc": "2026-10-30T12:09:28.590616+00:00", "event": "objective_start", "call": 38}
+{"at_utc": "2026-10-30T12:09:35.100261+00:00", "event": "objective_end", "call": 38, "seconds": 6.509689525000795, "value": 3124.807200679883}
+{"at_utc": "2026-10-30T12:09:35.106459+00:00", "event": "objective_start", "call": 39}
+{"at_utc": "2026-10-30T12:09:41.667160+00:00", "event": "objective_end", "call": 39, "seconds": 6.560735263999959, "value": 3124.807180335213}
+{"at_utc": "2026-10-30T12:09:41.668987+00:00", "event": "objective_start", "call": 40}
+{"at_utc": "2026-10-30T12:09:48.054247+00:00", "event": "objective_end", "call": 40, "seconds": 6.385291869999492, "value": 3124.8071871870966}
+{"at_utc": "2026-10-30T12:09:48.055992+00:00", "event": "objective_start", "call": 41}
+{"at_utc": "2026-10-30T12:09:54.328076+00:00", "event": "objective_end", "call": 41, "seconds": 6.272116866999568, "value": 3124.8071938261273}
+{"at_utc": "2026-10-30T12:09:54.329742+00:00", "event": "objective_start", "call": 42}
+{"at_utc": "2026-10-30T12:10:00.852127+00:00", "event": "objective_end", "call": 42, "seconds": 6.522418812999604, "value": 3124.8071803723174}
+{"at_utc": "2026-10-30T12:10:00.852826+00:00", "event": "objective_start", "call": 43}
+{"at_utc": "2026-10-30T12:10:07.464745+00:00", "event": "objective_end", "call": 43, "seconds": 6.611958723000498, "value": 3124.8072006419134}
+{"at_utc": "2026-10-30T12:10:07.465944+00:00", "event": "objective_start", "call": 44}
+{"at_utc": "2026-10-30T12:10:14.851132+00:00", "event": "objective_end", "call": 44, "seconds": 7.38521434500035, "value": 3124.80719054624}
+{"at_utc": "2026-10-30T12:10:14.852183+00:00", "event": "objective_start", "call": 45}
+{"at_utc": "2026-10-30T12:10:21.388425+00:00", "event": "objective_end", "call": 45, "seconds": 6.536288138999225, "value": 3124.807190468416}
+{"at_utc": "2026-10-30T12:10:21.400631+00:00", "event": "objective_start", "call": 46}
+{"at_utc": "2026-10-30T12:10:27.695470+00:00", "event": "objective_end", "call": 46, "seconds": 6.294871669999338, "value": 3124.8072014892828}
+{"at_utc": "2026-10-30T12:10:27.697429+00:00", "event": "objective_start", "call": 47}
+{"at_utc": "2026-10-30T12:10:34.133356+00:00", "event": "objective_end", "call": 47, "seconds": 6.435965018999923, "value": 3124.807179525802}
+{"at_utc": "2026-10-30T12:10:34.135108+00:00", "event": "objective_start", "call": 48}

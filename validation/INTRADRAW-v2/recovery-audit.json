@@ -1,0 +1,62 @@
+{
+  "at_utc": "2026-10-30T12:14:56.877254+00:00",
+  "prereg": "cce71b92ecc174bb7fad6085d0a863d5c248ab26",
+  "locked_checks": "all passed",
+  "uncommitted_at_entry": [
+    "validation/INTRADRAW-v2/finalize.py",
+    "validation/INTRADRAW-v2/run/"
+  ],
+  "records": [
+    {
+      "family": "exclusion",
+      "country": "uk",
+      "completed_objectives": 30,
+      "accepted_steps": 0,
+      "original_events_sha256": "76a62e95432362ac0fcad24db8b006962bfd41550ac97b6735664ae62b7baae6",
+      "start_sha256": "6adcb9b88dafd278cda0758f74e7ce1b48b2b87db28f5e2c6e2deecd827826c1",
+      "fit_exists": false,
+      "predictions_exist": false,
+      "results_exist": false,
+      "decision": "retain exact first-gradient prefix; resume same run"
+    },
+    {
+      "family": "exclusion",
+      "country": "japan",
+      "completed_objectives": 47,
+      "accepted_steps": 0,
+      "original_events_sha256": "f59b784ca2931a2006c8e15d1f848cc46ee5e5ac28fcfc2aa23c7200e0016185",
+      "start_sha256": "f19df3a06467f5604c2eb2c2b81ac8bfb8a1a63bbd9b784fe11e8578233483a3",
+      "fit_exists": false,
+      "predictions_exist": false,
+      "results_exist": false,
+      "decision": "retain exact first-gradient prefix; resume same run"
+    },
+    {
+      "family": "attract2",
+      "country": "uk",
+      "completed_objectives": 13,
+      "accepted_steps": 0,
+      "original_events_sha256": "a87b8e5256adfbe7fdbb026702fd17459d1cc58bf6ad6ec88da9a9ff90e621bf",
+      "start_sha256": "b586cc0e7b8eb1f8c1dac391028d2738f49ed199902326203b4d7d52859c5d8b",
+      "fit_exists": false,
+      "predictions_exist": false,
+      "results_exist": false,
+      "decision": "retain exact first-gradient prefix; resume same run"
+    },
+    {
+      "family": "attract2",
+      "country": "japan",
+      "completed_objectives": 17,
+      "accepted_steps": 0,
+      "original_events_sha256": "cad1c2b0320a561183786a30360957f1b90606f3b54432fae3330e02e1ca8bf1",
+      "start_sha256": "c7cd92182a2440081c0755ab2d1d74390ad9c4676379809e81dc5858dc7af486",
+      "fit_exists": false,
+      "predictions_exist": false,
+      "results_exist": false,
+      "decision": "retain exact first-gradient prefix; resume same run"
+    }
+  ],
+  "parameter_changes": 0,
+  "score_outcomes_revealed": 0,
+  "HK_attempts_cumulative": 14
+}

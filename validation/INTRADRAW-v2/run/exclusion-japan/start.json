@@ -1,0 +1,13 @@
+{
+  "model_id": "HR-INTRADRAW-EXCLUSION-v2",
+  "family": "exclusion",
+  "country": "japan",
+  "run_count": 1,
+  "prereg_commit": "cce71b92ecc174bb7fad6085d0a863d5c248ab26",
+  "started_at_utc": "2026-10-30T12:05:27.655857+00:00",
+  "stage": "started",
+  "source_sha256": "ed7c2f47353e3326cfedb308c50729747a1965d32b66e0c56687ba07b76e9c16",
+  "j": 2,
+  "alpha_fraction": "1/480",
+  "hk_attempt_cost": 0
+}

@@ -1,6 +1,7 @@
 """Runner mechanics only: no historical fit, no replay of a sealed run."""
 from fractions import Fraction
 import json
+import numpy as np
 
 import pytest
 
@@ -52,3 +53,34 @@ def test_uk_stability_and_two_pp_are_conjunctions():
     result=runner.summarize(draws,tickets,tickets,.148299434146,1/480)
     assert result['p_value']<1/480 and result['rate']>.148299434146+.02
     assert not result['nominal_screen_pass']  # final100 block fails, no OR gate
+
+
+def test_interrupted_gradient_replay_requires_exact_input_and_no_accepted_steps(tmp_path):
+    events=[dict(event='warmup_read_start'),dict(event='warmup_validated',n=200),
+            dict(event='objective_start',call=1),dict(event='objective_end',call=1,value=100.),
+            dict(event='objective_start',call=2)]
+    (tmp_path/'events.jsonl').write_text(''.join(json.dumps(e)+'\n' for e in events))
+    values,check=runner.recovery_prefix(tmp_path,49)
+    initial=runner.model.project_rows(runner.model.initial_U(49))
+    assert values==[100.]
+    check(1,initial,False)
+    with pytest.raises(NumericalFailure): check(1,initial+1e-6,False)
+    with pytest.raises(NumericalFailure): check(1,initial,True)
+    (tmp_path/'fit.json').write_text('{}')
+    with pytest.raises(NumericalFailure): runner.recovery_prefix(tmp_path,49)
+
+
+def test_resume_rejects_receipts_changed_after_audit_before_fit(tmp_path,monkeypatch):
+    work=tmp_path/'run'/'exclusion-uk'; work.mkdir(parents=True)
+    (work/'start.json').write_text('{}')
+    (work/'events.jsonl').write_text('changed')
+    (tmp_path/'recovery-audit.json').write_text(json.dumps(dict(records=[dict(
+        family='exclusion',country='uk',original_events_sha256='wrong',
+        start_sha256='wrong',completed_objectives=0,accepted_steps=0)])))
+    monkeypatch.setattr(runner,'BASE',tmp_path)
+    monkeypatch.setattr(runner,'preflight',lambda:dict(models=[dict(family='exclusion',id='test')]))
+    monkeypatch.setattr(runner,'recovery_prefix',lambda *args:([],lambda *a:None))
+    monkeypatch.setattr(runner.model,'fit_once',lambda *a:pytest.fail('must not fit altered receipts'))
+    with pytest.raises(NumericalFailure,match='changed after recovery audit'):
+        runner.execute('exclusion','uk',True)
+    assert not (work/'resume-start.json').exists()

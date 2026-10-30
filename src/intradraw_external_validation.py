@@ -13,6 +13,7 @@ import hashlib
 import io
 import itertools
 import json
+import math
 import os
 from pathlib import Path
 import platform
@@ -142,33 +143,90 @@ def summarize(draws, tickets, random_tickets, q, alpha):
                              for i,(a,b) in enumerate(zip(m,r))])
 
 
-def execute(family, country):
+def recovery_prefix(work, pool):
+    """Only recover an interrupted first gradient; no accepted step is reset."""
+    for name in ('fit.json','predictions.json','results.json','resume-start.json'):
+        model.require(not (work/name).exists(), 'not an untouched interrupted first gradient: '+name)
+    events=[json.loads(line) for line in (work/'events.jsonl').read_text().splitlines()]
+    model.require(events[:2] and events[0]['event']=='warmup_read_start'
+                  and events[1]['event']=='warmup_validated' and events[1]['n']==200,
+                  'invalid original warmup receipt')
+    completed=[]
+    pending=False
+    for event in events[2:]:
+        if event['event']=='objective_start':
+            model.require(not pending and event['call']==len(completed)+1, 'nonsequential original calls')
+            pending=True
+        elif event['event']=='objective_end':
+            model.require(pending and event['call']==len(completed)+1
+                          and math.isfinite(event['value']), 'invalid original objective result')
+            completed.append(event['value']);pending=False
+        else:
+            raise model.NumericalFailure('unsupported prior execution state')
+    model.require(pending and len(completed)<1+4*pool, 'not an interrupted first gradient')
+    initial=model.project_rows(model.initial_U(pool))
+    def check(call, U, probe):
+        expected=initial.copy()
+        if call>1:
+            coordinate=(call-2)//2
+            expected.flat[coordinate] += 1e-4 if (call-2)%2==0 else -1e-4
+        model.require(probe==(call>1) and np.array_equal(U,expected), 'replay input differs from locked trajectory')
+    return completed,check
+
+
+def execute(family, country, resume=False):
     lock = preflight()
     pool = 49 if country == 'uk' else 43
     identity = next(item for item in lock['models'] if item['family'] == family)
     work = BASE/'run'/f'{family}-{country}'
-    work.mkdir(parents=True, exist_ok=False)  # one start per model/country
-    started = dict(model_id=identity['id'], family=family, country=country, run_count=1,
+    if resume:
+        completed,check_replay=recovery_prefix(work,pool)
+        started=json.loads((work/'start.json').read_text())
+        audit=json.loads((BASE/'recovery-audit.json').read_text())
+        prior=next(r for r in audit['records'] if r['family']==family and r['country']==country)
+        model.require(digest(work/'events.jsonl')==prior['original_events_sha256']
+                      and digest(work/'start.json')==prior['start_sha256']
+                      and len(completed)==prior['completed_objectives'] and prior['accepted_steps']==0,
+                      'original interruption receipts changed after recovery audit')
+        model.require(started['model_id']==identity['id'] and started['country']==country
+                      and started['prereg_commit']==LOCK_COMMIT and started['run_count']==1
+                      and started['source_sha256']==digest(ROOT/'data/discovery'/f'{country}.csv')
+                      and started['j']==identity['external_j']
+                      and started['alpha_fraction']==identity['alpha_fraction'], 'prior start differs')
+        save_new(work/'resume-start.json', dict(at_utc=now(),run_count=1,
+                 original_events_sha256=digest(work/'events.jsonl'), replay_completed_calls=len(completed),
+                 prior_accepted_steps=0, reason='Manager-authorized deterministic continuation after bridge interruption'))
+    else:
+        work.mkdir(parents=True, exist_ok=False)  # one start per model/country
+    new_start = dict(model_id=identity['id'], family=family, country=country, run_count=1,
                    prereg_commit=LOCK_COMMIT, started_at_utc=now(), stage='started',
                    source_sha256=digest(ROOT/'data/discovery'/f'{country}.csv'),
                    j=identity['external_j'], alpha_fraction=identity['alpha_fraction'],
                    hk_attempt_cost=0)
-    save_new(work/'start.json', started)
-    append(work/'events.jsonl', dict(at_utc=now(), event='warmup_read_start'))
+    if not resume:
+        started=new_start
+        save_new(work/'start.json', started)
+    event_path=work/('resume-events.jsonl' if resume else 'events.jsonl')
+    append(event_path, dict(at_utc=now(), event='warmup_read_start'))
     receipt = None
     try:
         draws = load_warmup(country, pool)
-        append(work/'events.jsonl', dict(at_utc=now(), event='warmup_validated', n=200))
+        append(event_path, dict(at_utc=now(), event='warmup_validated', n=200))
         # Telemetry delegates every call unchanged to the hash-pinned kernel.
         original = model.profiled_objective
         calls = 0
         def observed(*args, **kwargs):
             nonlocal calls
             calls += 1
+            if resume and calls<=len(completed):
+                check_replay(calls,args[1],args[4] if len(args)>4 else kwargs.get('probe',False))
+                append(event_path,dict(at_utc=now(),event='objective_replayed',call=calls,
+                                      value=completed[calls-1]))
+                return completed[calls-1]
             before = time.monotonic()
-            append(work/'events.jsonl', dict(at_utc=now(), event='objective_start', call=calls))
+            append(event_path, dict(at_utc=now(), event='objective_start', call=calls))
             value = original(*args, **kwargs)
-            append(work/'events.jsonl', dict(at_utc=now(), event='objective_end', call=calls,
+            append(event_path, dict(at_utc=now(), event='objective_end', call=calls,
                                             seconds=time.monotonic()-before, value=value))
             return value
         model.profiled_objective = observed
@@ -207,7 +265,7 @@ def execute(family, country):
                   predictions_available=receipt is not None and receipt.exists(),
                   source_eligibility='exposed discovery; not confirmatory holdout', hk_attempts_cumulative=14)
     save_new(work/'results.json', result)
-    append(work/'events.jsonl', dict(at_utc=now(), event='terminal', status=result['status']))
+    append(event_path, dict(at_utc=now(), event='terminal', status=result['status']))
     print(json.dumps(dict(country=country, family=family, status=result['status'],
                           successes=result['successes'], n=result['n'], failure=result.get('failure'))), flush=True)
 
@@ -216,5 +274,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('family', choices=['exclusion','attract2'])
     parser.add_argument('country', choices=['uk','japan'])
+    parser.add_argument('--resume', action='store_true')
     args = parser.parse_args()
-    execute(args.family, args.country)
+    execute(args.family, args.country, args.resume)

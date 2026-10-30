@@ -1,0 +1,13 @@
+{
+  "model_id": "HR-INTRADRAW-ATTRACT2-v2",
+  "family": "attract2",
+  "country": "uk",
+  "run_count": 1,
+  "prereg_commit": "cce71b92ecc174bb7fad6085d0a863d5c248ab26",
+  "started_at_utc": "2026-10-30T12:05:28.830914+00:00",
+  "stage": "started",
+  "source_sha256": "1559ee96017407d75347e17baa192fef051b71e78d610fcddefa15368f8b3295",
+  "j": 3,
+  "alpha_fraction": "1/960",
+  "hk_attempt_cost": 0
+}

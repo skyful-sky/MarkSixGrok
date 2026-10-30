@@ -1,0 +1,37 @@
+{"at_utc": "2026-10-30T12:05:29.970385+00:00", "event": "warmup_read_start"}
+{"at_utc": "2026-10-30T12:05:29.974109+00:00", "event": "warmup_validated", "n": 200}
+{"at_utc": "2026-10-30T12:05:29.975238+00:00", "event": "objective_start", "call": 1}
+{"at_utc": "2026-10-30T12:05:46.996503+00:00", "event": "objective_end", "call": 1, "seconds": 17.0213028929993, "value": 3125.0079295243054}
+{"at_utc": "2026-10-30T12:05:46.998445+00:00", "event": "objective_start", "call": 2}
+{"at_utc": "2026-10-30T12:06:03.910804+00:00", "event": "objective_end", "call": 2, "seconds": 16.91240007000124, "value": 3125.007934786848}
+{"at_utc": "2026-10-30T12:06:03.912617+00:00", "event": "objective_start", "call": 3}
+{"at_utc": "2026-10-30T12:06:20.982610+00:00", "event": "objective_end", "call": 3, "seconds": 17.070032945001003, "value": 3125.0079242761717}
+{"at_utc": "2026-10-30T12:06:20.983527+00:00", "event": "objective_start", "call": 4}
+{"at_utc": "2026-10-30T12:06:37.686857+00:00", "event": "objective_end", "call": 4, "seconds": 16.703359363000345, "value": 3125.0078580222894}
+{"at_utc": "2026-10-30T12:06:37.687609+00:00", "event": "objective_start", "call": 5}
+{"at_utc": "2026-10-30T12:06:54.876496+00:00", "event": "objective_end", "call": 5, "seconds": 17.188924033998774, "value": 3125.0080010397214}
+{"at_utc": "2026-10-30T12:06:54.877581+00:00", "event": "objective_start", "call": 6}
+{"at_utc": "2026-10-30T12:07:11.585450+00:00", "event": "objective_end", "call": 6, "seconds": 16.70790875700004, "value": 3125.0078950785605}
+{"at_utc": "2026-10-30T12:07:11.587066+00:00", "event": "objective_start", "call": 7}
+{"at_utc": "2026-10-30T12:07:29.567087+00:00", "event": "objective_end", "call": 7, "seconds": 17.98006166900086, "value": 3125.0079639854575}
+{"at_utc": "2026-10-30T12:07:29.567884+00:00", "event": "objective_start", "call": 8}
+{"at_utc": "2026-10-30T12:07:46.794947+00:00", "event": "objective_end", "call": 8, "seconds": 17.22709253800167, "value": 3125.0079216390486}
+{"at_utc": "2026-10-30T12:07:46.796907+00:00", "event": "objective_start", "call": 9}
+{"at_utc": "2026-10-30T12:08:04.125064+00:00", "event": "objective_end", "call": 9, "seconds": 17.328193513998485, "value": 3125.0079374240463}
+{"at_utc": "2026-10-30T12:08:04.127348+00:00", "event": "objective_start", "call": 10}
+{"at_utc": "2026-10-30T12:08:22.301706+00:00", "event": "objective_end", "call": 10, "seconds": 18.17439639999975, "value": 3125.007979637806}
+{"at_utc": "2026-10-30T12:08:22.303476+00:00", "event": "objective_start", "call": 11}
+{"at_utc": "2026-10-30T12:08:40.772261+00:00", "event": "objective_end", "call": 11, "seconds": 18.468829533001554, "value": 3125.0078794245806}
+{"at_utc": "2026-10-30T12:08:40.773906+00:00", "event": "objective_start", "call": 12}
+{"at_utc": "2026-10-30T12:08:59.490391+00:00", "event": "objective_end", "call": 12, "seconds": 18.716527497999778, "value": 3125.0078965546945}
+{"at_utc": "2026-10-30T12:08:59.491750+00:00", "event": "objective_start", "call": 13}
+{"at_utc": "2026-10-30T12:09:17.516754+00:00", "event": "objective_end", "call": 13, "seconds": 18.025043497000297, "value": 3125.0079625070357}
+{"at_utc": "2026-10-30T12:09:17.559598+00:00", "event": "objective_start", "call": 14}
+{"at_utc": "2026-10-30T12:09:34.776609+00:00", "event": "objective_end", "call": 14, "seconds": 17.21706589600035, "value": 3125.0079622585326}
+{"at_utc": "2026-10-30T12:09:34.777984+00:00", "event": "objective_start", "call": 15}
+{"at_utc": "2026-10-30T12:09:51.835505+00:00", "event": "objective_end", "call": 15, "seconds": 17.057561456998883, "value": 3125.0078968051466}
+{"at_utc": "2026-10-30T12:09:51.837120+00:00", "event": "objective_start", "call": 16}
+{"at_utc": "2026-10-30T12:10:09.126870+00:00", "event": "objective_end", "call": 16, "seconds": 17.28979025800072, "value": 3125.0078711021465}
+{"at_utc": "2026-10-30T12:10:09.128401+00:00", "event": "objective_start", "call": 17}
+{"at_utc": "2026-10-30T12:10:27.306224+00:00", "event": "objective_end", "call": 17, "seconds": 18.177851196998745, "value": 3125.0079879604987}
+{"at_utc": "2026-10-30T12:10:27.308163+00:00", "event": "objective_start", "call": 18}

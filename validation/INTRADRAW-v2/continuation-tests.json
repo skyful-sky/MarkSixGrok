@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-30T12:16:50.086435+00:00",
+  "passed": 320,
+  "skipped": 27,
+  "failed": 0,
+  "seconds": 28.81,
+  "profile": "--no-sealed-results; legacy protected-body tests explicitly skipped",
+  "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 /tmp/marksix-commit-venv/bin/python -m pytest tests/ docs/review-evidence/test_signal_visibility_diag.py docs/review-evidence/test_external_fair_baselines.py docs/review-evidence/test_external_holdout_windows.py --no-sealed-results -q -p no:cacheprovider"
+}
