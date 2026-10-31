@@ -1,0 +1,57 @@
+{
+  "target": "26/117",
+  "target_date": "2026-11-05",
+  "target_weekday": "Thursday",
+  "sales_cutoff_hkt": "2026-11-05T21:15:00+08:00",
+  "sales_cutoff_utc": "2026-11-05T13:15:00+00:00",
+  "usual_draw_at_hkt": "2026-11-05T21:30:00+08:00",
+  "specific_draw_time_verified": false,
+  "date_evidence": "verified public Mark Six Info schedule; official schedule unavailable via SPA",
+  "official_issue_date_verified": false,
+  "user_typical_date_hint": "2026-11-03",
+  "hint_used_as_authority": false,
+  "note": "Use published next-draw date, not routine Tuesday inference. No independently verified official cancellation/postponement event is asserted.",
+  "sources": [
+    {
+      "name": "hkjc-schedule",
+      "url": "https://bet.hkjc.com/ch/marksix/schedule",
+      "final_url": "https://bet.hkjc.com/ch/marksix/schedule",
+      "retrieved_at_utc": "2026-10-31T14:27:56.742434+00:00",
+      "http_status": 200,
+      "content_sha256": "4f6ce0548825dfac2f8fc318e3210ebb011cb9fdeeb4a97241d71ad445c7ba28",
+      "snapshot_path": "forward/receipts/26-117-freeze/hkjc-schedule.html.gz",
+      "snapshot_sha256": "f1cdce228ee81e29f6b7b07cff743a62c320baeca6fd8af7ff77bb9a378a95d5",
+      "role": "official entry point returned SPA shell; no dated schedule extracted",
+      "official_schedule_retrieved": false
+    },
+    {
+      "name": "marksixinfo-next",
+      "url": "https://marksixinfo.com/en",
+      "final_url": "https://marksixinfo.com/en",
+      "retrieved_at_utc": "2026-10-31T14:27:56.811994+00:00",
+      "http_status": 200,
+      "content_sha256": "1a82345432a8fb1cbbb8d4b550139bef7a0347cbcfa53a14caabc39124b162cb",
+      "snapshot_path": "forward/receipts/26-117-freeze/marksixinfo-next.html.gz",
+      "snapshot_sha256": "9970c13376a0d234c31ce76b17009490f2bfd131941d812f26210378d49fcd86",
+      "role": "public secondary schedule; both rendered Next Draw Time and embedded next-draw record",
+      "parsed_next_draw": {
+        "id": "2026117N",
+        "year": 2026,
+        "no": 117,
+        "draw_date": "2026-11-05+08:00",
+        "close_date": "2026-11-05T21:15:00+08:00"
+      }
+    },
+    {
+      "name": "lottery-hk-times",
+      "url": "https://lottery.hk/en/mark-six",
+      "final_url": "https://lottery.hk/en/mark-six/",
+      "retrieved_at_utc": "2026-10-31T14:27:57.070882+00:00",
+      "http_status": 200,
+      "content_sha256": "d36c51cec3e190f52167fe49f68cdfb5a58c259acb234e63e412ec7435a5fe11",
+      "snapshot_path": "forward/receipts/26-117-freeze/lottery-hk-times.html.gz",
+      "snapshot_sha256": "3c3b7b2dde38d4a64ffdfc52e8cfbc3e33c16198c0bb24147fe6ce9322373fef",
+      "role": "secondary general draw/sales times only; not specific117 confirmation"
+    }
+  ]
+}

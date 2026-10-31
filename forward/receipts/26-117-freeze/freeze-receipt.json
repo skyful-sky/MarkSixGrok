@@ -1,0 +1,342 @@
+{
+  "target": "26/117",
+  "target_date": "2026-11-05",
+  "recorded_at_utc": "2026-10-31T14:29:52.650373+00:00",
+  "recorded_at_hkt": "2026-10-31T22:29:52.650373+08:00",
+  "baseline_commit": "c16b37e955c382d551d275337c77a00b05f62ff6",
+  "artifacts": [
+    {
+      "role": "H3+H1",
+      "path": "forward/26-117.prediction.20261031T142952Z.json",
+      "sha256": "02ce205084c2a649b4a50d030282453f19f832f793e83cd8528848dc35c55ef7"
+    },
+    {
+      "role": "META-BORDA",
+      "path": "forward/meta-borda/26-117.prediction.20261031T142952Z.json",
+      "sha256": "21eeb8eb779396dd0ec846fcb874a96334d710018fdbb2c9492aee11a1fadf81"
+    },
+    {
+      "role": "HK-MACH-ALT-v2",
+      "path": "forward/hk-mach-alt-v2/26-117.prediction.20261031T142952Z.json",
+      "sha256": "fa7c0f85edb17ac2414bd76abef3f38445d3e7e6e38e2e0644381af06df0bc34"
+    }
+  ],
+  "protected_sha256": {
+    "marksix_data.csv": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+    "forward/results.csv": "05423a8e1fb6d71d04bc29c0ebeab428f15b81625da6376ab1f16f1b2c849ceb",
+    "src/marksix_r2.py": "820dcd41c597c522978995eda51385cf7bfc2d574d18fda450a797c19052540c",
+    "src/marksix_meta_borda.py": "ef19f0be67cfc7ec407ec9002ae46ad164af64a2ea896ec2817f023535e63397",
+    "src/hk_mach_alt_v2.py": "57c8457ef4490fab3e673ec49df143a2f685e9749bae0e395df9f2bf49dc8674",
+    "prereg/round2.yaml": "4fa4b500f78605143f9022a4392b9889e445ef2badf88051a9d02b3e2215c53e",
+    "prereg/round3.yaml": "f5b8bd0a6e3f9e2a04fe790ea5151593dd1fc38d2e2360885c0f664bcbc4144c",
+    "prereg/hk-mach-alt-v2/lock.json": "98e6d1998244ce137bfb66412c41e55039bf862dd006c48fbf3909946685a42f",
+    "prereg/hk-mach-alt-v2/spec.md": "82ee1edf1c45cbe7a855dd521fd8f63df409614e29633c3fbaf4f18010a8d7c8",
+    "registry/attempts.csv": "63590c3d3b3483f5a5f4f4f2f9ebbd9206605b1b3ebb76cf74c8881b214d906f",
+    "registry/hk-mach-alt-v2.csv": "5ee8c3396b64338c6715b1dee264190d27f8b469af168460be791d0cc15bbb13",
+    "forward/26-116.prediction.20261029T001900Z.json": "3476621fd81f14aca6403fbfc8a51e412fac3a5c46f85fe9f7ea5e1360384e3c",
+    "forward/meta-borda/26-116.prediction.20261029T022640Z.json": "56743ca4c6ff63867673aebc4d2b428a6ffcf0f01a6ca0bac163f5cbabd75c90",
+    "forward/hk-mach-alt-v2/26-116.prediction.20261030T124318Z.json": "5f7a7ab27ba678607d1e56e6bccfd4bd05be0bc8023a0f0b2acfab4b866a8ca1"
+  },
+  "tag_refs": "3f39e09868d105b68805b2b5c0aa32af2b9c4da5 refs/tags/prereg-r2",
+  "r2_command": [
+    "/tmp/marksix-commit-venv/bin/python",
+    "-m",
+    "src.marksix_r2",
+    "predict",
+    "--future",
+    "forward/results.csv",
+    "--target",
+    "26/117"
+  ],
+  "r2_stdout_sha256": "85267a52c6b1ec023307b69d6f7a5496291b70d3102251d3728924566155e865",
+  "meta_call": {
+    "function": "src.marksix_meta_borda.predict",
+    "history_rows": 70,
+    "target": "26/117",
+    "target_date": "2026-11-05",
+    "forward_index": 1
+  },
+  "hk_call": {
+    "function": "src.hk_mach_alt_v2.forecast_at",
+    "history_rows": 70,
+    "s": 70,
+    "u": 2,
+    "phase": 1,
+    "N_m": 35
+  },
+  "schedule": "forward/receipts/26-117-freeze/schedule.json",
+  "publication_verified": false,
+  "HK_attempts_cumulative": 15,
+  "any_target_result_observed": false,
+  "parameters_changed": false,
+  "new_model_ID_added": false,
+  "old_hk_ledger_prefix_bytes": 1403,
+  "old_hk_ledger_sha256": "0643c13e47bced36cffc0d8d3c33f254f8fe46fd5339955467b3e017f746b935",
+  "new_hk_ledger_sha256": "979514731c686bf62fa058e17004ae96be8985e634f08d9145ae4ddf65617d18",
+  "ticket_sets": {
+    "H3": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    ],
+    "H1_shadow": [
+      [
+        31,
+        7,
+        9,
+        4,
+        29,
+        34
+      ],
+      [
+        5,
+        47,
+        11,
+        8,
+        18,
+        2
+      ],
+      [
+        26,
+        19,
+        21,
+        40,
+        12,
+        30
+      ],
+      [
+        45,
+        48,
+        41,
+        28,
+        44,
+        43
+      ],
+      [
+        25,
+        10,
+        27,
+        14,
+        3,
+        37
+      ],
+      [
+        24,
+        33,
+        17,
+        35,
+        16,
+        23
+      ],
+      [
+        32,
+        1,
+        36,
+        20,
+        38,
+        46
+      ],
+      [
+        13,
+        42,
+        15,
+        6,
+        22,
+        39
+      ]
+    ],
+    "META_BORDA": [
+      [
+        34,
+        14,
+        7,
+        20,
+        25,
+        13
+      ],
+      [
+        32,
+        15,
+        31,
+        17,
+        40,
+        23
+      ],
+      [
+        33,
+        26,
+        24,
+        21,
+        18,
+        30
+      ],
+      [
+        35,
+        5,
+        6,
+        29,
+        48,
+        27
+      ],
+      [
+        39,
+        8,
+        44,
+        41,
+        47,
+        19
+      ],
+      [
+        4,
+        28,
+        12,
+        22,
+        1,
+        16
+      ],
+      [
+        45,
+        9,
+        38,
+        36,
+        43,
+        2
+      ],
+      [
+        42,
+        11,
+        49,
+        37,
+        10,
+        46
+      ]
+    ],
+    "HK_MACH_ALT_v2": [
+      [
+        7,
+        12,
+        18,
+        31,
+        40,
+        47
+      ],
+      [
+        4,
+        9,
+        14,
+        16,
+        17,
+        41
+      ],
+      [
+        1,
+        11,
+        21,
+        33,
+        34,
+        45
+      ],
+      [
+        10,
+        19,
+        23,
+        25,
+        27,
+        35
+      ],
+      [
+        3,
+        5,
+        26,
+        32,
+        43,
+        48
+      ],
+      [
+        15,
+        20,
+        28,
+        30,
+        38,
+        44
+      ],
+      [
+        2,
+        8,
+        13,
+        22,
+        24,
+        29
+      ],
+      [
+        6,
+        36,
+        37,
+        39,
+        42,
+        49
+      ]
+    ]
+  }
+}

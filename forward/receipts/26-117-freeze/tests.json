@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/tmp/marksix-commit-venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_r2.py",
+    "tests/test_shadow_gates_meta.py",
+    "tests/test_hk_mach_alt_v2.py",
+    "tests/test_hk_mach_alt_v2_artifacts.py",
+    "--no-sealed-results",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "passed": 56,
+  "failed": 0,
+  "skipped": 0,
+  "seconds": 3.25,
+  "intradraw_invoked": false
+}

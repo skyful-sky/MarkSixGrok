@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-31T14:31:40.282572+00:00",
+  "all_32_tickets_valid_and_each_set_covers48": true,
+  "H3_fixed_blocks_unchanged": true,
+  "repeated_locked_R2_cli_bytes_identical": true,
+  "META_second_forward_stream_reproduced": true,
+  "META_target_weekday": 3,
+  "HK_reproduced_s70_u2": true,
+  "HK_causality_future_append_invariant": true,
+  "all_file_sidecars_and_manifest_hashes_match": true,
+  "old_HK_ledger_exact_prefix_preserved": true,
+  "all_protected_hashes_unchanged": true,
+  "tag_refs_unchanged": true,
+  "preregistered_stop_before_forecast": false,
+  "publication_status": "publication_unverified",
+  "no_target117_result_observed": true,
+  "new_HK_attempts_added": 0
+}
