@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/tmp/marksix-commit-venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_r2.py",
+    "tests/test_shadow_gates_meta.py",
+    "tests/test_hk_mach_alt_v2.py",
+    "tests/test_hk_mach_alt_v2_artifacts.py",
+    "--no-sealed-results",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "passed": 56,
+  "skipped": 0,
+  "failed": 0,
+  "stdout_summary": "56 passed in 3.83s",
+  "independent_new_result_checks_passed": true,
+  "protected_hashes_rechecked": true,
+  "tag_refs_unchanged": true,
+  "intradraw_invoked": false,
+  "validation_skill": "data-analytics:validate-data",
+  "readiness": "Share with caveats: secondary results source and publication_unverified"
+}

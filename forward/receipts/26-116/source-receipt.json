@@ -1,0 +1,57 @@
+{
+  "issue": "26/116",
+  "date": "2026-10-31",
+  "main": [
+    10,
+    11,
+    19,
+    27,
+    37,
+    43
+  ],
+  "special": 8,
+  "authority_note": "Manager supplied result verified against lottery.hk; secondary source, direct HKJC result independently unavailable",
+  "direct_HKJC_result_verified": false,
+  "tracking": "paper only; Tim states no physical tickets purchased",
+  "sources": [
+    {
+      "url": "https://lottery.hk/en/mark-six/results/2026-10-31",
+      "final_url": "https://lottery.hk/en/mark-six/results/2026-10-31",
+      "retrieved_at_utc": "2026-10-31T14:06:05.226270+00:00",
+      "http_status": 200,
+      "content_sha256": "3c92b0ab0cd418a799180e010691144448f9e891e5937e21e3a3645de7bb2a4d",
+      "snapshot_path": "forward/receipts/26-116/lottery-hk.html.gz",
+      "snapshot_sha256": "b5ed684cef6db6b4e0feda3a87d5cb89b726544344bcd9f7d2fd1e56e76c173e",
+      "role": "secondary result transcription; independently matches Manager supplied numbers",
+      "parsed_issue": "26/116",
+      "parsed_date": "2026-10-31",
+      "main": [
+        10,
+        11,
+        19,
+        27,
+        37,
+        43
+      ],
+      "special": 8,
+      "is_HKJC_official_source": false
+    },
+    {
+      "url": "https://bet.hkjc.com/ch/marksix/results",
+      "final_url": "https://bet.hkjc.com/ch/marksix/results",
+      "retrieved_at_utc": "2026-10-31T14:06:05.582572+00:00",
+      "http_status": 200,
+      "content_sha256": "4f6ce0548825dfac2f8fc318e3210ebb011cb9fdeeb4a97241d71ad445c7ba28",
+      "snapshot_path": "forward/receipts/26-116/hkjc-spa.html.gz",
+      "snapshot_sha256": "f1cdce228ee81e29f6b7b07cff743a62c320baeca6fd8af7ff77bb9a378a95d5",
+      "role": "official entry point returned SPA shell, no independently parsed result JSON",
+      "result_numbers_obtained": false
+    }
+  ],
+  "protected_input_sha256": {
+    "marksix_data.csv": "653993bd43030f7436a96a171ba98b2e73ed62e26f38108efd334fe3d88c8a5e",
+    "forward/26-116.prediction.20261029T001900Z.json": "3476621fd81f14aca6403fbfc8a51e412fac3a5c46f85fe9f7ea5e1360384e3c",
+    "forward/meta-borda/26-116.prediction.20261029T022640Z.json": "56743ca4c6ff63867673aebc4d2b428a6ffcf0f01a6ca0bac163f5cbabd75c90",
+    "forward/hk-mach-alt-v2/26-116.prediction.20261030T124318Z.json": "5f7a7ab27ba678607d1e56e6bccfd4bd05be0bc8023a0f0b2acfab4b866a8ca1"
+  }
+}

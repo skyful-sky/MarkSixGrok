@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-31T14:08:11.153408+00:00",
+  "CSV_header_and_single_row_exact": true,
+  "all32_ticket_main_intersections_verified": true,
+  "bonus_excluded": true,
+  "wrong_if_bonus_included_max_hits": {
+    "H1": 3,
+    "H3": 3,
+    "HK-MACH-ALT-v2": 3,
+    "META-BORDA": 3
+  },
+  "independent_H1": {
+    "method": "integer doubled-rank subset-sum distribution of every six-subset; separate from locked ESP denominator",
+    "null_subset_count": 13983816,
+    "conditional_denominator": 1.1601568318901447,
+    "mean_main_rank": 31.666666666666668,
+    "A": -6.666666666666668,
+    "E": 0.44254113316397503,
+    "agrees_locked_cli": true
+  },
+  "expected_results": {
+    "H3_hit": false,
+    "H1_shadow_hit": true,
+    "META_shadow_hit": true,
+    "HK_MACH_hit": false
+  },
+  "no_forward_pass_at_n1": true,
+  "freeze_contents_unchanged": true
+}
