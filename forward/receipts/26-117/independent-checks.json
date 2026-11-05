@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-11-05T14:00:07.958317+00:00",
+  "independent_integer_rank_sum_checks": [
+    {
+      "issue": "26/116",
+      "subset_count": 13983816,
+      "conditional_denominator": 1.1601568318901447,
+      "mean_main_rank": 31.666666666666668,
+      "A": -6.666666666666668,
+      "log_increment": -0.8152218625515538
+    },
+    {
+      "issue": "26/117",
+      "subset_count": 13983816,
+      "conditional_denominator": 1.1601568318901447,
+      "mean_main_rank": 21.333333333333332,
+      "A": 3.666666666666668,
+      "log_increment": 0.21811147078177984
+    }
+  ],
+  "independent_cumulative_E": 0.5503997801665572,
+  "independent_cumulative_log_E": -0.597110391769774,
+  "locked_cli_agrees": true,
+  "all32_ticket_intersections_verified": true,
+  "special46_excluded": true,
+  "wrong_if_special_included_max_hits": {
+    "H1_shadow": 2,
+    "H3": 2,
+    "HK_MACH_ALT_v2": 2,
+    "META_BORDA": 3
+  },
+  "all_four_current_hits": false,
+  "H3_k_n": [
+    0,
+    2
+  ],
+  "HK_MACH_k_n": [
+    0,
+    2
+  ],
+  "old_result_CSV_prefix_preserved": true,
+  "old_HK_ledger_prefix_preserved": true,
+  "no_predefined_pass_or_stop_triggered": true
+}

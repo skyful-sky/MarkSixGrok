@@ -1,0 +1,10 @@
+{
+  "path": "forward/results.csv",
+  "previous_bytes": 157,
+  "previous_sha256": "05423a8e1fb6d71d04bc29c0ebeab428f15b81625da6376ab1f16f1b2c849ceb",
+  "new_sha256": "4c496b4023be39d872a9fa05cd4dc7c46656e880c5c01d4fd37151fb26dc011f",
+  "appended_issues": [
+    "26/117"
+  ],
+  "old_rows_preserved": true
+}

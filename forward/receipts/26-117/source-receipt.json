@@ -1,0 +1,51 @@
+{
+  "issue": "26/117",
+  "date": "2026-11-05",
+  "main": [
+    11,
+    20,
+    28,
+    29,
+    42,
+    47
+  ],
+  "special": 46,
+  "sources": [
+    {
+      "url": "https://lottery.hk/en/mark-six/results/2026-11-05",
+      "final_url": "https://lottery.hk/en/mark-six/results/2026-11-05",
+      "retrieved_at_utc": "2026-11-05T13:58:25.639159+00:00",
+      "http_status": 200,
+      "content_sha256": "3b8206df4a8314340065b318c518ba740265c040a608303478ace4b4a30b7f70",
+      "snapshot_path": "forward/receipts/26-117/lottery-hk.html.gz",
+      "snapshot_sha256": "32201d26f77bad8861265082de68e9404e63b0d2eead6a875a269e57ae10193c",
+      "role": "secondary result transcription; matches Manager supplied result",
+      "parsed_issue": "26/117",
+      "parsed_date": "2026-11-05",
+      "main": [
+        11,
+        20,
+        28,
+        29,
+        42,
+        47
+      ],
+      "special": 46,
+      "is_HKJC_official_source": false
+    },
+    {
+      "url": "https://bet.hkjc.com/ch/marksix/results",
+      "final_url": "https://bet.hkjc.com/ch/marksix/results",
+      "retrieved_at_utc": "2026-11-05T13:58:25.864240+00:00",
+      "http_status": 200,
+      "content_sha256": "4f6ce0548825dfac2f8fc318e3210ebb011cb9fdeeb4a97241d71ad445c7ba28",
+      "snapshot_path": "forward/receipts/26-117/hkjc-spa.html.gz",
+      "snapshot_sha256": "f1cdce228ee81e29f6b7b07cff743a62c320baeca6fd8af7ff77bb9a378a95d5",
+      "role": "official entry point returned SPA shell; no independently retrieved official result JSON",
+      "result_numbers_obtained": false
+    }
+  ],
+  "direct_HKJC_result_verified": false,
+  "authority_note": "Manager supplied result independently matched lottery.hk date page; lottery.hk is secondary, not HKJC official domain",
+  "tracking": "paper only; no physical tickets purchased"
+}
